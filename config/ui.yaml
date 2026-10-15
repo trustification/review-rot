@@ -1,9 +1,9 @@
 # Dashboard appearance
-title: Conforma Review Rot
+title: RHTPA Review Rot
 
 # Path to logo image, relative to the frontend directory.
 # Remove or leave empty to hide the logo.
-logo: images/logo.svg
+logo: images/logo.png
 
 # Path to favicon, relative to the frontend directory.
 # Remove or leave empty for no favicon.
