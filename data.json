@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:44:36.885693121Z",
+  "generated_at": "2026-10-20T19:46:40.285718058Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1294,6 +1294,28 @@
       "size": null,
       "reviews": {
         "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(crypto): add PQC remediation mapping storage and import API",
+      "url": "https://github.com/guacsec/trustify/pull/2777",
+      "number": 2777,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-20T16:16:33Z",
+      "updated_at": "2026-10-20T16:50:49Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2721,7 +2743,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T15:43:44Z",
+    "since": "2026-07-22T19:45:39Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
