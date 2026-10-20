@@ -12,9 +12,9 @@ sources:
   # Prefix a repo with + to watch ALL authors (like an org repo)
   # Without +, only PRs from team members in 'authors' are shown
   repos:
-    - RHEcosystemAppEng/sdlc-plugins
-    - guacsec/trustify-da-javascript-client
-    - guacsec/trustify-dependency-analytics
+    - +RHEcosystemAppEng/sdlc-plugins
+    - +guacsec/trustify-da-javascript-client
+    - +guacsec/trustify-dependency-analytics
 
 # Reviewer leaderboard settings
 leaderboard:
