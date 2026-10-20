@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T14:42:30.199394216Z",
+  "generated_at": "2026-10-20T15:44:36.885693121Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1287,13 +1287,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-20T12:13:33Z",
-      "updated_at": "2026-10-20T12:16:11Z",
+      "updated_at": "2026-10-20T14:53:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2721,7 +2721,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T14:41:34Z",
+    "since": "2026-07-22T15:43:44Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4961,8 +4961,16 @@
       },
       {
         "login": "ruromero",
-        "reviews": 67,
+        "reviews": 68,
         "prs": [
+          {
+            "title": "fix(ci): ensure timezone data for embedded PostgreSQL",
+            "url": "https://github.com/guacsec/trustify/pull/2776",
+            "repo": "guacsec/trustify",
+            "number": 2776,
+            "author": "ctron",
+            "engaged_at": "2026-10-20T14:53:40Z"
+          },
           {
             "title": "build(deps): bump actions/setup-node from 6 to 7 in the github-actions group",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/671",
@@ -8812,44 +8820,6 @@
         ]
       },
       {
-        "login": "queria",
-        "reviews": 4,
-        "prs": [
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
-            "repo": "guacsec/trustify-ui",
-            "number": 1212,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-19T08:23:57Z"
-          },
-          {
-            "title": "test(e2e): fix downstream failures for UI tests regarding the Importe…",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1203",
-            "repo": "guacsec/trustify-ui",
-            "number": 1203,
-            "author": "matejnesuta",
-            "engaged_at": "2026-08-18T13:22:01Z"
-          },
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1174",
-            "repo": "guacsec/trustify-ui",
-            "number": 1174,
-            "author": "chetna14manku",
-            "engaged_at": "2026-08-18T13:11:07Z"
-          },
-          {
-            "title": "docs: add API migration guide for 0.4 to 0.5",
-            "url": "https://github.com/guacsec/trustify/pull/2533",
-            "repo": "guacsec/trustify",
-            "number": 2533,
-            "author": "ctron",
-            "engaged_at": "2026-07-22T15:38:25Z"
-          }
-        ]
-      },
-      {
         "login": "desmax74",
         "reviews": 3,
         "prs": [
@@ -8906,6 +8876,36 @@
             "number": 1183,
             "author": "vobratil",
             "engaged_at": "2026-08-12T16:00:31Z"
+          }
+        ]
+      },
+      {
+        "login": "queria",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
+            "repo": "guacsec/trustify-ui",
+            "number": 1212,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-08-19T08:23:57Z"
+          },
+          {
+            "title": "test(e2e): fix downstream failures for UI tests regarding the Importe…",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1203",
+            "repo": "guacsec/trustify-ui",
+            "number": 1203,
+            "author": "matejnesuta",
+            "engaged_at": "2026-08-18T13:22:01Z"
+          },
+          {
+            "title": "fix(e2e): add missing authentication background to feature files added in #1149",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1174",
+            "repo": "guacsec/trustify-ui",
+            "number": 1174,
+            "author": "chetna14manku",
+            "engaged_at": "2026-08-18T13:11:07Z"
           }
         ]
       },
