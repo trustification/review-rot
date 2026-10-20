@@ -1,0 +1,1545 @@
+{
+  "generated_at": "2026-10-20T11:31:27.339206839Z",
+  "ui_settings": {
+    "title": "RHTPA Review Rot",
+    "logo": "images/logo.png",
+    "favicon": "images/favicon.ico",
+    "palette": {
+      "accent": "#785fa9",
+      "accent_dark": "#634f8b",
+      "accent_light": "#f0ecf5"
+    }
+  },
+  "required_approvals": 2,
+  "pull_requests": [],
+  "leaderboard": {
+    "window_days": 90,
+    "since": "2026-07-22T11:31:17Z",
+    "reviewers": [
+      {
+        "login": "codecov-commenter",
+        "reviews": 97,
+        "prs": [
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/679",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 679,
+            "author": "dependabot",
+            "engaged_at": "2026-10-20T06:49:18Z"
+          },
+          {
+            "title": "fix(pnpm): analyze pnpm-lock.yaml directly without installation",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/678",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 678,
+            "author": "a-oren",
+            "engaged_at": "2026-10-19T10:49:32Z"
+          },
+          {
+            "title": "fix: set Accept-Encoding identity on outbound TPA requests",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/674",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 674,
+            "author": "ruromero",
+            "engaged_at": "2026-10-19T07:12:36Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group with 2 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/677",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 677,
+            "author": "dependabot",
+            "engaged_at": "2026-10-19T06:52:23Z"
+          },
+          {
+            "title": "feat(api): implement sources query parameter filtering",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/673",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 673,
+            "author": "ruromero",
+            "engaged_at": "2026-10-15T11:37:29Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 6 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/676",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 676,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T16:28:22Z"
+          },
+          {
+            "title": "fix(sbom): handle missing name field in package.json",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/675",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 675,
+            "author": "ruromero",
+            "engaged_at": "2026-10-14T15:50:19Z"
+          },
+          {
+            "title": "fix(sbom): skip lock file regeneration when lock file already exists",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/674",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 674,
+            "author": "ruromero",
+            "engaged_at": "2026-10-14T14:32:45Z"
+          },
+          {
+            "title": "fix(javascript): analyze npm and Yarn directly from lockfiles",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/673",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 673,
+            "author": "a-oren",
+            "engaged_at": "2026-10-13T11:36:04Z"
+          },
+          {
+            "title": "docs: document trustify-da binary, .trustify-da.yml config, and GitHub Action",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/672",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 672,
+            "author": "a-oren",
+            "engaged_at": "2026-10-13T08:12:57Z"
+          },
+          {
+            "title": "build(deps): bump actions/setup-node from 6 to 7 in the github-actions group",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/671",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 671,
+            "author": "dependabot",
+            "engaged_at": "2026-10-12T20:37:18Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 5 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/670",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 670,
+            "author": "dependabot",
+            "engaged_at": "2026-10-12T20:35:24Z"
+          },
+          {
+            "title": "fix: work around TS 7.0 (Corsa) JSDoc declaration emit bugs",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/669",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 669,
+            "author": "Strum355",
+            "engaged_at": "2026-10-12T16:11:57Z"
+          },
+          {
+            "title": "fix: support Gradle version catalog (libs.versions.toml) in analysis",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/668",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 668,
+            "author": "Strum355",
+            "engaged_at": "2026-10-12T11:45:21Z"
+          },
+          {
+            "title": "build: release 0.4.0 [skip ci]",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/667",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 667,
+            "author": "github-actions",
+            "engaged_at": "2026-10-09T10:46:31Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 5.4.2 to 5.4.3 in the npm-dependencies group",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/666",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 666,
+            "author": "dependabot",
+            "engaged_at": "2026-10-09T06:49:10Z"
+          },
+          {
+            "title": "fix: remove COPY config ./config from Dockerfile",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/665",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 665,
+            "author": "Strum355",
+            "engaged_at": "2026-10-08T15:19:38Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/664",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 664,
+            "author": "dependabot",
+            "engaged_at": "2026-10-08T10:49:46Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 16 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/663",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 663,
+            "author": "dependabot",
+            "engaged_at": "2026-10-08T10:21:46Z"
+          },
+          {
+            "title": "chore: bump Typescript to 7.0.2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/662",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 662,
+            "author": "Strum355",
+            "engaged_at": "2026-10-07T15:29:34Z"
+          },
+          {
+            "title": "fix: suppress dependabot security updates for all test fixture manifests",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/661",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 661,
+            "author": "Strum355",
+            "engaged_at": "2026-10-06T11:36:16Z"
+          },
+          {
+            "title": "build(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/669",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 669,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:30:25Z"
+          },
+          {
+            "title": "build(deps): bump brace-expansion from 1.1.18 to 1.1.21 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/670",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 670,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:30:09Z"
+          },
+          {
+            "title": "build(deps): bump compression from 1.8.1 to 1.8.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/668",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 668,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:30:04Z"
+          },
+          {
+            "title": "build(deps): bump source-map-js from 1.2.1 to 1.2.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/671",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 671,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:29:16Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.18.11 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/660",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 660,
+            "author": "dependabot",
+            "engaged_at": "2026-10-05T18:27:37Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.0 to 2.18.11 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module4",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/659",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 659,
+            "author": "dependabot",
+            "engaged_at": "2026-10-05T17:36:58Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.15.2 to 2.18.11 in /test/providers/tst_manifests/maven/pom_with_one_module/common",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/658",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 658,
+            "author": "dependabot",
+            "engaged_at": "2026-10-05T14:30:28Z"
+          },
+          {
+            "title": "feat(remediate): add exclude option to runRemediation and --exclude CLI flag",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/650",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 650,
+            "author": "Strum355",
+            "engaged_at": "2026-10-02T13:12:38Z"
+          },
+          {
+            "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/667",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 667,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T07:38:35Z"
+          },
+          {
+            "title": "build(deps): bump undici from 6.28.0 to 6.29.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/649",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 649,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T05:11:08Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.18.10 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/648",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 648,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T00:45:18Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.0 to 2.18.10 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module4",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/647",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 647,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T00:08:01Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/666",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 666,
+            "author": "dependabot",
+            "engaged_at": "2026-09-28T22:20:54Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/646",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 646,
+            "author": "dependabot",
+            "engaged_at": "2026-09-28T22:16:43Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.15.2 to 2.18.10 in /test/providers/tst_manifests/maven/pom_with_one_module/common",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/645",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 645,
+            "author": "dependabot",
+            "engaged_at": "2026-09-28T21:53:37Z"
+          },
+          {
+            "title": "fix: handle empty Gradle project group in root PURL construction",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/644",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 644,
+            "author": "Strum355",
+            "engaged_at": "2026-09-24T16:07:52Z"
+          },
+          {
+            "title": "fix(yarn): restore auto-detection of Yarn variant (classic vs berry)",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/643",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 643,
+            "author": "a-oren",
+            "engaged_at": "2026-09-24T14:17:51Z"
+          },
+          {
+            "title": "fix: show N/A cvsScore in Unknown vulns",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/665",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 665,
+            "author": "ruromero",
+            "engaged_at": "2026-09-24T08:51:08Z"
+          },
+          {
+            "title": "fix: ignore PEP440 direct git/http references in uv",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/642",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 642,
+            "author": "Strum355",
+            "engaged_at": "2026-09-22T14:43:00Z"
+          },
+          {
+            "title": "build(deps): bump anyio from 3.6.2 to 4.14.2 in /test/providers/tst_manifests/pip/pip_requirements_txt_no_ignore",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/640",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 640,
+            "author": "dependabot",
+            "engaged_at": "2026-09-18T18:37:40Z"
+          },
+          {
+            "title": "build(deps): bump org.bouncycastle:bcprov-jdk18on from 1.80 to 1.85 in /test/providers/tst_manifests/maven/pom_deps_with_ignore_version_from_property",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/639",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 639,
+            "author": "dependabot",
+            "engaged_at": "2026-09-18T18:37:27Z"
+          },
+          {
+            "title": "chore(deps): upgrade vulnerable deps",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/664",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 664,
+            "author": "ruromero",
+            "engaged_at": "2026-09-18T11:34:47Z"
+          },
+          {
+            "title": "build(deps): bump soupsieve from 2.3.2.post1 to 2.9 in /test/providers/tst_manifests/pip/pip_requirements_txt_no_ignore",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/637",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 637,
+            "author": "dependabot",
+            "engaged_at": "2026-09-17T22:57:12Z"
+          },
+          {
+            "title": "fix: extract advisories correctly for remediations",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/636",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 636,
+            "author": "Strum355",
+            "engaged_at": "2026-09-14T13:41:36Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 3.15.1 to 3.15.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/663",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 663,
+            "author": "dependabot",
+            "engaged_at": "2026-09-13T08:17:42Z"
+          },
+          {
+            "title": "refactor(remediation): give each CVE its own severity and advisories",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/635",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 635,
+            "author": "Strum355",
+            "engaged_at": "2026-09-11T12:09:00Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 4.3.0 to 4.3.2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/633",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 633,
+            "author": "dependabot",
+            "engaged_at": "2026-09-10T10:16:53Z"
+          },
+          {
+            "title": "build(deps): bump smol-toml from 1.7.0 to 1.7.1",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/632",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 632,
+            "author": "dependabot",
+            "engaged_at": "2026-09-10T10:16:40Z"
+          },
+          {
+            "title": "build(deps): bump colord from 2.9.3 to 2.10.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/662",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 662,
+            "author": "dependabot",
+            "engaged_at": "2026-09-09T16:44:30Z"
+          },
+          {
+            "title": "refactor(docker): use CLI as direct entrypoint",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/628",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 628,
+            "author": "a-oren",
+            "engaged_at": "2026-09-08T11:59:25Z"
+          },
+          {
+            "title": "feat(remediate): add per-dependency change API for isolated PRs",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/630",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 630,
+            "author": "Strum355",
+            "engaged_at": "2026-09-07T16:10:30Z"
+          },
+          {
+            "title": "feat(config): add .trustify-da.yml config file parser",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/627",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 627,
+            "author": "a-oren",
+            "engaged_at": "2026-09-03T13:47:04Z"
+          },
+          {
+            "title": "build(deps): bump browserslist from 4.28.1 to 4.28.8 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/661",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 661,
+            "author": "dependabot",
+            "engaged_at": "2026-09-03T05:59:23Z"
+          },
+          {
+            "title": "build(deps): bump postcss-selector-parser from 6.1.2 to 6.1.4 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/660",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 660,
+            "author": "dependabot",
+            "engaged_at": "2026-09-01T22:40:45Z"
+          },
+          {
+            "title": "docs: add image analysis prerequisites and note Windows is unsupported",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/625",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 625,
+            "author": "a-oren",
+            "engaged_at": "2026-08-31T15:31:25Z"
+          },
+          {
+            "title": "fix(summary): deduplicate CVE IDs across purls in VulnerabilityCounter",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/658",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 658,
+            "author": "ruromero",
+            "engaged_at": "2026-08-31T12:56:11Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 4 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/624",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 624,
+            "author": "dependabot",
+            "engaged_at": "2026-08-31T06:52:02Z"
+          },
+          {
+            "title": "feat: add support for trustify-da-ignore marker for Go/Maven/Gradle/Python",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/623",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 623,
+            "author": "Strum355",
+            "engaged_at": "2026-08-27T13:13:16Z"
+          },
+          {
+            "title": "refactor(cargo): improve lock parse error context and remove dead null-guards",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/622",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 622,
+            "author": "a-oren",
+            "engaged_at": "2026-08-27T12:41:00Z"
+          },
+          {
+            "title": "feat(cli): rename binary to trustify-da",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/621",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 621,
+            "author": "a-oren",
+            "engaged_at": "2026-08-26T17:04:53Z"
+          },
+          {
+            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 619,
+            "author": "Strum355",
+            "engaged_at": "2026-08-26T13:17:56Z"
+          },
+          {
+            "title": "feat(sbom): upgrade CycloneDX spec to 1.6 and add metadata.tools",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/618",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 618,
+            "author": "a-oren",
+            "engaged_at": "2026-08-26T11:02:08Z"
+          },
+          {
+            "title": "build(deps): bump body-parser from 1.20.4 to 1.20.6 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/651",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 651,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T07:21:50Z"
+          },
+          {
+            "title": "build(deps): bump shell-quote from 1.8.4 to 1.10.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/649",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 649,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T06:55:13Z"
+          },
+          {
+            "title": "refactor(cargo): consolidate lock file discovery and fix WORKSPACE_DIR bug",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/616",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 616,
+            "author": "a-oren",
+            "engaged_at": "2026-08-24T07:29:38Z"
+          },
+          {
+            "title": "feat(providers): extract SHA hashes from JS lock files for SBOM",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/615",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 615,
+            "author": "a-oren",
+            "engaged_at": "2026-08-23T11:03:32Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash computation for Gradle providers",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/614",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 614,
+            "author": "a-oren",
+            "engaged_at": "2026-08-16T13:47:49Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 3.14.2 to 3.15.1 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/657",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 657,
+            "author": "dependabot",
+            "engaged_at": "2026-08-11T20:32:41Z"
+          },
+          {
+            "title": "build(deps): bump nanoid from 3.3.11 to 3.3.18 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/656",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 656,
+            "author": "dependabot",
+            "engaged_at": "2026-08-11T19:04:40Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash computation for Maven dependencies",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/612",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 612,
+            "author": "a-oren",
+            "engaged_at": "2026-08-10T10:58:54Z"
+          },
+          {
+            "title": "docs(cli): add remediate command documentation and GitHub Action example",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/611",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 611,
+            "author": "ruromero",
+            "engaged_at": "2026-08-10T10:39:38Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/610",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 610,
+            "author": "dependabot",
+            "engaged_at": "2026-08-10T06:51:09Z"
+          },
+          {
+            "title": "feat(providers): add SHA hash extraction for Go provider from go.sum",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/609",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 609,
+            "author": "a-oren",
+            "engaged_at": "2026-08-09T14:46:21Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash extraction for Cargo/Rust provider",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/608",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 608,
+            "author": "a-oren",
+            "engaged_at": "2026-08-09T11:59:28Z"
+          },
+          {
+            "title": "docs: add CLI command authoring conventions to CONVENTIONS.md",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/607",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 607,
+            "author": "ruromero",
+            "engaged_at": "2026-08-07T08:20:43Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.2 to 3.1.6 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/655",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 655,
+            "author": "dependabot",
+            "engaged_at": "2026-08-05T19:25:39Z"
+          },
+          {
+            "title": "build(deps): bump undici from 6.27.0 to 6.28.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/605",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 605,
+            "author": "dependabot",
+            "engaged_at": "2026-08-05T16:59:36Z"
+          },
+          {
+            "title": "feat(cli): add remediate command with dry-run and apply modes",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 604,
+            "author": "ruromero",
+            "engaged_at": "2026-08-05T09:02:30Z"
+          },
+          {
+            "title": "fix(tools): add executable path validation to prevent directory traversal",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/603",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 603,
+            "author": "a-oren",
+            "engaged_at": "2026-08-04T12:23:55Z"
+          },
+          {
+            "title": "build(deps): bump ip-address from 10.2.0 to 10.5.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/654",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 654,
+            "author": "dependabot",
+            "engaged_at": "2026-08-04T01:01:58Z"
+          },
+          {
+            "title": "fix(providers): validate BEST_EFFORTS requires VIRTUAL_ENV in Python pip provider",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/602",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 602,
+            "author": "a-oren",
+            "engaged_at": "2026-08-03T16:54:10Z"
+          },
+          {
+            "title": "feat: add remediation report generator for PR body output",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/601",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 601,
+            "author": "ruromero",
+            "engaged_at": "2026-08-03T10:29:04Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 4 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/600",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 600,
+            "author": "dependabot",
+            "engaged_at": "2026-08-03T06:56:30Z"
+          },
+          {
+            "title": "build(deps): bump brace-expansion from 1.1.14 to 1.1.18 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/653",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 653,
+            "author": "dependabot",
+            "engaged_at": "2026-07-31T11:03:06Z"
+          },
+          {
+            "title": "feat(remediation): add remediation extractor with provider priority resolution",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/599",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 599,
+            "author": "ruromero",
+            "engaged_at": "2026-07-31T06:56:57Z"
+          },
+          {
+            "title": "build(deps): bump io.quarkus:quarkus-vertx-http from 2.13.5.Final to 3.20.6.2 in /test/providers/tst_manifests/maven/poms_deps_with_2_ignore_long",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/598",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 598,
+            "author": "dependabot",
+            "engaged_at": "2026-07-31T02:32:41Z"
+          },
+          {
+            "title": "build(deps): bump tar from 7.5.16 to 7.5.22 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/652",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 652,
+            "author": "dependabot",
+            "engaged_at": "2026-07-30T02:03:54Z"
+          },
+          {
+            "title": "feat(analysis): add provider and source filtering to analysis requests",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/595",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 595,
+            "author": "ruromero",
+            "engaged_at": "2026-07-29T08:58:12Z"
+          },
+          {
+            "title": "feat(updaters): add Maven pom.xml updater with property indirection",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/596",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 596,
+            "author": "ruromero",
+            "engaged_at": "2026-07-29T08:58:10Z"
+          },
+          {
+            "title": "feat(updaters): add Gradle version catalog TOML updater",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/597",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 597,
+            "author": "ruromero",
+            "engaged_at": "2026-07-29T08:58:08Z"
+          },
+          {
+            "title": "build(deps): bump @trustify-da/trustify-da-api-model from 2.0.9 to 2.0.12",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/593",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 593,
+            "author": "a-oren",
+            "engaged_at": "2026-07-27T11:40:52Z"
+          },
+          {
+            "title": "build(deps): bump fast-xml-parser from 5.9.3 to 5.10.1",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/590",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 590,
+            "author": "dependabot",
+            "engaged_at": "2026-07-24T09:52:24Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.0 to 2.18.9 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module4",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/589",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 589,
+            "author": "dependabot",
+            "engaged_at": "2026-07-24T00:57:29Z"
+          },
+          {
+            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.15.2 to 2.18.9 in /test/providers/tst_manifests/maven/pom_with_one_module/common",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/588",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 588,
+            "author": "dependabot",
+            "engaged_at": "2026-07-23T23:09:14Z"
+          },
+          {
+            "title": "build(deps): bump axios from 0.21.1 to 0.33.0 in /test/providers/tst_manifests/bun/workspace_member/packages/member-a",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/587",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 587,
+            "author": "dependabot",
+            "engaged_at": "2026-07-23T22:10:46Z"
+          },
+          {
+            "title": "feat(report): add remediation and recommendation details to pipeline summary",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/586",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 586,
+            "author": "a-oren",
+            "engaged_at": "2026-07-22T20:46:29Z"
+          }
+        ]
+      },
+      {
+        "login": "ruromero",
+        "reviews": 34,
+        "prs": [
+          {
+            "title": "build(deps): bump actions/setup-node from 6 to 7 in the github-actions group",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/671",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 671,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T09:52:19Z"
+          },
+          {
+            "title": "fix(javascript): analyze npm and Yarn directly from lockfiles",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/673",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 673,
+            "author": "a-oren",
+            "engaged_at": "2026-10-15T07:17:36Z"
+          },
+          {
+            "title": "chore(deps): bump actions/setup-python from 5 to 7",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/331",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 331,
+            "author": "dependabot",
+            "engaged_at": "2026-10-13T13:30:37Z"
+          },
+          {
+            "title": "docs: document trustify-da binary, .trustify-da.yml config, and GitHub Action",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/672",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 672,
+            "author": "a-oren",
+            "engaged_at": "2026-10-13T08:20:34Z"
+          },
+          {
+            "title": "fix: work around TS 7.0 (Corsa) JSDoc declaration emit bugs",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/669",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 669,
+            "author": "Strum355",
+            "engaged_at": "2026-10-12T17:15:43Z"
+          },
+          {
+            "title": "fix: remove COPY config ./config from Dockerfile",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/665",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 665,
+            "author": "Strum355",
+            "engaged_at": "2026-10-09T10:18:50Z"
+          },
+          {
+            "title": "fix(yarn): restore auto-detection of Yarn variant (classic vs berry)",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/643",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 643,
+            "author": "a-oren",
+            "engaged_at": "2026-10-07T07:32:50Z"
+          },
+          {
+            "title": "fix: suppress dependabot security updates for all test fixture manifests",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/661",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 661,
+            "author": "Strum355",
+            "engaged_at": "2026-10-06T16:25:28Z"
+          },
+          {
+            "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/667",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 667,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:16:46Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/666",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 666,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:16:27Z"
+          },
+          {
+            "title": "refactor(docker): use CLI as direct entrypoint",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/628",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 628,
+            "author": "a-oren",
+            "engaged_at": "2026-09-30T12:53:06Z"
+          },
+          {
+            "title": "fix: handle empty Gradle project group in root PURL construction",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/644",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 644,
+            "author": "Strum355",
+            "engaged_at": "2026-09-28T12:01:43Z"
+          },
+          {
+            "title": "refactor(remediation): give each CVE its own severity and advisories",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/635",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 635,
+            "author": "Strum355",
+            "engaged_at": "2026-09-15T13:34:58Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 3.15.1 to 3.15.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/663",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 663,
+            "author": "dependabot",
+            "engaged_at": "2026-09-14T11:25:23Z"
+          },
+          {
+            "title": "feat(remediate): add per-dependency change API for isolated PRs",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/630",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 630,
+            "author": "Strum355",
+            "engaged_at": "2026-09-09T15:44:22Z"
+          },
+          {
+            "title": "build(deps): bump browserslist from 4.28.1 to 4.28.8 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/661",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 661,
+            "author": "dependabot",
+            "engaged_at": "2026-09-03T05:46:30Z"
+          },
+          {
+            "title": "build(deps): bump postcss-selector-parser from 6.1.2 to 6.1.4 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/660",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 660,
+            "author": "dependabot",
+            "engaged_at": "2026-09-03T05:44:39Z"
+          },
+          {
+            "title": "docs: add image analysis prerequisites and note Windows is unsupported",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/625",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 625,
+            "author": "a-oren",
+            "engaged_at": "2026-08-31T15:33:03Z"
+          },
+          {
+            "title": "feat: add support for trustify-da-ignore marker for Go/Maven/Gradle/Python",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/623",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 623,
+            "author": "Strum355",
+            "engaged_at": "2026-08-31T08:58:21Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 3.14.2 to 3.15.1 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/657",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 657,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T10:11:45Z"
+          },
+          {
+            "title": "build(deps): bump nanoid from 3.3.11 to 3.3.18 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/656",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 656,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T09:36:40Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.2 to 3.1.6 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/655",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 655,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T09:12:52Z"
+          },
+          {
+            "title": "build(deps): bump ip-address from 10.2.0 to 10.5.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/654",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 654,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T08:18:36Z"
+          },
+          {
+            "title": "build(deps): bump brace-expansion from 1.1.14 to 1.1.18 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/653",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 653,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T08:04:12Z"
+          },
+          {
+            "title": "build(deps): bump tar from 7.5.16 to 7.5.22 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/652",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 652,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T07:42:33Z"
+          },
+          {
+            "title": "build(deps): bump body-parser from 1.20.4 to 1.20.6 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/651",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 651,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T07:04:27Z"
+          },
+          {
+            "title": "build(deps): bump shell-quote from 1.8.4 to 1.10.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/649",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 649,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T06:52:35Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash computation for Maven dependencies",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/612",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 612,
+            "author": "a-oren",
+            "engaged_at": "2026-08-25T08:10:13Z"
+          },
+          {
+            "title": "build(deps): bump websocket-driver from 0.7.4 to 0.7.5 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/644",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 644,
+            "author": "dependabot",
+            "engaged_at": "2026-08-24T11:34:59Z"
+          },
+          {
+            "title": "build(deps): bump http-proxy-middleware from 2.0.9 to 2.0.10 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/635",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 635,
+            "author": "dependabot",
+            "engaged_at": "2026-08-24T10:28:38Z"
+          },
+          {
+            "title": "feat(report): add remediation and recommendation details to pipeline summary",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/586",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 586,
+            "author": "a-oren",
+            "engaged_at": "2026-08-11T13:23:19Z"
+          },
+          {
+            "title": "feat(providers): add SHA hash extraction for Go provider from go.sum",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/609",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 609,
+            "author": "a-oren",
+            "engaged_at": "2026-08-10T15:02:04Z"
+          },
+          {
+            "title": "fix(tools): add executable path validation to prevent directory traversal",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/603",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 603,
+            "author": "a-oren",
+            "engaged_at": "2026-08-10T14:47:43Z"
+          },
+          {
+            "title": "build(deps): bump @trustify-da/trustify-da-api-model from 2.0.9 to 2.0.12",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/593",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 593,
+            "author": "a-oren",
+            "engaged_at": "2026-07-27T11:56:36Z"
+          }
+        ]
+      },
+      {
+        "login": "Strum355",
+        "reviews": 28,
+        "prs": [
+          {
+            "title": "fix(pnpm): analyze pnpm-lock.yaml directly without installation",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/678",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 678,
+            "author": "a-oren",
+            "engaged_at": "2026-10-19T11:40:55Z"
+          },
+          {
+            "title": "feat(api): implement sources query parameter filtering",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/673",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 673,
+            "author": "ruromero",
+            "engaged_at": "2026-10-16T10:29:31Z"
+          },
+          {
+            "title": "fix(sbom): handle missing name field in package.json",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/675",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 675,
+            "author": "ruromero",
+            "engaged_at": "2026-10-15T10:42:52Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 6 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/676",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 676,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T16:34:42Z"
+          },
+          {
+            "title": "fix(sbom): skip lock file regeneration when lock file already exists",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/674",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 674,
+            "author": "ruromero",
+            "engaged_at": "2026-10-14T15:12:13Z"
+          },
+          {
+            "title": "build: release 0.4.0 [skip ci]",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/667",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 667,
+            "author": "github-actions",
+            "engaged_at": "2026-10-09T10:45:23Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/664",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 664,
+            "author": "dependabot",
+            "engaged_at": "2026-10-08T10:44:24Z"
+          },
+          {
+            "title": "build(deps): bump the github-actions group across 1 directory with 4 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/624",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 624,
+            "author": "dependabot",
+            "engaged_at": "2026-10-08T10:41:32Z"
+          },
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 16 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/663",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 663,
+            "author": "dependabot",
+            "engaged_at": "2026-10-08T10:27:52Z"
+          },
+          {
+            "title": "refactor(docker): use CLI as direct entrypoint",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/628",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 628,
+            "author": "a-oren",
+            "engaged_at": "2026-10-08T09:08:42Z"
+          },
+          {
+            "title": "fix(yarn): restore auto-detection of Yarn variant (classic vs berry)",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/643",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 643,
+            "author": "a-oren",
+            "engaged_at": "2026-10-05T14:59:25Z"
+          },
+          {
+            "title": "fix: show N/A cvsScore in Unknown vulns",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/665",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 665,
+            "author": "ruromero",
+            "engaged_at": "2026-09-24T08:34:23Z"
+          },
+          {
+            "title": "feat(config): add .trustify-da.yml config file parser",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/627",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 627,
+            "author": "a-oren",
+            "engaged_at": "2026-09-14T09:30:10Z"
+          },
+          {
+            "title": "refactor(cargo): improve lock parse error context and remove dead null-guards",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/622",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 622,
+            "author": "a-oren",
+            "engaged_at": "2026-08-31T14:32:11Z"
+          },
+          {
+            "title": "build(deps): bump undici from 6.27.0 to 6.28.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/605",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 605,
+            "author": "dependabot",
+            "engaged_at": "2026-08-31T11:16:24Z"
+          },
+          {
+            "title": "build(deps): bump fast-xml-parser from 5.9.3 to 5.10.1",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/590",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 590,
+            "author": "dependabot",
+            "engaged_at": "2026-08-31T11:16:05Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash computation for Gradle providers",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/614",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 614,
+            "author": "a-oren",
+            "engaged_at": "2026-08-27T12:50:49Z"
+          },
+          {
+            "title": "refactor(cargo): consolidate lock file discovery and fix WORKSPACE_DIR bug",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/616",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 616,
+            "author": "a-oren",
+            "engaged_at": "2026-08-27T11:10:25Z"
+          },
+          {
+            "title": "feat(cli): rename binary to trustify-da",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/621",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 621,
+            "author": "a-oren",
+            "engaged_at": "2026-08-27T10:58:17Z"
+          },
+          {
+            "title": "feat(sbom): upgrade CycloneDX spec to 1.6 and add metadata.tools",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/618",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 618,
+            "author": "a-oren",
+            "engaged_at": "2026-08-27T10:57:53Z"
+          },
+          {
+            "title": "feat(providers): extract SHA hashes from JS lock files for SBOM",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/615",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 615,
+            "author": "a-oren",
+            "engaged_at": "2026-08-26T16:41:27Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash computation for Maven dependencies",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/612",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 612,
+            "author": "a-oren",
+            "engaged_at": "2026-08-21T12:56:07Z"
+          },
+          {
+            "title": "fix(tools): add executable path validation to prevent directory traversal",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/603",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 603,
+            "author": "a-oren",
+            "engaged_at": "2026-08-20T11:59:47Z"
+          },
+          {
+            "title": "feat(providers): add SHA-256 hash extraction for Cargo/Rust provider",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/608",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 608,
+            "author": "a-oren",
+            "engaged_at": "2026-08-10T11:13:18Z"
+          },
+          {
+            "title": "feat(providers): add SHA hash extraction for Go provider from go.sum",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/609",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 609,
+            "author": "a-oren",
+            "engaged_at": "2026-08-10T10:50:44Z"
+          },
+          {
+            "title": "docs: add CLI command authoring conventions to CONVENTIONS.md",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/607",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 607,
+            "author": "ruromero",
+            "engaged_at": "2026-08-10T10:34:25Z"
+          },
+          {
+            "title": "feat(cli): add remediate command with dry-run and apply modes",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 604,
+            "author": "ruromero",
+            "engaged_at": "2026-08-07T16:01:59Z"
+          },
+          {
+            "title": "fix(providers): validate BEST_EFFORTS requires VIRTUAL_ENV in Python pip provider",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/602",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 602,
+            "author": "a-oren",
+            "engaged_at": "2026-08-04T11:35:07Z"
+          }
+        ]
+      },
+      {
+        "login": "a-oren",
+        "reviews": 19,
+        "prs": [
+          {
+            "title": "fix: support Gradle version catalog (libs.versions.toml) in analysis",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/668",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 668,
+            "author": "Strum355",
+            "engaged_at": "2026-10-13T11:48:21Z"
+          },
+          {
+            "title": "feat(remediate): add exclude option to runRemediation and --exclude CLI flag",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/650",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 650,
+            "author": "Strum355",
+            "engaged_at": "2026-10-06T05:22:51Z"
+          },
+          {
+            "title": "build(deps): bump undici from 6.28.0 to 6.29.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/649",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 649,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:32:59Z"
+          },
+          {
+            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/646",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 646,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:25:31Z"
+          },
+          {
+            "title": "chore(deps): upgrade vulnerable deps",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/664",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 664,
+            "author": "ruromero",
+            "engaged_at": "2026-09-28T13:15:52Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 4.3.0 to 4.3.2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/633",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 633,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:52:31Z"
+          },
+          {
+            "title": "build(deps): bump smol-toml from 1.7.0 to 1.7.1",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/632",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 632,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:47:09Z"
+          },
+          {
+            "title": "build(deps): bump colord from 2.9.3 to 2.10.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/662",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 662,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:44:35Z"
+          },
+          {
+            "title": "fix: extract advisories correctly for remediations",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/636",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 636,
+            "author": "Strum355",
+            "engaged_at": "2026-09-14T15:25:55Z"
+          },
+          {
+            "title": "fix(summary): deduplicate CVE IDs across purls in VulnerabilityCounter",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/658",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 658,
+            "author": "ruromero",
+            "engaged_at": "2026-09-01T08:27:10Z"
+          },
+          {
+            "title": "feat: add support for trustify-da-ignore marker for Go/Maven/Gradle/Python",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/623",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 623,
+            "author": "Strum355",
+            "engaged_at": "2026-08-31T11:13:50Z"
+          },
+          {
+            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 619,
+            "author": "Strum355",
+            "engaged_at": "2026-08-26T13:18:19Z"
+          },
+          {
+            "title": "docs(cli): add remediate command documentation and GitHub Action example",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/611",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 611,
+            "author": "ruromero",
+            "engaged_at": "2026-08-10T14:33:36Z"
+          },
+          {
+            "title": "feat(cli): add remediate command with dry-run and apply modes",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 604,
+            "author": "ruromero",
+            "engaged_at": "2026-08-09T10:32:53Z"
+          },
+          {
+            "title": "feat: add remediation report generator for PR body output",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/601",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 601,
+            "author": "ruromero",
+            "engaged_at": "2026-08-05T06:53:38Z"
+          },
+          {
+            "title": "feat(remediation): add remediation extractor with provider priority resolution",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/599",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 599,
+            "author": "ruromero",
+            "engaged_at": "2026-08-03T10:04:11Z"
+          },
+          {
+            "title": "feat(updaters): add Gradle version catalog TOML updater",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/597",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 597,
+            "author": "ruromero",
+            "engaged_at": "2026-07-30T15:30:40Z"
+          },
+          {
+            "title": "feat(analysis): add provider and source filtering to analysis requests",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/595",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 595,
+            "author": "ruromero",
+            "engaged_at": "2026-07-30T14:22:53Z"
+          },
+          {
+            "title": "feat(updaters): add Maven pom.xml updater with property indirection",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/596",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 596,
+            "author": "ruromero",
+            "engaged_at": "2026-07-30T12:17:45Z"
+          }
+        ]
+      },
+      {
+        "login": "mrizzi",
+        "reviews": 7,
+        "prs": [
+          {
+            "title": "feat(triage-security): add release Jira orchestration and cross-CVE dedup",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/322",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 322,
+            "author": "ruromero",
+            "engaged_at": "2026-10-07T11:09:26Z"
+          },
+          {
+            "title": "fix(implement-task): require module-level tests before committing for Rust repos",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/290",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 290,
+            "author": "ruromero",
+            "engaged_at": "2026-09-08T07:53:38Z"
+          },
+          {
+            "title": "fix(implement-task): add symbol dedup and null guard guidance",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/269",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 269,
+            "author": "ruromero",
+            "engaged_at": "2026-08-24T08:38:51Z"
+          },
+          {
+            "title": "feat(plan-feature): add cross-cutting call-site enumeration step",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/267",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 267,
+            "author": "ruromero",
+            "engaged_at": "2026-07-31T10:14:27Z"
+          },
+          {
+            "title": "feat(implement-task): add dead parameter detection and sibling pattern override",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/264",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 264,
+            "author": "ruromero",
+            "engaged_at": "2026-07-29T14:11:03Z"
+          },
+          {
+            "title": "fix(triage-security): improve remediation task generation logic in Step 8",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/261",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 261,
+            "author": "ruromero",
+            "engaged_at": "2026-07-27T07:06:10Z"
+          },
+          {
+            "title": "chore(deps): bump actions/github-script from 7 to 9",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/254",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 254,
+            "author": "dependabot",
+            "engaged_at": "2026-07-23T09:56:17Z"
+          }
+        ]
+      },
+      {
+        "login": "rh-jfuller",
+        "reviews": 1,
+        "prs": [
+          {
+            "title": "[E2E vehicle] TC-6257 verify-pr failed-CI log prefetch (green)",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/303",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 303,
+            "author": "mrizzi",
+            "engaged_at": "2026-09-16T09:52:36Z"
+          }
+        ]
+      }
+    ]
+  }
+}
