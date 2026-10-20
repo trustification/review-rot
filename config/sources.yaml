@@ -12,11 +12,27 @@ sources:
   # Prefix a repo with + to watch ALL authors (like an org repo)
   # Without +, only PRs from team members in 'authors' are shown
   repos:
+    # Agentic SDLC
     - +RHEcosystemAppEng/sdlc-plugins
+    # Dependency Analytics
+    - +fabric8-analytics/fabric8-analytics-vscode-extension
+    - +guacsec/trustify-da-api-spec
+    - +guacsec/trustify-da-java-client
     - +guacsec/trustify-da-javascript-client
     - +guacsec/trustify-dependency-analytics
+    # Trustify
     - +guacsec/trustify-ui
     - +guacsec/trustify
+    # Exploit Intelligence
+    - +RHEcosystemAppEng/exploit-iq-agent
+    - +RHEcosystemAppEng/exploit-iq-client
+    - +RHEcosystemAppEng/exploit-iq-feedback-api
+    - +RHEcosystemAppEng/exploit-iq-models
+    - +RHEcosystemAppEng/exploit-iq-operator
+    - +RHEcosystemAppEng/exploit-iq-operator-fbc
+    - +RHEcosystemAppEng/exploitiq-docs
+    - +RHEcosystemAppEng/exploitiq-mcp-server
+    - +RHEcosystemAppEng/exploitiq-tests-automation
 
 # Reviewer leaderboard settings
 leaderboard:
