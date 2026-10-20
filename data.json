@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:31:27.339206839Z",
+  "generated_at": "2026-10-20T11:57:36.597792841Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -11,10 +11,321 @@
     }
   },
   "required_approvals": 2,
-  "pull_requests": [],
+  "pull_requests": [
+    {
+      "title": "Add JIRA configuration discovery and fix REST API fallback script execution",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/79",
+      "number": 79,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrrajan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/86094767?u=ce64dcaa7e6830ae9816eea2488b9817d7db4107\u0026v=4"
+      },
+      "created_at": "2026-04-17T05:43:33Z",
+      "updated_at": "2026-04-17T15:34:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(performance): Add Performance Optimization Workflow",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/90",
+      "number": 90,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrrajan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/86094767?u=ce64dcaa7e6830ae9816eea2488b9817d7db4107\u0026v=4"
+      },
+      "created_at": "2026-04-22T14:19:00Z",
+      "updated_at": "2026-09-14T12:48:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Migrate eval engine to skill-litmus",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/122",
+      "number": 122,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-05-05T12:45:33Z",
+      "updated_at": "2026-05-07T08:11:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "feat(sdlc-workflow): add release-notes skill (reapply #195)",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/325",
+      "number": 325,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-10-06T10:30:38Z",
+      "updated_at": "2026-10-06T12:50:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.43.0 to 0.47.1",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/342",
+      "number": 342,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-15T00:44:23Z",
+      "updated_at": "2026-10-15T00:44:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "fix(pnpm): analyze pnpm-lock.yaml directly without installation",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/678",
+      "number": 678,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-10-19T10:44:46Z",
+      "updated_at": "2026-10-20T07:49:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/679",
+      "number": 679,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-20T06:43:46Z",
+      "updated_at": "2026-10-20T06:49:18Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/667",
+      "number": 667,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-29T07:25:58Z",
+      "updated_at": "2026-10-06T09:29:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump compression from 1.8.1 to 1.8.2 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/668",
+      "number": 668,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-06T09:17:57Z",
+      "updated_at": "2026-10-06T09:30:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump proxy-addr from 2.0.7 to 2.0.8 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/669",
+      "number": 669,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-06T09:18:07Z",
+      "updated_at": "2026-10-06T09:30:25Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump brace-expansion from 1.1.18 to 1.1.21 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/670",
+      "number": 670,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-06T09:18:10Z",
+      "updated_at": "2026-10-06T09:30:09Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump source-map-js from 1.2.1 to 1.2.2 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/671",
+      "number": 671,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-06T09:18:11Z",
+      "updated_at": "2026-10-06T09:29:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump shell-quote from 1.10.0 to 1.12.0 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/672",
+      "number": 672,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-13T23:47:02Z",
+      "updated_at": "2026-10-13T23:47:05Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    }
+  ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T11:31:17Z",
+    "since": "2026-07-22T11:57:27Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
