@@ -1,7 +1,7 @@
 # GitHub App credentials for API access
 github:
-  app_id: 245286
-  installation_id: 59973090
+  app_id: 5394558
+  installation_id: 173361691
 
 sources:
   # All repos under these orgs are included automatically (all authors)
