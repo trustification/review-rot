@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:46:40.285718058Z",
+  "generated_at": "2026-10-20T22:51:18.956822425Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1309,7 +1309,29 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-10-20T16:16:33Z",
-      "updated_at": "2026-10-20T16:50:49Z",
+      "updated_at": "2026-10-20T20:30:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(CI): install tzdata for embedded PostgreSQL timezone",
+      "url": "https://github.com/guacsec/trustify/pull/2778",
+      "number": 2778,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-20T20:23:37Z",
+      "updated_at": "2026-10-20T22:24:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2743,11 +2765,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T19:45:39Z",
+    "since": "2026-07-22T22:50:23Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 172,
+        "reviews": 171,
         "prs": [
           {
             "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
@@ -4116,14 +4138,6 @@
             "number": 554,
             "author": "dependabot",
             "engaged_at": "2026-07-23T20:18:41Z"
-          },
-          {
-            "title": "feat(report): add remediation and recommendation details to pipeline summary",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/586",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 586,
-            "author": "a-oren",
-            "engaged_at": "2026-07-22T20:46:29Z"
           }
         ]
       },
@@ -7745,7 +7759,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 34,
+        "reviews": 33,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8010,14 +8024,6 @@
             "number": 278,
             "author": "gnetanel",
             "engaged_at": "2026-07-22T23:01:33Z"
-          },
-          {
-            "title": "Fix CVE-2026-15308",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-07-22T22:48:20Z"
           }
         ]
       },
