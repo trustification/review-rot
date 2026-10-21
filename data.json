@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:48:53.319781422Z",
+  "generated_at": "2026-10-21T23:49:46.782241876Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -923,7 +923,7 @@
       "labels": []
     },
     {
-      "title": "Search2",
+      "title": "test(e2e): add UI tests for the Search page",
       "url": "https://github.com/guacsec/trustify-ui/pull/1325",
       "number": 1325,
       "repo": "guacsec/trustify-ui",
@@ -932,16 +932,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-10-20T11:03:57Z",
-      "updated_at": "2026-10-21T20:44:09Z",
-      "is_draft": true,
+      "updated_at": "2026-10-21T22:07:05Z",
+      "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 9,
       "labels": []
     },
     {
@@ -958,6 +958,28 @@
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: enable noUncheckedIndexedAccess and fix the 58 resulting errors",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1335",
+      "number": 1335,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "helio-frota",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
+      },
+      "created_at": "2026-10-21T22:05:45Z",
+      "updated_at": "2026-10-21T22:25:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1313,8 +1335,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-10-19T11:39:04Z",
-      "updated_at": "2026-10-19T11:43:19Z",
-      "is_draft": true,
+      "updated_at": "2026-10-21T22:35:52Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -2725,11 +2747,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T20:47:57Z",
+    "since": "2026-07-23T23:49:03Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 172,
+        "reviews": 170,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4090,22 +4112,6 @@
             "number": 589,
             "author": "dependabot",
             "engaged_at": "2026-07-24T00:57:29Z"
-          },
-          {
-            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.15.2 to 2.18.9 in /test/providers/tst_manifests/maven/pom_with_one_module/common",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/588",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 588,
-            "author": "dependabot",
-            "engaged_at": "2026-07-23T23:09:14Z"
-          },
-          {
-            "title": "build(deps): bump axios from 0.21.1 to 0.33.0 in /test/providers/tst_manifests/bun/workspace_member/packages/member-a",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/587",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 587,
-            "author": "dependabot",
-            "engaged_at": "2026-07-23T22:10:46Z"
           }
         ]
       },
