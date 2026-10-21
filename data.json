@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:28:41.831207477Z",
+  "generated_at": "2026-10-21T20:48:53.319781422Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -932,10 +932,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-10-20T11:03:57Z",
-      "updated_at": "2026-10-21T16:54:14Z",
+      "updated_at": "2026-10-21T20:44:09Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -957,50 +957,6 @@
       "updated_at": "2026-10-20T14:14:34Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "build: update from nodejs 22 to nodejs 24",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1333",
-      "number": 1333,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "helio-frota",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
-      },
-      "created_at": "2026-10-21T14:29:48Z",
-      "updated_at": "2026-10-21T14:50:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": ":seedling: [release/0.4.z] update client/openapi/trustd.yaml",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1334",
-      "number": 1334,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-10-21T15:36:10Z",
-      "updated_at": "2026-10-21T15:56:28Z",
-      "is_draft": false,
-      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
@@ -1247,7 +1203,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-10-20T16:16:33Z",
-      "updated_at": "2026-10-21T10:31:38Z",
+      "updated_at": "2026-10-21T19:25:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2769,11 +2725,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T17:27:43Z",
+    "since": "2026-07-23T20:47:57Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 174,
+        "reviews": 172,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4150,22 +4106,6 @@
             "number": 587,
             "author": "dependabot",
             "engaged_at": "2026-07-23T22:10:46Z"
-          },
-          {
-            "title": "build(deps): bump actions/setup-python from 6 to 7",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/553",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 553,
-            "author": "dependabot",
-            "engaged_at": "2026-07-23T20:19:00Z"
-          },
-          {
-            "title": "build(deps): bump astral-sh/setup-uv from 8.2.0 to 9.0.0",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/554",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 554,
-            "author": "dependabot",
-            "engaged_at": "2026-07-23T20:18:41Z"
           }
         ]
       },
@@ -6905,8 +6845,16 @@
       },
       {
         "login": "gildub",
-        "reviews": 40,
+        "reviews": 41,
         "prs": [
+          {
+            "title": "build: update from nodejs 22 to nodejs 24",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1333",
+            "repo": "guacsec/trustify-ui",
+            "number": 1333,
+            "author": "helio-frota",
+            "engaged_at": "2026-10-21T19:28:19Z"
+          },
           {
             "title": "chore(openapi): [release/0.7.z] update client/openapi/trustd.yaml",
             "url": "https://github.com/guacsec/trustify-ui/pull/1321",
