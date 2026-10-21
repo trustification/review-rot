@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:08:27.078287895Z",
+  "generated_at": "2026-10-21T17:28:41.831207477Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -124,50 +124,6 @@
         "dependencies",
         "github_actions"
       ]
-    },
-    {
-      "title": "fix(triage-security): make harness wiring work under fullsend run for external adopters",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/349",
-      "number": 349,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-10-21T10:53:35Z",
-      "updated_at": "2026-10-21T11:49:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 3,
-      "labels": []
-    },
-    {
-      "title": "New preference to enable/disable analysis upon open or save manifest …",
-      "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/734",
-      "number": 734,
-      "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-      "author": {
-        "login": "johnsteele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/407192?v=4"
-      },
-      "created_at": "2024-08-28T21:28:20Z",
-      "updated_at": "2026-06-14T22:11:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": null,
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -567,28 +523,6 @@
       ]
     },
     {
-      "title": "fix(pnpm): analyze pnpm-lock.yaml directly without installation",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/678",
-      "number": 678,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "a-oren",
-        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
-      },
-      "created_at": "2026-10-19T10:44:46Z",
-      "updated_at": "2026-10-20T07:49:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
       "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/679",
       "number": 679,
@@ -623,16 +557,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
       },
       "created_at": "2026-10-21T10:21:24Z",
-      "updated_at": "2026-10-21T11:29:26Z",
+      "updated_at": "2026-10-21T17:03:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
+        "outstanding_change_requests_on_head": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -998,16 +932,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-10-20T11:03:57Z",
-      "updated_at": "2026-10-20T11:37:38Z",
+      "updated_at": "2026-10-21T16:54:14Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 7,
       "labels": []
     },
     {
@@ -1023,6 +957,50 @@
       "updated_at": "2026-10-20T14:14:34Z",
       "is_draft": true,
       "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "build: update from nodejs 22 to nodejs 24",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1333",
+      "number": 1333,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "helio-frota",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
+      },
+      "created_at": "2026-10-21T14:29:48Z",
+      "updated_at": "2026-10-21T14:50:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": ":seedling: [release/0.4.z] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1334",
+      "number": 1334,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-10-21T15:36:10Z",
+      "updated_at": "2026-10-21T15:56:28Z",
+      "is_draft": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
@@ -1078,30 +1056,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix(purl): add edition predicate to generalized CPE context filter",
-      "url": "https://github.com/guacsec/trustify/pull/2601",
-      "number": 2601,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-08-26T06:27:09Z",
-      "updated_at": "2026-09-19T06:29:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "backport release/0.5.z"
-      ]
     },
     {
       "title": "docs(adr): add ADR 00022 for advisory-based vendor remediation recommendations",
@@ -1181,7 +1135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-09-22T18:26:10Z",
-      "updated_at": "2026-10-21T09:49:47Z",
+      "updated_at": "2026-10-21T14:16:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1306,47 +1260,25 @@
       "labels": []
     },
     {
-      "title": "chore: prepare release 0.4.21",
-      "url": "https://github.com/guacsec/trustify/pull/2780",
-      "number": 2780,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-10-21T10:01:11Z",
-      "updated_at": "2026-10-21T11:27:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): update Swagger UI requirement and upgrade zip",
-      "url": "https://github.com/guacsec/trustify/pull/2781",
-      "number": 2781,
+      "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+      "url": "https://github.com/guacsec/trustify/pull/2782",
+      "number": 2782,
       "repo": "guacsec/trustify",
       "author": {
         "login": "ctron",
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
-      "created_at": "2026-10-21T12:01:32Z",
-      "updated_at": "2026-10-21T12:06:23Z",
+      "created_at": "2026-10-21T13:48:45Z",
+      "updated_at": "2026-10-21T14:20:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1472,7 +1404,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-10-21T11:00:19Z",
-      "updated_at": "2026-10-21T11:10:06Z",
+      "updated_at": "2026-10-21T16:48:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2045,10 +1977,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-10-21T10:02:20Z",
-      "updated_at": "2026-10-21T10:02:22Z",
+      "updated_at": "2026-10-21T16:35:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2174,6 +2106,28 @@
       "labels": [
         "konflux-nudge"
       ]
+    },
+    {
+      "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/274",
+      "number": 274,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-10-21T16:33:31Z",
+      "updated_at": "2026-10-21T16:33:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "feat(fbc): onboard OpenShift 5.0 catalog fragment and pipelines",
@@ -2815,7 +2769,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T12:07:30Z",
+    "since": "2026-07-23T17:27:43Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -6123,7 +6077,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 55,
+        "reviews": 54,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -6556,28 +6510,28 @@
             "number": 284,
             "author": "gnetanel",
             "engaged_at": "2026-07-26T08:15:39Z"
-          },
-          {
-            "title": "Run Confusion Matrix Batch on `main` branch.",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/314",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 314,
-            "author": "zvigrinberg",
-            "engaged_at": "2026-07-23T15:12:41Z"
           }
         ]
       },
       {
         "login": "Strum355",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/680",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 680,
+            "author": "a-oren",
+            "engaged_at": "2026-10-21T17:03:21Z"
+          },
           {
             "title": "fix(pnpm): analyze pnpm-lock.yaml directly without installation",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/678",
             "repo": "guacsec/trustify-da-javascript-client",
             "number": 678,
             "author": "a-oren",
-            "engaged_at": "2026-10-19T11:40:55Z"
+            "engaged_at": "2026-10-21T14:37:26Z"
           },
           {
             "title": "feat(api): implement sources query parameter filtering",
@@ -7849,7 +7803,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 31,
+        "reviews": 30,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8090,14 +8044,6 @@
             "number": 284,
             "author": "gnetanel",
             "engaged_at": "2026-07-26T08:33:43Z"
-          },
-          {
-            "title": "fix(queue): admit before persist so 429 leaves no orphan reports",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/283",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 283,
-            "author": "vbelouso",
-            "engaged_at": "2026-07-23T14:43:33Z"
           }
         ]
       },
@@ -8261,8 +8207,16 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 13,
+        "reviews": 14,
         "prs": [
+          {
+            "title": "New preference to enable/disable analysis upon open or save manifest …",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/734",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 734,
+            "author": "johnsteele",
+            "engaged_at": "2026-10-21T13:26:29Z"
+          },
           {
             "title": "fix(recommend): use advisory fixed/not_affected versions when versioned_purl has no vendor match",
             "url": "https://github.com/guacsec/trustify/pull/2709",
