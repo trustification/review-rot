@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:09:52.789484482Z",
+  "generated_at": "2026-10-21T06:13:26.299165642Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1290,20 +1290,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-20T11:57:49Z",
-      "updated_at": "2026-10-20T12:18:38Z",
+      "updated_at": "2026-10-21T06:02:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": []
     },
     {
-      "title": "fix(ci): ensure timezone data for embedded PostgreSQL",
+      "title": "fix(ci): pin bundled PostgreSQL version",
       "url": "https://github.com/guacsec/trustify/pull/2776",
       "number": 2776,
       "repo": "guacsec/trustify",
@@ -1312,13 +1312,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-20T12:13:33Z",
-      "updated_at": "2026-10-20T14:53:40Z",
+      "updated_at": "2026-10-21T06:04:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1356,7 +1356,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-10-20T20:23:37Z",
-      "updated_at": "2026-10-21T00:49:22Z",
+      "updated_at": "2026-10-21T05:22:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2790,7 +2790,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T01:09:03Z",
+    "since": "2026-07-23T06:12:33Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -5033,7 +5033,7 @@
         "reviews": 68,
         "prs": [
           {
-            "title": "fix(ci): ensure timezone data for embedded PostgreSQL",
+            "title": "fix(ci): pin bundled PostgreSQL version",
             "url": "https://github.com/guacsec/trustify/pull/2776",
             "repo": "guacsec/trustify",
             "number": 2776,
@@ -5580,8 +5580,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 59,
+        "reviews": 60,
         "prs": [
+          {
+            "title": "fix(CI): install tzdata for embedded PostgreSQL timezone",
+            "url": "https://github.com/guacsec/trustify/pull/2778",
+            "repo": "guacsec/trustify",
+            "number": 2778,
+            "author": "gildub",
+            "engaged_at": "2026-10-21T05:22:50Z"
+          },
           {
             "title": "docs(conventions): consolidate three import-style sections into one",
             "url": "https://github.com/guacsec/trustify/pull/2771",
