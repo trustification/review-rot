@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:31:34.328745248Z",
+  "generated_at": "2026-10-22T08:08:26.926801089Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -532,7 +532,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-20T06:43:46Z",
-      "updated_at": "2026-10-21T06:43:55Z",
+      "updated_at": "2026-10-22T06:48:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1082,28 +1082,6 @@
       "labels": []
     },
     {
-      "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
-      "url": "https://github.com/guacsec/trustify/pull/2684",
-      "number": 2684,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rhredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/324826195?v=4"
-      },
-      "created_at": "2026-09-21T14:44:25Z",
-      "updated_at": "2026-10-14T09:31:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "feat(correlation): evidence-based correlation engine",
       "url": "https://github.com/guacsec/trustify/pull/2693",
       "number": 2693,
@@ -1157,7 +1135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-10-09T12:12:55Z",
-      "updated_at": "2026-10-13T12:05:20Z",
+      "updated_at": "2026-10-22T05:41:53Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1256,7 +1234,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1335,13 +1313,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-10-19T11:39:04Z",
-      "updated_at": "2026-10-21T22:35:52Z",
+      "updated_at": "2026-10-22T05:24:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2108,38 +2086,16 @@
       "labels": []
     },
     {
-      "title": "Improve related image digest script",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/277",
-      "number": 277,
+      "title": "fix: populate OperatorHub metadata (TC-6952)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/279",
+      "number": 279,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
         "login": "xinredhat",
         "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
       },
-      "created_at": "2026-10-22T02:03:58Z",
-      "updated_at": "2026-10-22T02:03:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Improve related image digest script",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/278",
-      "number": 278,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-10-22T02:04:02Z",
-      "updated_at": "2026-10-22T02:04:02Z",
+      "created_at": "2026-10-22T07:22:26Z",
+      "updated_at": "2026-10-22T07:40:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2791,7 +2747,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T02:30:43Z",
+    "since": "2026-07-24T08:07:29Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -5552,6 +5508,22 @@
         "reviews": 62,
         "prs": [
           {
+            "title": "(WIP) feat(validators): persist validation reports and make queryable",
+            "url": "https://github.com/guacsec/trustify/pull/2752",
+            "repo": "guacsec/trustify",
+            "number": 2752,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-10-22T05:41:53Z"
+          },
+          {
+            "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
+            "url": "https://github.com/guacsec/trustify/pull/2684",
+            "repo": "guacsec/trustify",
+            "number": 2684,
+            "author": "rhredhat",
+            "engaged_at": "2026-10-22T05:41:28Z"
+          },
+          {
             "title": "chore: prepare release 0.4.21",
             "url": "https://github.com/guacsec/trustify/pull/2780",
             "repo": "guacsec/trustify",
@@ -5718,14 +5690,6 @@
             "number": 2705,
             "author": "ruromero",
             "engaged_at": "2026-09-24T09:31:20Z"
-          },
-          {
-            "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
-            "url": "https://github.com/guacsec/trustify/pull/2684",
-            "repo": "guacsec/trustify",
-            "number": 2684,
-            "author": "rhredhat",
-            "engaged_at": "2026-09-23T07:46:41Z"
           },
           {
             "title": "fix(db): normalize PostgreSQL version function parallel safety",
@@ -6038,14 +6002,6 @@
             "number": 2538,
             "author": "rh-jfuller",
             "engaged_at": "2026-07-24T08:51:59Z"
-          },
-          {
-            "title": "fix(sec): brace-expansion and setuptools",
-            "url": "https://github.com/guacsec/trustify/pull/2537",
-            "repo": "guacsec/trustify",
-            "number": 2537,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-07-24T06:42:21Z"
           }
         ]
       },
@@ -7213,8 +7169,16 @@
       },
       {
         "login": "tmihalac",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "fix: subclass Embeddings in _LoggingEmbeddingProxy (TC-6789)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/423",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 423,
+            "author": "TamarW0",
+            "engaged_at": "2026-10-22T05:24:15Z"
+          },
           {
             "title": "feat: add version endpoint RBAC to kustomize base (TC-5943)",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/420",
@@ -8816,19 +8780,19 @@
         "reviews": 4,
         "prs": [
           {
-            "title": "chore: upgrade to unreleased csaf-walker 0.20.0",
-            "url": "https://github.com/guacsec/trustify/pull/2760",
-            "repo": "guacsec/trustify",
-            "number": 2760,
-            "author": "ctron",
-            "engaged_at": "2026-10-14T09:31:10Z"
-          },
-          {
             "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
             "url": "https://github.com/guacsec/trustify/pull/2684",
             "repo": "guacsec/trustify",
             "number": 2684,
             "author": "rhredhat",
+            "engaged_at": "2026-10-14T09:31:10Z"
+          },
+          {
+            "title": "chore: upgrade to unreleased csaf-walker 0.20.0",
+            "url": "https://github.com/guacsec/trustify/pull/2760",
+            "repo": "guacsec/trustify",
+            "number": 2760,
+            "author": "ctron",
             "engaged_at": "2026-10-14T09:31:10Z"
           },
           {
