@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:16:42.487834885Z",
+  "generated_at": "2026-10-22T21:49:00.412345276Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1310,10 +1310,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-10-19T11:39:04Z",
-      "updated_at": "2026-10-22T05:24:15Z",
+      "updated_at": "2026-10-22T18:39:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 1,
@@ -2724,7 +2724,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T18:15:48Z",
+    "since": "2026-07-24T21:48:07Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -8957,28 +8957,6 @@
         ]
       },
       {
-        "login": "stanislavsemeniuk",
-        "reviews": 2,
-        "prs": [
-          {
-            "title": "revert(1165): avoid PurgeCSS bug",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1211",
-            "repo": "guacsec/trustify-ui",
-            "number": 1211,
-            "author": "gildub",
-            "engaged_at": "2026-08-18T13:03:06Z"
-          },
-          {
-            "title": "chore(fix): add license details to crate",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1175",
-            "repo": "guacsec/trustify-ui",
-            "number": 1175,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-07-24T21:31:24Z"
-          }
-        ]
-      },
-      {
         "login": "RedTanny",
         "reviews": 1,
         "prs": [
@@ -9059,6 +9037,20 @@
             "number": 2663,
             "author": "ctron",
             "engaged_at": "2026-10-01T08:34:11Z"
+          }
+        ]
+      },
+      {
+        "login": "stanislavsemeniuk",
+        "reviews": 1,
+        "prs": [
+          {
+            "title": "revert(1165): avoid PurgeCSS bug",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1211",
+            "repo": "guacsec/trustify-ui",
+            "number": 1211,
+            "author": "gildub",
+            "engaged_at": "2026-08-18T13:03:06Z"
           }
         ]
       },
