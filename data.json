@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:49:46.782241876Z",
+  "generated_at": "2026-10-22T02:31:34.328745248Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -101,16 +101,16 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.43.0 to 0.47.1",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/342",
-      "number": 342,
+      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.43.0 to 0.48.1",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/350",
+      "number": 350,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-10-15T00:44:23Z",
-      "updated_at": "2026-10-15T00:44:28Z",
+      "created_at": "2026-10-22T00:43:38Z",
+      "updated_at": "2026-10-22T00:43:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2108,6 +2108,50 @@
       "labels": []
     },
     {
+      "title": "Improve related image digest script",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/277",
+      "number": 277,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "xinredhat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
+      },
+      "created_at": "2026-10-22T02:03:58Z",
+      "updated_at": "2026-10-22T02:03:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Improve related image digest script",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/278",
+      "number": 278,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "xinredhat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
+      },
+      "created_at": "2026-10-22T02:04:02Z",
+      "updated_at": "2026-10-22T02:04:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "feat(fbc): onboard OpenShift 5.0 catalog fragment and pipelines",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/39",
       "number": 39,
@@ -2273,31 +2317,6 @@
       "labels": []
     },
     {
-      "title": "Bump vitest from 4.1.9 to 5.0.3",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/30",
-      "number": 30,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-08T00:15:39Z",
-      "updated_at": "2026-10-08T00:15:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `254080e`",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/31",
       "number": 31,
@@ -2333,31 +2352,6 @@
       },
       "created_at": "2026-10-15T00:14:18Z",
       "updated_at": "2026-10-15T00:14:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
-      "title": "Bump zod from 3.25.76 to 4.6.6",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/33",
-      "number": 33,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T00:14:25Z",
-      "updated_at": "2026-10-15T00:14:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2443,6 +2437,56 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Bump vitest from 4.1.9 to 5.0.5",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/37",
+      "number": 37,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T00:14:20Z",
+      "updated_at": "2026-10-22T00:14:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump zod from 3.25.76 to 4.6.7",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/38",
+      "number": 38,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T00:14:27Z",
+      "updated_at": "2026-10-22T00:14:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
     },
     {
       "title": "Bump docker/login-action from 3 to 4",
@@ -2747,11 +2791,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T23:49:03Z",
+    "since": "2026-07-24T02:30:43Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 170,
+        "reviews": 168,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4096,22 +4140,6 @@
             "number": 590,
             "author": "dependabot",
             "engaged_at": "2026-07-24T09:52:24Z"
-          },
-          {
-            "title": "build(deps): bump pyasn1 from 0.4.8 to 0.6.4 in /src/test/resources/msc/python",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/555",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 555,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T01:09:03Z"
-          },
-          {
-            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.16.0 to 2.18.9 in /test/providers/tst_manifests/maven/pom_with_multiple_modules/module4",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/589",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 589,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T00:57:29Z"
           }
         ]
       },
