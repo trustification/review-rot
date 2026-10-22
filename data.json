@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:08:26.926801089Z",
+  "generated_at": "2026-10-22T13:58:43.887285511Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -523,31 +523,6 @@
       ]
     },
     {
-      "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/679",
-      "number": 679,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-20T06:43:46Z",
-      "updated_at": "2026-10-22T06:48:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/680",
       "number": 680,
@@ -967,17 +942,17 @@
       "labels": []
     },
     {
-      "title": "fix: enable noUncheckedIndexedAccess and fix the 58 resulting errors",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1335",
-      "number": 1335,
+      "title": "Exploit Intelligence API Tests",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1336",
+      "number": 1336,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "helio-frota",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
+        "login": "vobratil",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41943007?v=4"
       },
-      "created_at": "2026-10-21T22:05:45Z",
-      "updated_at": "2026-10-21T22:25:35Z",
-      "is_draft": false,
+      "created_at": "2026-10-22T08:39:09Z",
+      "updated_at": "2026-10-22T08:42:26Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
@@ -1091,7 +1066,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-09-22T18:26:10Z",
-      "updated_at": "2026-10-21T14:16:28Z",
+      "updated_at": "2026-10-22T09:47:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1216,19 +1191,19 @@
       "labels": []
     },
     {
-      "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
-      "url": "https://github.com/guacsec/trustify/pull/2782",
-      "number": 2782,
+      "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
+      "url": "https://github.com/guacsec/trustify/pull/2783",
+      "number": 2783,
       "repo": "guacsec/trustify",
       "author": {
         "login": "ctron",
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
-      "created_at": "2026-10-21T13:48:45Z",
-      "updated_at": "2026-10-21T14:20:43Z",
+      "created_at": "2026-10-22T09:35:04Z",
+      "updated_at": "2026-10-22T13:43:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1320,53 +1295,6 @@
       "size": null,
       "reviews": {
         "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump aiohttp from 3.14.3 to 3.14.4",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/424",
-      "number": 424,
-      "repo": "RHEcosystemAppEng/exploit-iq-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-20T10:58:52Z",
-      "updated_at": "2026-10-20T10:58:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python:uv"
-      ]
-    },
-    {
-      "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/425",
-      "number": 425,
-      "repo": "RHEcosystemAppEng/exploit-iq-agent",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-10-21T11:00:19Z",
-      "updated_at": "2026-10-21T16:48:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1498,7 +1426,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-09-24T12:45:36Z",
-      "updated_at": "2026-10-06T08:45:44Z",
+      "updated_at": "2026-10-22T11:28:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1724,7 +1652,7 @@
       ]
     },
     {
-      "title": "chore(deps-dev): bump eslint from 9.39.5 to 10.12.0 in /src/main/webui",
+      "title": "chore(deps-dev): bump eslint from 9.39.5 to 10.13.0 in /src/main/webui",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/364",
       "number": 364,
       "repo": "RHEcosystemAppEng/exploit-iq-client",
@@ -1733,7 +1661,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T16:18:02Z",
-      "updated_at": "2026-10-13T16:18:08Z",
+      "updated_at": "2026-10-22T11:28:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1749,7 +1677,7 @@
       ]
     },
     {
-      "title": "chore(deps-dev): bump vitest from 3.2.7 to 5.0.3 in /src/main/webui",
+      "title": "chore(deps-dev): bump vitest from 3.2.7 to 5.0.5 in /src/main/webui",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/365",
       "number": 365,
       "repo": "RHEcosystemAppEng/exploit-iq-client",
@@ -1758,7 +1686,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T16:18:16Z",
-      "updated_at": "2026-10-13T16:18:22Z",
+      "updated_at": "2026-10-22T11:28:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1883,7 +1811,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T16:19:02Z",
-      "updated_at": "2026-10-13T16:19:09Z",
+      "updated_at": "2026-10-22T11:29:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1922,28 +1850,6 @@
         "dependencies",
         "java"
       ]
-    },
-    {
-      "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/374",
-      "number": 374,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-10-21T10:02:20Z",
-      "updated_at": "2026-10-21T16:35:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "chore(deps): bump python from 3.9-slim to 3.14-slim",
@@ -2064,16 +1970,16 @@
       ]
     },
     {
-      "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/274",
-      "number": 274,
+      "title": "fix: populate OperatorHub metadata (TC-6952)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/279",
+      "number": 279,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+        "login": "xinredhat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
       },
-      "created_at": "2026-10-21T16:33:31Z",
-      "updated_at": "2026-10-21T16:33:31Z",
+      "created_at": "2026-10-22T07:22:26Z",
+      "updated_at": "2026-10-22T08:53:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2086,18 +1992,18 @@
       "labels": []
     },
     {
-      "title": "fix: populate OperatorHub metadata (TC-6952)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/279",
-      "number": 279,
+      "title": "chore(deps): update operator-3-2-0 to 31797d4",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/283",
+      "number": 283,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
-      "created_at": "2026-10-22T07:22:26Z",
-      "updated_at": "2026-10-22T07:40:50Z",
+      "created_at": "2026-10-22T13:06:05Z",
+      "updated_at": "2026-10-22T13:06:24Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
@@ -2105,7 +2011,9 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "konflux-nudge"
+      ]
     },
     {
       "title": "feat(fbc): onboard OpenShift 5.0 catalog fragment and pipelines",
@@ -2747,11 +2655,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T08:07:29Z",
+    "since": "2026-07-24T13:57:42Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 168,
+        "reviews": 165,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4072,30 +3980,6 @@
             "number": 558,
             "author": "dependabot",
             "engaged_at": "2026-07-25T07:55:59Z"
-          },
-          {
-            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-databind from 2.22.0 to 2.22.1",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/557",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 557,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T10:29:41Z"
-          },
-          {
-            "title": "build(deps): bump com.fasterxml.jackson.core:jackson-core from 2.22.0 to 2.22.1",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/556",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 556,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T10:16:15Z"
-          },
-          {
-            "title": "build(deps): bump fast-xml-parser from 5.9.3 to 5.10.1",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/590",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 590,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T09:52:24Z"
           }
         ]
       },
@@ -4103,6 +3987,14 @@
         "login": "rh-jfuller",
         "reviews": 106,
         "prs": [
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T11:56:46Z"
+          },
           {
             "title": "chore(deps): upgrade utoipa to version 6",
             "url": "https://github.com/guacsec/trustify/pull/2775",
@@ -4942,14 +4834,6 @@
             "number": 2536,
             "author": "ctron",
             "engaged_at": "2026-07-27T08:01:55Z"
-          },
-          {
-            "title": "chore: update GitHub Actions to Node.js 24 compatible versions",
-            "url": "https://github.com/guacsec/trustify/pull/2539",
-            "repo": "guacsec/trustify",
-            "number": 2539,
-            "author": "ctron",
-            "engaged_at": "2026-07-24T09:09:35Z"
           }
         ]
       },
@@ -5505,7 +5389,7 @@
       },
       {
         "login": "ctron",
-        "reviews": 62,
+        "reviews": 60,
         "prs": [
           {
             "title": "(WIP) feat(validators): persist validation reports and make queryable",
@@ -5986,22 +5870,6 @@
             "number": 2517,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-07-27T09:35:55Z"
-          },
-          {
-            "title": "chore(fix): add license details to crate",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1175",
-            "repo": "guacsec/trustify-ui",
-            "number": 1175,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-07-24T08:52:16Z"
-          },
-          {
-            "title": "ci: add grype and cargo-deny ci jobs for security scanning",
-            "url": "https://github.com/guacsec/trustify/pull/2538",
-            "repo": "guacsec/trustify",
-            "number": 2538,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-07-24T08:51:59Z"
           }
         ]
       },
@@ -6445,8 +6313,16 @@
       },
       {
         "login": "Strum355",
-        "reviews": 48,
+        "reviews": 49,
         "prs": [
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/679",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 679,
+            "author": "dependabot",
+            "engaged_at": "2026-10-22T10:58:48Z"
+          },
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/680",
@@ -7995,8 +7871,32 @@
       },
       {
         "login": "TamarW0",
-        "reviews": 19,
+        "reviews": 22,
         "prs": [
+          {
+            "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/274",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 274,
+            "author": "tmihalac",
+            "engaged_at": "2026-10-22T10:47:54Z"
+          },
+          {
+            "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/374",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 374,
+            "author": "tmihalac",
+            "engaged_at": "2026-10-22T10:47:18Z"
+          },
+          {
+            "title": "feature: Improvement - WebApp GraalVM native image does not trust public CA certificates for OIDC/OAuth endpoints",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/425",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 425,
+            "author": "tmihalac",
+            "engaged_at": "2026-10-22T10:43:55Z"
+          },
           {
             "title": "fix: EI version display with operator install",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/270",
@@ -8271,8 +8171,16 @@
       },
       {
         "login": "helio-frota",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T11:57:50Z"
+          },
           {
             "title": "fix(CI): write permissions for packages",
             "url": "https://github.com/guacsec/trustify-ui/pull/1285",
@@ -8459,7 +8367,7 @@
       },
       {
         "login": "carlosthe19916",
-        "reviews": 9,
+        "reviews": 8,
         "prs": [
           {
             "title": "revert(1165): avoid PurgeCSS bug",
@@ -8524,14 +8432,6 @@
             "number": 1181,
             "author": "ruromero",
             "engaged_at": "2026-07-29T08:14:04Z"
-          },
-          {
-            "title": "fix(server): upgrade http-proxy-middleware to 3.0.7 (CVE-2026-55603)",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1177",
-            "repo": "guacsec/trustify-ui",
-            "number": 1177,
-            "author": "ruromero",
-            "engaged_at": "2026-07-24T08:27:23Z"
           }
         ]
       },
@@ -8815,8 +8715,16 @@
       },
       {
         "login": "desmax74",
-        "reviews": 3,
+        "reviews": 4,
         "prs": [
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T12:02:51Z"
+          },
           {
             "title": "fix: decode encoded PURLs",
             "url": "https://github.com/guacsec/trustify-ui/pull/1190",
