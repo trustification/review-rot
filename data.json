@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:16:26.384333786Z",
+  "generated_at": "2026-10-23T05:07:42.585875276Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1222,13 +1222,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
       },
       "created_at": "2026-10-22T16:14:37Z",
-      "updated_at": "2026-10-22T17:12:24Z",
+      "updated_at": "2026-10-23T04:22:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2702,7 +2702,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T00:15:37Z",
+    "since": "2026-07-25T05:06:56Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4032,8 +4032,16 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 106,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "fix(perf): sort Locust dashboard runs by full timestamp",
+            "url": "https://github.com/guacsec/trustify/pull/2784",
+            "repo": "guacsec/trustify",
+            "number": 2784,
+            "author": "mrizzi",
+            "engaged_at": "2026-10-23T04:22:25Z"
+          },
           {
             "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
             "url": "https://github.com/guacsec/trustify/pull/2782",
