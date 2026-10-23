@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:24:17.985681723Z",
+  "generated_at": "2026-10-23T22:27:41.40072547Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1054,50 +1054,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump vite from 8.3.1 to 8.3.5 [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1353",
-      "number": 1353,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-10-23T17:37:33Z",
-      "updated_at": "2026-10-23T17:41:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump follow-redirects from 1.16.0 to 1.16.1 [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1354",
-      "number": 1354,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-10-23T17:38:34Z",
-      "updated_at": "2026-10-23T17:42:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(openapi): [main] update client/openapi/trustd.yaml [Backport release/0.7.z]",
       "url": "https://github.com/guacsec/trustify-ui/pull/1355",
       "number": 1355,
@@ -1117,6 +1073,28 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): toHaveText to enforce exact matches",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1356",
+      "number": 1356,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-23T20:31:42Z",
+      "updated_at": "2026-10-23T20:46:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1334,10 +1312,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-10-23T17:27:01Z",
-      "updated_at": "2026-10-23T17:37:46Z",
+      "updated_at": "2026-10-23T20:06:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2790,7 +2768,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T19:23:24Z",
+    "since": "2026-07-25T22:26:45Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
