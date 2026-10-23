@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:19:11.648251294Z",
+  "generated_at": "2026-10-23T15:17:06.080108608Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -124,6 +124,72 @@
         "dependencies",
         "github_actions"
       ]
+    },
+    {
+      "title": "feat(setup): capture verified security image identity",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
+      "number": 351,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-10-23T10:38:48Z",
+      "updated_at": "2026-10-23T14:14:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: add Codex plugin support",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/352",
+      "number": 352,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "ptomanRH",
+        "avatar_url": "https://avatars.githubusercontent.com/u/193603976?u=46fde1183f07f456b4b0a75f5c5351cd63fd8212\u0026v=4"
+      },
+      "created_at": "2026-10-23T11:01:15Z",
+      "updated_at": "2026-10-23T12:49:33Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(fullsend): use the built-in vertex-ai provider and run native evals on v0.47.1",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/353",
+      "number": 353,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-10-23T11:14:59Z",
+      "updated_at": "2026-10-23T11:17:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -973,16 +1039,62 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-10-23T10:11:28Z",
-      "updated_at": "2026-10-23T10:15:08Z",
+      "updated_at": "2026-10-23T11:32:42Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "feat(crypto): add remediation mapping import UI",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1344",
+      "number": 1344,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-23T13:55:00Z",
+      "updated_at": "2026-10-23T14:54:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
+    },
+    {
+      "title": "fix(e2e): update CVE-2020-13936 advisory type expect. from cve to csaf",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1345",
+      "number": 1345,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-23T15:09:33Z",
+      "updated_at": "2026-10-23T15:13:56Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1088,7 +1200,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-09-22T18:26:10Z",
-      "updated_at": "2026-10-23T09:57:28Z",
+      "updated_at": "2026-10-23T12:44:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1154,7 +1266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T15:15:48Z",
-      "updated_at": "2026-10-23T06:40:51Z",
+      "updated_at": "2026-10-23T14:04:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1191,50 +1303,6 @@
       "labels": []
     },
     {
-      "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
-      "url": "https://github.com/guacsec/trustify/pull/2783",
-      "number": 2783,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-10-22T09:35:04Z",
-      "updated_at": "2026-10-23T10:16:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
-      "title": "fix(perf): sort Locust dashboard runs by full timestamp",
-      "url": "https://github.com/guacsec/trustify/pull/2784",
-      "number": 2784,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-10-22T16:14:37Z",
-      "updated_at": "2026-10-23T04:22:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "docs(presentation): add openssl 2026 conf presentation",
       "url": "https://github.com/guacsec/trustify/pull/2786",
       "number": 2786,
@@ -1244,54 +1312,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-10-23T08:55:11Z",
-      "updated_at": "2026-10-23T08:55:24Z",
+      "updated_at": "2026-10-23T11:30:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(deps): update tokio and ctutils to resolve security advisories",
-      "url": "https://github.com/guacsec/trustify/pull/2787",
-      "number": 2787,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-10-23T09:10:53Z",
-      "updated_at": "2026-10-23T10:18:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "ci: Make supply-chain audits advisory for PRs and mandatory for releases",
-      "url": "https://github.com/guacsec/trustify/pull/2788",
-      "number": 2788,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-10-23T09:30:19Z",
-      "updated_at": "2026-10-23T10:16:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2744,11 +2768,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T10:18:16Z",
+    "since": "2026-07-25T15:16:01Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 164,
+        "reviews": 163,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4053,14 +4077,6 @@
             "number": 560,
             "author": "dependabot",
             "engaged_at": "2026-07-26T07:27:20Z"
-          },
-          {
-            "title": "build(deps): bump axios from 0.19.2 to 0.33.0 in /src/test/resources/tst_manifests/it/npm",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/559",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 559,
-            "author": "dependabot",
-            "engaged_at": "2026-07-25T10:48:13Z"
           }
         ]
       },
@@ -6816,8 +6832,16 @@
       },
       {
         "login": "gildub",
-        "reviews": 41,
+        "reviews": 42,
         "prs": [
+          {
+            "title": "chore(deps): upgrade utoipa to version 6",
+            "url": "https://github.com/guacsec/trustify/pull/2775",
+            "repo": "guacsec/trustify",
+            "number": 2775,
+            "author": "ctron",
+            "engaged_at": "2026-10-23T13:45:49Z"
+          },
           {
             "title": "build: update from nodejs 22 to nodejs 24",
             "url": "https://github.com/guacsec/trustify-ui/pull/1333",
