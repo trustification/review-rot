@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:17:06.080108608Z",
+  "generated_at": "2026-10-23T19:24:17.985681723Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -161,28 +161,6 @@
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(fullsend): use the built-in vertex-ai provider and run native evals on v0.47.1",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/353",
-      "number": 353,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-10-23T11:14:59Z",
-      "updated_at": "2026-10-23T11:17:17Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1030,16 +1008,40 @@
       "labels": []
     },
     {
-      "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1343",
-      "number": 1343,
+      "title": "feat(crypto): add remediation mapping import UI",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1344",
+      "number": 1344,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-10-23T13:55:00Z",
+      "updated_at": "2026-10-23T17:41:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
+    },
+    {
+      "title": "chore(deps): address high severity vulnerabilities [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1352",
+      "number": 1352,
       "repo": "guacsec/trustify-ui",
       "author": {
         "login": "trustify-ci-bot",
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-10-23T10:11:28Z",
-      "updated_at": "2026-10-23T11:32:42Z",
+      "created_at": "2026-10-23T17:28:57Z",
+      "updated_at": "2026-10-23T17:32:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1052,43 +1054,63 @@
       "labels": []
     },
     {
-      "title": "feat(crypto): add remediation mapping import UI",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1344",
-      "number": 1344,
+      "title": "chore(deps): bump vite from 8.3.1 to 8.3.5 [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1353",
+      "number": 1353,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-10-23T13:55:00Z",
-      "updated_at": "2026-10-23T14:54:52Z",
+      "created_at": "2026-10-23T17:37:33Z",
+      "updated_at": "2026-10-23T17:41:00Z",
       "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
+      "labels": []
     },
     {
-      "title": "fix(e2e): update CVE-2020-13936 advisory type expect. from cve to csaf",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1345",
-      "number": 1345,
+      "title": "chore(deps): bump follow-redirects from 1.16.0 to 1.16.1 [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1354",
+      "number": 1354,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-10-23T15:09:33Z",
-      "updated_at": "2026-10-23T15:13:56Z",
+      "created_at": "2026-10-23T17:38:34Z",
+      "updated_at": "2026-10-23T17:42:30Z",
       "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(openapi): [main] update client/openapi/trustd.yaml [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1355",
+      "number": 1355,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-10-23T17:39:41Z",
+      "updated_at": "2026-10-23T17:43:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1303,19 +1325,19 @@
       "labels": []
     },
     {
-      "title": "docs(presentation): add openssl 2026 conf presentation",
-      "url": "https://github.com/guacsec/trustify/pull/2786",
-      "number": 2786,
+      "title": "perf: a few performance enhancements",
+      "url": "https://github.com/guacsec/trustify/pull/2791",
+      "number": 2791,
       "repo": "guacsec/trustify",
       "author": {
         "login": "rh-jfuller",
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
-      "created_at": "2026-10-23T08:55:11Z",
-      "updated_at": "2026-10-23T11:30:55Z",
+      "created_at": "2026-10-23T17:27:01Z",
+      "updated_at": "2026-10-23T17:37:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2768,7 +2790,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T15:16:01Z",
+    "since": "2026-07-25T19:23:24Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -6832,8 +6854,48 @@
       },
       {
         "login": "gildub",
-        "reviews": 42,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1331",
+            "repo": "guacsec/trustify-ui",
+            "number": 1331,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-10-23T17:39:18Z"
+          },
+          {
+            "title": "chore(deps): bump follow-redirects from 1.16.0 to 1.16.1",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1330",
+            "repo": "guacsec/trustify-ui",
+            "number": 1330,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T17:38:14Z"
+          },
+          {
+            "title": "chore(deps): bump vite from 8.3.1 to 8.3.5",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1329",
+            "repo": "guacsec/trustify-ui",
+            "number": 1329,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T17:37:07Z"
+          },
+          {
+            "title": "fix(e2e): update advisory type expectation from cve to csaf [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1346",
+            "repo": "guacsec/trustify-ui",
+            "number": 1346,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-10-23T16:22:17Z"
+          },
+          {
+            "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1343",
+            "repo": "guacsec/trustify-ui",
+            "number": 1343,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-10-23T15:33:42Z"
+          },
           {
             "title": "chore(deps): upgrade utoipa to version 6",
             "url": "https://github.com/guacsec/trustify/pull/2775",
