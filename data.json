@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:07:42.585875276Z",
+  "generated_at": "2026-10-23T10:19:11.648251294Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -964,6 +964,28 @@
       "labels": []
     },
     {
+      "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1343",
+      "number": 1343,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-10-23T10:11:28Z",
+      "updated_at": "2026-10-23T10:15:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "[ADR] Policy management",
       "url": "https://github.com/guacsec/trustify/pull/2377",
       "number": 2377,
@@ -1066,7 +1088,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-09-22T18:26:10Z",
-      "updated_at": "2026-10-22T09:47:11Z",
+      "updated_at": "2026-10-23T09:57:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1132,7 +1154,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T15:15:48Z",
-      "updated_at": "2026-10-22T14:30:33Z",
+      "updated_at": "2026-10-23T06:40:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1169,28 +1191,6 @@
       "labels": []
     },
     {
-      "title": "feat(crypto): add PQC remediation mapping storage and import API",
-      "url": "https://github.com/guacsec/trustify/pull/2777",
-      "number": 2777,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
-      },
-      "created_at": "2026-10-20T16:16:33Z",
-      "updated_at": "2026-10-22T14:04:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
       "url": "https://github.com/guacsec/trustify/pull/2783",
       "number": 2783,
@@ -1200,16 +1200,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-22T09:35:04Z",
-      "updated_at": "2026-10-22T14:40:05Z",
+      "updated_at": "2026-10-23T10:16:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -1229,6 +1229,72 @@
       "size": null,
       "reviews": {
         "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "docs(presentation): add openssl 2026 conf presentation",
+      "url": "https://github.com/guacsec/trustify/pull/2786",
+      "number": 2786,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
+      },
+      "created_at": "2026-10-23T08:55:11Z",
+      "updated_at": "2026-10-23T08:55:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(deps): update tokio and ctutils to resolve security advisories",
+      "url": "https://github.com/guacsec/trustify/pull/2787",
+      "number": 2787,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
+      },
+      "created_at": "2026-10-23T09:10:53Z",
+      "updated_at": "2026-10-23T10:18:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "ci: Make supply-chain audits advisory for PRs and mandatory for releases",
+      "url": "https://github.com/guacsec/trustify/pull/2788",
+      "number": 2788,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
+      },
+      "created_at": "2026-10-23T09:30:19Z",
+      "updated_at": "2026-10-23T10:16:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2039,30 +2105,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to 31797d4",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/283",
-      "number": 283,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-22T13:06:05Z",
-      "updated_at": "2026-10-22T13:06:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "konflux-nudge"
-      ]
-    },
-    {
       "title": "feat(fbc): onboard OpenShift 5.0 catalog fragment and pipelines",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/39",
       "number": 39,
@@ -2702,11 +2744,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T05:06:56Z",
+    "since": "2026-07-25T10:18:16Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 165,
+        "reviews": 164,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -4019,21 +4061,21 @@
             "number": 559,
             "author": "dependabot",
             "engaged_at": "2026-07-25T10:48:13Z"
-          },
-          {
-            "title": "build(deps): bump brace-expansion and nodemon in /src/test/resources/tst_manifests/npm/deps_with_ignore",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/558",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 558,
-            "author": "dependabot",
-            "engaged_at": "2026-07-25T07:55:59Z"
           }
         ]
       },
       {
         "login": "rh-jfuller",
-        "reviews": 107,
+        "reviews": 108,
         "prs": [
+          {
+            "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
+            "url": "https://github.com/guacsec/trustify/pull/2783",
+            "repo": "guacsec/trustify",
+            "number": 2783,
+            "author": "ctron",
+            "engaged_at": "2026-10-23T09:06:21Z"
+          },
           {
             "title": "fix(perf): sort Locust dashboard runs by full timestamp",
             "url": "https://github.com/guacsec/trustify/pull/2784",
@@ -5444,8 +5486,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 60,
+        "reviews": 61,
         "prs": [
+          {
+            "title": "fix(deps): update tokio and ctutils to resolve security advisories",
+            "url": "https://github.com/guacsec/trustify/pull/2787",
+            "repo": "guacsec/trustify",
+            "number": 2787,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-10-23T09:15:40Z"
+          },
           {
             "title": "(WIP) feat(validators): persist validation reports and make queryable",
             "url": "https://github.com/guacsec/trustify/pull/2752",
@@ -8108,8 +8158,16 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 14,
+        "reviews": 15,
         "prs": [
+          {
+            "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
+            "url": "https://github.com/guacsec/trustify/pull/2783",
+            "repo": "guacsec/trustify",
+            "number": 2783,
+            "author": "ctron",
+            "engaged_at": "2026-10-23T08:54:53Z"
+          },
           {
             "title": "New preference to enable/disable analysis upon open or save manifest …",
             "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/734",
