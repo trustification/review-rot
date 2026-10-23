@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:49:00.412345276Z",
+  "generated_at": "2026-10-23T00:16:26.384333786Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1295,28 +1295,6 @@
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: subclass Embeddings in _LoggingEmbeddingProxy (TC-6789)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/423",
-      "number": 423,
-      "repo": "RHEcosystemAppEng/exploit-iq-agent",
-      "author": {
-        "login": "TamarW0",
-        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
-      },
-      "created_at": "2026-10-19T11:39:04Z",
-      "updated_at": "2026-10-22T18:39:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2724,7 +2702,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T21:48:07Z",
+    "since": "2026-07-25T00:15:37Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
