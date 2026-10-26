@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:21:47.312264865Z",
+  "generated_at": "2026-10-26T07:59:40.688867588Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -601,7 +601,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
       },
       "created_at": "2026-10-21T10:21:24Z",
-      "updated_at": "2026-10-25T09:02:50Z",
+      "updated_at": "2026-10-26T07:03:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -774,6 +774,31 @@
       },
       "created_at": "2026-10-21T00:43:41Z",
       "updated_at": "2026-10-21T00:55:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump launch-editor from 2.14.1 to 2.14.2 in /ui",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/677",
+      "number": 677,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-26T07:44:52Z",
+      "updated_at": "2026-10-26T07:55:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1033,30 +1058,6 @@
       "labels": []
     },
     {
-      "title": "feat(crypto): add remediation mapping import UI",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1344",
-      "number": 1344,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
-      },
-      "created_at": "2026-10-23T13:55:00Z",
-      "updated_at": "2026-10-24T15:47:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "feat(build): clear prod and dev servers",
       "url": "https://github.com/guacsec/trustify-ui/pull/1377",
       "number": 1377,
@@ -1156,7 +1157,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-09-22T18:26:10Z",
-      "updated_at": "2026-10-23T12:44:07Z",
+      "updated_at": "2026-10-26T07:12:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1299,6 +1300,28 @@
       "size": null,
       "reviews": {
         "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Backport tc 7105",
+      "url": "https://github.com/guacsec/trustify/pull/2797",
+      "number": 2797,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
+      },
+      "created_at": "2026-10-26T07:43:28Z",
+      "updated_at": "2026-10-26T07:46:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2063,7 +2086,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-1-1 to 1a543b7",
+      "title": "chore(deps): update operator-3-1-1 to da80420",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/249",
       "number": 249,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2072,181 +2095,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-10-12T16:07:06Z",
-      "updated_at": "2026-10-17T08:20:30Z",
+      "updated_at": "2026-10-26T04:27:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "konflux-nudge"
-      ]
-    },
-    {
-      "title": "fix: populate OperatorHub metadata (TC-6952)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/279",
-      "number": 279,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-10-22T07:22:26Z",
-      "updated_at": "2026-10-22T08:53:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/286",
-      "number": 286,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:36Z",
-      "updated_at": "2026-10-24T00:02:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/287",
-      "number": 287,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:38Z",
-      "updated_at": "2026-10-24T00:02:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 50f4617",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/288",
-      "number": 288,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:44Z",
-      "updated_at": "2026-10-24T04:03:07Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 50f4617",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/289",
-      "number": 289,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:46Z",
-      "updated_at": "2026-10-24T00:02:47Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 50f4617",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/290",
-      "number": 290,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:48Z",
-      "updated_at": "2026-10-24T00:02:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update operator-3-2-0 to 429f243",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/291",
-      "number": 291,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T04:47:15Z",
-      "updated_at": "2026-10-24T04:47:16Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2311,7 +2163,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-10-24T00:02:38Z",
-      "updated_at": "2026-10-24T00:02:42Z",
+      "updated_at": "2026-10-26T06:02:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2944,12 +2796,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T02:21:00Z",
+    "since": "2026-07-28T07:58:47Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 158,
+        "reviews": 159,
         "prs": [
+          {
+            "title": "build(deps): bump launch-editor from 2.14.1 to 2.14.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/677",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 677,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T07:55:46Z"
+          },
           {
             "title": "build(deps): bump virtualenv from 20.24.5 to 21.14.13 in /src/test/resources/msc/python",
             "url": "https://github.com/guacsec/trustify-da-java-client/pull/618",
@@ -4218,7 +4078,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 106,
+        "reviews": 105,
         "prs": [
           {
             "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
@@ -5059,14 +4919,6 @@
             "number": 2534,
             "author": "Strum355",
             "engaged_at": "2026-07-28T17:38:51Z"
-          },
-          {
-            "title": "chore: address PR review comments from #2536",
-            "url": "https://github.com/guacsec/trustify/pull/2544",
-            "repo": "guacsec/trustify",
-            "number": 2544,
-            "author": "ctron",
-            "engaged_at": "2026-07-28T07:30:04Z"
           }
         ]
       },
@@ -5606,8 +5458,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 60,
+        "reviews": 61,
         "prs": [
+          {
+            "title": "Backport tc 7105",
+            "url": "https://github.com/guacsec/trustify/pull/2797",
+            "repo": "guacsec/trustify",
+            "number": 2797,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-10-26T07:46:26Z"
+          },
           {
             "title": "fix(deps): update tokio and ctutils to resolve security advisories",
             "url": "https://github.com/guacsec/trustify/pull/2787",
@@ -8349,6 +8209,140 @@
         ]
       },
       {
+        "login": "xinredhat",
+        "reviews": 16,
+        "prs": [
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/45",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+            "number": 45,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T06:02:42Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/286",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 286,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T03:45:17Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/287",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 287,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T03:45:05Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 5d3a21b",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/289",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 289,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T03:44:48Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 5d3a21b",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/290",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 290,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T03:44:40Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 50f4617",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/288",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 288,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-26T03:43:28Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/244",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 244,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-10T02:20:21Z"
+          },
+          {
+            "title": "chore(deps): update operator-3-1-1 to a2f9ad0",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/239",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 239,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-09T00:10:00Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/35",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+            "number": 35,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-10-06T00:38:16Z"
+          },
+          {
+            "title": "chore: Migrate base images to UBI 10 / RHEL 10",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/194",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 194,
+            "author": "tmihalac",
+            "engaged_at": "2026-10-04T23:14:30Z"
+          },
+          {
+            "title": "chore(config): migrate Renovate config",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/123",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 123,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-09-01T05:25:10Z"
+          },
+          {
+            "title": "Made fixes for enabling of running e2e tests",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/101",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 101,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-28T09:39:38Z"
+          },
+          {
+            "title": "Red Hat Konflux kflux-prd-rh02 update operator-bundle",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/102",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 102,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-08-28T09:27:04Z"
+          },
+          {
+            "title": "Red Hat Konflux kflux-prd-rh02 update operator",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/103",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 103,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-08-28T09:26:34Z"
+          },
+          {
+            "title": "test(e2e): add BDD tests for CVSS display and vulnerability detail tabs [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1214",
+            "repo": "guacsec/trustify-ui",
+            "number": 1214,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-08-19T06:42:41Z"
+          },
+          {
+            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
+            "repo": "guacsec/trustify-ui",
+            "number": 1212,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-08-19T03:22:26Z"
+          }
+        ]
+      },
+      {
         "login": "PhilipCattanach",
         "reviews": 14,
         "prs": [
@@ -8577,95 +8571,17 @@
         ]
       },
       {
-        "login": "xinredhat",
-        "reviews": 10,
-        "prs": [
-          {
-            "title": "chore(deps): update konflux references",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/244",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 244,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-10-10T02:20:21Z"
-          },
-          {
-            "title": "chore(deps): update operator-3-1-1 to a2f9ad0",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/239",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 239,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-10-09T00:10:00Z"
-          },
-          {
-            "title": "chore(deps): update konflux references",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/35",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-            "number": 35,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-10-06T00:38:16Z"
-          },
-          {
-            "title": "chore: Migrate base images to UBI 10 / RHEL 10",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/194",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 194,
-            "author": "tmihalac",
-            "engaged_at": "2026-10-04T23:14:30Z"
-          },
-          {
-            "title": "chore(config): migrate Renovate config",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/123",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 123,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-09-01T05:25:10Z"
-          },
-          {
-            "title": "Made fixes for enabling of running e2e tests",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/101",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 101,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-28T09:39:38Z"
-          },
-          {
-            "title": "Red Hat Konflux kflux-prd-rh02 update operator-bundle",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/102",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 102,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-08-28T09:27:04Z"
-          },
-          {
-            "title": "Red Hat Konflux kflux-prd-rh02 update operator",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/103",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 103,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-08-28T09:26:34Z"
-          },
-          {
-            "title": "test(e2e): add BDD tests for CVSS display and vulnerability detail tabs [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1214",
-            "repo": "guacsec/trustify-ui",
-            "number": 1214,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-19T06:42:41Z"
-          },
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
-            "repo": "guacsec/trustify-ui",
-            "number": 1212,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-19T03:22:26Z"
-          }
-        ]
-      },
-      {
         "login": "carlosthe19916",
-        "reviews": 8,
+        "reviews": 9,
         "prs": [
+          {
+            "title": "feat(crypto): add remediation mapping import UI",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1344",
+            "repo": "guacsec/trustify-ui",
+            "number": 1344,
+            "author": "gildub",
+            "engaged_at": "2026-10-26T07:42:36Z"
+          },
           {
             "title": "revert(1165): avoid PurgeCSS bug",
             "url": "https://github.com/guacsec/trustify-ui/pull/1209",
