@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:13:07.137616326Z",
+  "generated_at": "2026-10-27T23:54:06.510047136Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -2963,7 +2963,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T20:12:09Z",
+    "since": "2026-07-29T23:53:16Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
