@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:59:02.012270158Z",
+  "generated_at": "2026-10-27T03:43:16.080185813Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -3058,11 +3058,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T23:58:10Z",
+    "since": "2026-07-29T03:42:27Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 160,
+        "reviews": 159,
         "prs": [
           {
             "title": "build(deps): bump fast-uri from 3.1.8 to 3.1.9 in /ui",
@@ -4335,14 +4335,6 @@
             "number": 597,
             "author": "ruromero",
             "engaged_at": "2026-07-29T08:58:08Z"
-          },
-          {
-            "title": "build(deps): bump mongoose from 5.13.23 to 6.13.10 in /src/test/resources/tst_manifests/pnpm/deps_with_ignore",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/568",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 568,
-            "author": "dependabot",
-            "engaged_at": "2026-07-29T02:21:16Z"
           }
         ]
       },
