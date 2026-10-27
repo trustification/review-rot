@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:30:50.20198311Z",
+  "generated_at": "2026-10-27T20:13:07.137616326Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -101,7 +101,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.43.0 to 0.48.1",
+      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 9f188578f0d8c94169287594b0c79cd4c4eeaa91 to a2f138beeb21bd21fea70cdfb69e7c937c5c4dd6",
       "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/350",
       "number": 350,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
@@ -110,7 +110,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-22T00:43:38Z",
-      "updated_at": "2026-10-22T00:43:43Z",
+      "updated_at": "2026-10-27T18:32:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -123,6 +123,30 @@
       "labels": [
         "dependencies",
         "github_actions"
+      ]
+    },
+    {
+      "title": "Improve plan-feature shared-artifact coverage",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/359",
+      "number": 359,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-10-27T17:13:44Z",
+      "updated_at": "2026-10-27T18:55:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
       ]
     },
     {
@@ -916,7 +940,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-08-24T13:18:51Z",
-      "updated_at": "2026-10-27T14:04:34Z",
+      "updated_at": "2026-10-27T16:50:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -925,7 +949,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1180,16 +1204,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T15:15:48Z",
-      "updated_at": "2026-10-27T13:28:40Z",
+      "updated_at": "2026-10-27T16:35:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 0,
       "labels": [
         "backport release/0.7.z"
       ]
@@ -1261,7 +1285,7 @@
       "labels": []
     },
     {
-      "title": "test(ui): add end-to-end browser tests for local and CI",
+      "title": "feat(ui): embed Trustify Console and add browser end-to-end tests",
       "url": "https://github.com/guacsec/trustify/pull/2814",
       "number": 2814,
       "repo": "guacsec/trustify",
@@ -1270,29 +1294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-27T13:05:20Z",
-      "updated_at": "2026-10-27T14:26:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(ui): make embedded UIs independently selectable",
-      "url": "https://github.com/guacsec/trustify/pull/2815",
-      "number": 2815,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-10-27T13:14:46Z",
-      "updated_at": "2026-10-27T13:49:07Z",
+      "updated_at": "2026-10-27T16:00:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1301,7 +1303,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -2961,7 +2963,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T15:29:42Z",
+    "since": "2026-07-29T20:12:09Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -6993,7 +6995,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 44,
+        "reviews": 43,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -7338,14 +7340,6 @@
             "number": 320,
             "author": "TamarW0",
             "engaged_at": "2026-07-30T10:23:23Z"
-          },
-          {
-            "title": "document supported llm families; added example configs for guidance",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/319",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 319,
-            "author": "heatherzh01",
-            "engaged_at": "2026-07-29T16:47:00Z"
           }
         ]
       },
@@ -8469,7 +8463,7 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
@@ -8574,20 +8568,12 @@
             "number": 2561,
             "author": "rh-jfuller",
             "engaged_at": "2026-08-02T10:52:12Z"
-          },
-          {
-            "title": "fix(purl): remove VersionMatches from product_status query",
-            "url": "https://github.com/guacsec/trustify/pull/2547",
-            "repo": "guacsec/trustify",
-            "number": 2547,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T16:32:26Z"
           }
         ]
       },
       {
         "login": "helio-frota",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "fix(docs): update CONVENTIONS.md server references to dev-server",
@@ -8692,14 +8678,6 @@
             "number": 1207,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-13T17:29:39Z"
-          },
-          {
-            "title": "fix(purl): remove VersionMatches from product_status query",
-            "url": "https://github.com/guacsec/trustify/pull/2547",
-            "repo": "guacsec/trustify",
-            "number": 2547,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T17:19:56Z"
           }
         ]
       },
