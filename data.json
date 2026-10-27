@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:43:16.080185813Z",
+  "generated_at": "2026-10-27T09:28:28.546994437Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -167,6 +167,30 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "fix(ci): bind eval merge source to the live main tip",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/358",
+      "number": 358,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-10-27T08:48:53Z",
+      "updated_at": "2026-10-27T09:09:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
       "labels": [
         "ok-to-test"
       ]
@@ -850,16 +874,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
       },
       "created_at": "2026-03-01T12:38:58Z",
-      "updated_at": "2026-10-14T07:22:46Z",
+      "updated_at": "2026-10-27T08:18:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -1307,48 +1331,66 @@
       "labels": []
     },
     {
-      "title": "build(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /ui",
-      "url": "https://github.com/guacsec/trustify/pull/2804",
-      "number": 2804,
+      "title": "perf(correlation): performance enhancements for new correlation module",
+      "url": "https://github.com/guacsec/trustify/pull/2809",
+      "number": 2809,
       "repo": "guacsec/trustify",
       "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
-      "created_at": "2026-10-26T17:05:52Z",
-      "updated_at": "2026-10-26T23:13:38Z",
+      "created_at": "2026-10-27T05:42:42Z",
+      "updated_at": "2026-10-27T06:56:15Z",
       "is_draft": false,
-      "is_automated": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix(xtask): fail dump generation on ingestion errors",
+      "url": "https://github.com/guacsec/trustify/pull/2810",
+      "number": 2810,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-10-27T08:37:21Z",
+      "updated_at": "2026-10-27T09:01:55Z",
+      "is_draft": false,
+      "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "backport release/0.7.z"
-      ]
+      "unresolved_conversations": 4,
+      "labels": []
     },
     {
-      "title": "fix(crypto): address concurrent update datetime and affected count [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2808",
-      "number": 2808,
+      "title": "feat(correlation): paginate SBOM correlation results",
+      "url": "https://github.com/guacsec/trustify/pull/2811",
+      "number": 2811,
       "repo": "guacsec/trustify",
       "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
-      "created_at": "2026-10-26T21:50:14Z",
-      "updated_at": "2026-10-26T23:12:50Z",
+      "created_at": "2026-10-27T09:26:47Z",
+      "updated_at": "2026-10-27T09:27:08Z",
       "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
+      "is_automated": false,
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2372,75 +2414,6 @@
       "labels": []
     },
     {
-      "title": "feat(fbc): onboard OpenShift 5.0 catalog fragment and pipelines",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/39",
-      "number": 39,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-10-07T00:56:24Z",
-      "updated_at": "2026-10-07T00:56:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/45",
-      "number": 45,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-24T00:02:38Z",
-      "updated_at": "2026-10-26T06:02:42Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "fix: add EI 3.2.0 pre-release installation mirrors",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/47",
-      "number": 47,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-10-26T13:09:52Z",
-      "updated_at": "2026-10-26T13:09:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": null,
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/10",
       "number": 10,
@@ -3058,11 +3031,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T03:42:27Z",
+    "since": "2026-07-29T09:27:33Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 159,
+        "reviews": 156,
         "prs": [
           {
             "title": "build(deps): bump fast-uri from 3.1.8 to 3.1.9 in /ui",
@@ -4311,37 +4284,21 @@
             "number": 923,
             "author": "a-oren",
             "engaged_at": "2026-07-29T11:12:33Z"
-          },
-          {
-            "title": "feat(analysis): add provider and source filtering to analysis requests",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/595",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 595,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T08:58:12Z"
-          },
-          {
-            "title": "feat(updaters): add Maven pom.xml updater with property indirection",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/596",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 596,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T08:58:10Z"
-          },
-          {
-            "title": "feat(updaters): add Gradle version catalog TOML updater",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/597",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 597,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T08:58:08Z"
           }
         ]
       },
       {
         "login": "rh-jfuller",
-        "reviews": 105,
+        "reviews": 106,
         "prs": [
+          {
+            "title": "fix(xtask): fail dump generation on ingestion errors",
+            "url": "https://github.com/guacsec/trustify/pull/2810",
+            "repo": "guacsec/trustify",
+            "number": 2810,
+            "author": "ctron",
+            "engaged_at": "2026-10-27T09:01:55Z"
+          },
           {
             "title": "feat(correlation): evidence-based correlation engine",
             "url": "https://github.com/guacsec/trustify/pull/2693",
@@ -6246,7 +6203,7 @@
       },
       {
         "login": "ctron",
-        "reviews": 63,
+        "reviews": 62,
         "prs": [
           {
             "title": "build(deps): bump setuptools from 83.0.0 to 84.1.0 in /tools/perf",
@@ -6743,14 +6700,6 @@
             "number": 2548,
             "author": "mrizzi",
             "engaged_at": "2026-07-29T12:08:49Z"
-          },
-          {
-            "title": "fix(spdx): swap DESCRIBES/DESCRIBED_BY match arms in describing_packages()",
-            "url": "https://github.com/guacsec/trustify/pull/2541",
-            "repo": "guacsec/trustify",
-            "number": 2541,
-            "author": "mrizzi",
-            "engaged_at": "2026-07-29T09:24:11Z"
           }
         ]
       },
@@ -7146,7 +7095,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 48,
+        "reviews": 47,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -7523,14 +7472,6 @@
             "number": 317,
             "author": "gnetanel",
             "engaged_at": "2026-07-29T09:54:29Z"
-          },
-          {
-            "title": "Appeng 5620",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/316",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 316,
-            "author": "TamarW0",
-            "engaged_at": "2026-07-29T09:22:31Z"
           }
         ]
       },
@@ -8132,7 +8073,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 27,
+        "reviews": 26,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8341,14 +8282,6 @@
             "number": 267,
             "author": "heatherzh01",
             "engaged_at": "2026-07-29T10:05:56Z"
-          },
-          {
-            "title": "fix: restore report owner verification on Keycloak by using SA roles",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/279",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 279,
-            "author": "rhartuv",
-            "engaged_at": "2026-07-29T09:20:34Z"
           }
         ]
       },
@@ -8544,7 +8477,7 @@
             "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
             "number": 45,
             "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-10-26T06:02:42Z"
+            "engaged_at": "2026-10-27T04:48:29Z"
           },
           {
             "title": "chore(deps): update konflux references",
@@ -9008,7 +8941,7 @@
       },
       {
         "login": "carlosthe19916",
-        "reviews": 11,
+        "reviews": 10,
         "prs": [
           {
             "title": "fix(crypto): address more remediation issues",
@@ -9089,14 +9022,6 @@
             "number": 1172,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-07-30T16:02:22Z"
-          },
-          {
-            "title": "fix(deps): update brace-expansion to remediate CVE-2026-13149",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1181",
-            "repo": "guacsec/trustify-ui",
-            "number": 1181,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T08:14:04Z"
           }
         ]
       },
@@ -9180,8 +9105,16 @@
       },
       {
         "login": "mrrajan",
-        "reviews": 8,
+        "reviews": 9,
         "prs": [
+          {
+            "title": "test(e2e): add license export tests for CycloneDX SBOMs",
+            "url": "https://github.com/guacsec/trustify-ui/pull/942",
+            "repo": "guacsec/trustify-ui",
+            "number": 942,
+            "author": "a-oren",
+            "engaged_at": "2026-10-27T08:02:13Z"
+          },
           {
             "title": "chore: ignoring auto-generated files from e2e",
             "url": "https://github.com/guacsec/trustify-ui/pull/1341",
