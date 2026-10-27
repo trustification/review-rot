@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:28:28.546994437Z",
+  "generated_at": "2026-10-27T15:30:50.20198311Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -123,76 +123,6 @@
       "labels": [
         "dependencies",
         "github_actions"
-      ]
-    },
-    {
-      "title": "feat: add Codex plugin support",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/352",
-      "number": 352,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "ptomanRH",
-        "avatar_url": "https://avatars.githubusercontent.com/u/193603976?u=46fde1183f07f456b4b0a75f5c5351cd63fd8212\u0026v=4"
-      },
-      "created_at": "2026-10-23T11:01:15Z",
-      "updated_at": "2026-10-23T12:49:33Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(implement-task): align eval assertions with requirements and fixtures",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
-      "number": 357,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
-      },
-      "created_at": "2026-10-26T22:22:02Z",
-      "updated_at": "2026-10-26T22:48:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "fix(ci): bind eval merge source to the live main tip",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/358",
-      "number": 358,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-10-27T08:48:53Z",
-      "updated_at": "2026-10-27T09:09:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "ok-to-test"
       ]
     },
     {
@@ -865,28 +795,6 @@
       ]
     },
     {
-      "title": "test(e2e): add license export tests for CycloneDX SBOMs",
-      "url": "https://github.com/guacsec/trustify-ui/pull/942",
-      "number": 942,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "a-oren",
-        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
-      },
-      "created_at": "2026-03-01T12:38:58Z",
-      "updated_at": "2026-10-27T08:18:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 4,
-      "labels": []
-    },
-    {
       "title": "test(e2e): Add SBOM and Advisory Upload tests",
       "url": "https://github.com/guacsec/trustify-ui/pull/1005",
       "number": 1005,
@@ -1008,7 +916,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-08-24T13:18:51Z",
-      "updated_at": "2026-10-24T09:17:51Z",
+      "updated_at": "2026-10-27T14:04:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1017,7 +925,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -1052,16 +960,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/45061792?u=a15907ce2f385572eb9fb8f7391182fbb939ad9a\u0026v=4"
       },
       "created_at": "2026-10-20T11:03:57Z",
-      "updated_at": "2026-10-21T22:07:05Z",
+      "updated_at": "2026-10-27T13:04:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 8,
       "labels": []
     },
     {
@@ -1272,10 +1180,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T15:15:48Z",
-      "updated_at": "2026-10-26T17:16:30Z",
+      "updated_at": "2026-10-27T13:28:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1331,50 +1239,6 @@
       "labels": []
     },
     {
-      "title": "perf(correlation): performance enhancements for new correlation module",
-      "url": "https://github.com/guacsec/trustify/pull/2809",
-      "number": 2809,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-10-27T05:42:42Z",
-      "updated_at": "2026-10-27T06:56:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "fix(xtask): fail dump generation on ingestion errors",
-      "url": "https://github.com/guacsec/trustify/pull/2810",
-      "number": 2810,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-10-27T08:37:21Z",
-      "updated_at": "2026-10-27T09:01:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 4,
-      "labels": []
-    },
-    {
       "title": "feat(correlation): paginate SBOM correlation results",
       "url": "https://github.com/guacsec/trustify/pull/2811",
       "number": 2811,
@@ -1384,10 +1248,76 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-27T09:26:47Z",
-      "updated_at": "2026-10-27T09:27:08Z",
+      "updated_at": "2026-10-27T14:44:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 4,
+      "labels": []
+    },
+    {
+      "title": "test(ui): add end-to-end browser tests for local and CI",
+      "url": "https://github.com/guacsec/trustify/pull/2814",
+      "number": 2814,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-10-27T13:05:20Z",
+      "updated_at": "2026-10-27T14:26:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(ui): make embedded UIs independently selectable",
+      "url": "https://github.com/guacsec/trustify/pull/2815",
+      "number": 2815,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-10-27T13:14:46Z",
+      "updated_at": "2026-10-27T13:49:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "fix(correlation): match exact RPM builds when SBOM omits rpmmod (TC-7208)",
+      "url": "https://github.com/guacsec/trustify/pull/2817",
+      "number": 2817,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-10-27T14:22:31Z",
+      "updated_at": "2026-10-27T15:22:01Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3031,11 +2961,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T09:27:33Z",
+    "since": "2026-07-29T15:29:42Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 156,
+        "reviews": 155,
         "prs": [
           {
             "title": "build(deps): bump fast-uri from 3.1.8 to 3.1.9 in /ui",
@@ -4276,14 +4206,6 @@
             "number": 652,
             "author": "dependabot",
             "engaged_at": "2026-07-30T02:03:54Z"
-          },
-          {
-            "title": "feat: surface full remediation UX (fix versions, advisory info, vendor ordering)",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/923",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 923,
-            "author": "a-oren",
-            "engaged_at": "2026-07-29T11:12:33Z"
           }
         ]
       },
@@ -5143,7 +5065,7 @@
       },
       {
         "login": "ruromero",
-        "reviews": 67,
+        "reviews": 66,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -5672,14 +5594,6 @@
             "number": 923,
             "author": "a-oren",
             "engaged_at": "2026-07-30T09:33:16Z"
-          },
-          {
-            "title": "feat: exploit intelligence integration",
-            "url": "https://github.com/guacsec/trustify/pull/2534",
-            "repo": "guacsec/trustify",
-            "number": 2534,
-            "author": "Strum355",
-            "engaged_at": "2026-07-29T13:58:59Z"
           }
         ]
       },
@@ -5687,6 +5601,14 @@
         "login": "gildub",
         "reviews": 64,
         "prs": [
+          {
+            "title": "test(api): add API tests for importers",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1219",
+            "repo": "guacsec/trustify-ui",
+            "number": 1219,
+            "author": "matejnesuta",
+            "engaged_at": "2026-10-27T09:44:48Z"
+          },
           {
             "title": "fix(crypto): address concurrent update datetime and affected count [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify/pull/2808",
@@ -5798,14 +5720,6 @@
             "number": 2782,
             "author": "ctron",
             "engaged_at": "2026-10-24T06:41:06Z"
-          },
-          {
-            "title": "test(api): add API tests for importers",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1219",
-            "repo": "guacsec/trustify-ui",
-            "number": 1219,
-            "author": "matejnesuta",
-            "engaged_at": "2026-10-24T03:52:01Z"
           },
           {
             "title": "fix(e2e): toHaveText to enforce exact matches [Backport release/0.7.z]",
@@ -6203,8 +6117,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 62,
+        "reviews": 60,
         "prs": [
+          {
+            "title": "perf(correlation): performance enhancements for new correlation module",
+            "url": "https://github.com/guacsec/trustify/pull/2809",
+            "repo": "guacsec/trustify",
+            "number": 2809,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-10-27T13:13:21Z"
+          },
           {
             "title": "build(deps): bump setuptools from 83.0.0 to 84.1.0 in /tools/perf",
             "url": "https://github.com/guacsec/trustify/pull/2799",
@@ -6676,30 +6598,6 @@
             "number": 2554,
             "author": "mrizzi",
             "engaged_at": "2026-07-30T13:53:48Z"
-          },
-          {
-            "title": "fix(purl): remove VersionMatches from product_status query",
-            "url": "https://github.com/guacsec/trustify/pull/2547",
-            "repo": "guacsec/trustify",
-            "number": 2547,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T14:51:50Z"
-          },
-          {
-            "title": "feat: exploit intelligence integration",
-            "url": "https://github.com/guacsec/trustify/pull/2534",
-            "repo": "guacsec/trustify",
-            "number": 2534,
-            "author": "Strum355",
-            "engaged_at": "2026-07-29T13:30:27Z"
-          },
-          {
-            "title": "docs: document import nesting convention",
-            "url": "https://github.com/guacsec/trustify/pull/2548",
-            "repo": "guacsec/trustify",
-            "number": 2548,
-            "author": "mrizzi",
-            "engaged_at": "2026-07-29T12:08:49Z"
           }
         ]
       },
@@ -7095,7 +6993,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 47,
+        "reviews": 44,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -7448,30 +7346,6 @@
             "number": 319,
             "author": "heatherzh01",
             "engaged_at": "2026-07-29T16:47:00Z"
-          },
-          {
-            "title": "missed candidate packages for go",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/318",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 318,
-            "author": "RedTanny",
-            "engaged_at": "2026-07-29T12:01:40Z"
-          },
-          {
-            "title": "fix: restore report owner verification on Keycloak by using SA roles",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/279",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 279,
-            "author": "rhartuv",
-            "engaged_at": "2026-07-29T09:59:31Z"
-          },
-          {
-            "title": "APPENG-5696: Prevent FAISS pickle RCE by HMAC-verifying VDB artifacts before load",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/317",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 317,
-            "author": "gnetanel",
-            "engaged_at": "2026-07-29T09:54:29Z"
           }
         ]
       },
@@ -8073,7 +7947,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 26,
+        "reviews": 25,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8274,14 +8148,6 @@
             "number": 318,
             "author": "RedTanny",
             "engaged_at": "2026-07-30T12:38:26Z"
-          },
-          {
-            "title": "Appeng 4536 multi prompt/model factory",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/267",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 267,
-            "author": "heatherzh01",
-            "engaged_at": "2026-07-29T10:05:56Z"
           }
         ]
       },
@@ -9030,6 +8896,14 @@
         "reviews": 9,
         "prs": [
           {
+            "title": "feat(implement-task): align eval assertions with requirements and fixtures",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 357,
+            "author": "ruromero",
+            "engaged_at": "2026-10-27T12:02:41Z"
+          },
+          {
             "title": "feat(setup): capture verified security image identity",
             "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
             "repo": "RHEcosystemAppEng/sdlc-plugins",
@@ -9092,14 +8966,6 @@
             "number": 267,
             "author": "ruromero",
             "engaged_at": "2026-07-31T10:14:27Z"
-          },
-          {
-            "title": "feat(implement-task): add dead parameter detection and sibling pattern override",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/264",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 264,
-            "author": "ruromero",
-            "engaged_at": "2026-07-29T14:11:03Z"
           }
         ]
       },
