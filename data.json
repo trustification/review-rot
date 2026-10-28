@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:54:06.510047136Z",
+  "generated_at": "2026-10-28T03:06:54.337380052Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -2963,11 +2963,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T23:53:16Z",
+    "since": "2026-07-30T03:06:03Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 155,
+        "reviews": 154,
         "prs": [
           {
             "title": "build(deps): bump fast-uri from 3.1.8 to 3.1.9 in /ui",
@@ -4200,14 +4200,6 @@
             "number": 598,
             "author": "dependabot",
             "engaged_at": "2026-07-31T02:32:41Z"
-          },
-          {
-            "title": "build(deps): bump tar from 7.5.16 to 7.5.22 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/652",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 652,
-            "author": "dependabot",
-            "engaged_at": "2026-07-30T02:03:54Z"
           }
         ]
       },
