@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:07:52.966248595Z",
+  "generated_at": "2026-10-29T07:22:26.878938264Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -590,6 +590,31 @@
       },
       "unresolved_conversations": 5,
       "labels": []
+    },
+    {
+      "title": "build(deps-dev): bump esmock from 2.8.0 to 3.0.0 in the npm-dependencies group",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/682",
+      "number": 682,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T06:44:08Z",
+      "updated_at": "2026-10-29T06:44:14Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
     },
     {
       "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
@@ -2628,31 +2653,6 @@
       ]
     },
     {
-      "title": "Update pandas requirement from \u003e=2.0.0 to \u003e=3.0.6",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/32",
-      "number": 32,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-24T14:20:50Z",
-      "updated_at": "2026-09-24T14:20:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Bump pyasn1 from 0.6.3 to 0.6.4",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/33",
       "number": 33,
@@ -2803,31 +2803,6 @@
       ]
     },
     {
-      "title": "Bump zipp from 3.19.1 to 4.1.1",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/42",
-      "number": 42,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-08T05:12:00Z",
-      "updated_at": "2026-10-08T05:12:01Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.1",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/43",
       "number": 43,
@@ -2851,15 +2826,65 @@
         "dependencies",
         "python"
       ]
+    },
+    {
+      "title": "Update pandas requirement from \u003e=2.0.0 to \u003e=3.1.0",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/44",
+      "number": 44,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T05:18:15Z",
+      "updated_at": "2026-10-29T05:18:20Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "title": "Bump zipp from 3.19.1 to 4.1.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/45",
+      "number": 45,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T05:18:21Z",
+      "updated_at": "2026-10-29T05:18:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T01:07:00Z",
+    "since": "2026-07-31T07:21:33Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 154,
+        "reviews": 152,
         "prs": [
           {
             "title": "build(deps): bump fast-uri from 3.1.8 to 3.1.9 in /ui",
@@ -4076,28 +4101,12 @@
             "number": 653,
             "author": "dependabot",
             "engaged_at": "2026-07-31T11:03:06Z"
-          },
-          {
-            "title": "feat(remediation): add remediation extractor with provider priority resolution",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/599",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 599,
-            "author": "ruromero",
-            "engaged_at": "2026-07-31T06:56:57Z"
-          },
-          {
-            "title": "build(deps): bump io.quarkus:quarkus-vertx-http from 2.13.5.Final to 3.20.6.2 in /test/providers/tst_manifests/maven/poms_deps_with_2_ignore_long",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/598",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 598,
-            "author": "dependabot",
-            "engaged_at": "2026-07-31T02:32:41Z"
           }
         ]
       },
       {
         "login": "rh-jfuller",
-        "reviews": 105,
+        "reviews": 104,
         "prs": [
           {
             "title": "feat(ui): embed Trustify Console and add browser end-to-end tests",
@@ -4930,14 +4939,6 @@
             "number": 2559,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-02T04:08:01Z"
-          },
-          {
-            "title": "fix(vulnerability): add version_matches filter to product_status sub-query",
-            "url": "https://github.com/guacsec/trustify/pull/2555",
-            "repo": "guacsec/trustify",
-            "number": 2555,
-            "author": "ruromero",
-            "engaged_at": "2026-07-31T06:56:34Z"
           }
         ]
       },
