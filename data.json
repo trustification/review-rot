@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:13:36.490437864Z",
+  "generated_at": "2026-10-29T01:07:52.966248595Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -2309,31 +2309,6 @@
       ]
     },
     {
-      "title": "Bump jose from 6.2.3 to 6.2.12",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/22",
-      "number": 22,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-01T00:23:27Z",
-      "updated_at": "2026-10-01T00:23:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "Bump openapi-typescript-codegen from 0.29.0 to 0.31.0",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/23",
       "number": 23,
@@ -2381,31 +2356,6 @@
       "labels": []
     },
     {
-      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `254080e`",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/31",
-      "number": 31,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T00:14:08Z",
-      "updated_at": "2026-10-15T00:14:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker"
-      ]
-    },
-    {
       "title": "Bump @types/node from 22.19.21 to 26.6.5",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/32",
       "number": 32,
@@ -2441,31 +2391,6 @@
       },
       "created_at": "2026-10-15T00:14:33Z",
       "updated_at": "2026-10-15T00:14:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
-      "title": "Bump @modelcontextprotocol/sdk from 1.30.0 to 1.32.1",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/35",
-      "number": 35,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T00:14:40Z",
-      "updated_at": "2026-10-15T00:14:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2538,6 +2463,81 @@
       },
       "created_at": "2026-10-22T00:14:27Z",
       "updated_at": "2026-10-22T00:14:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `dcbe5b4`",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/39",
+      "number": 39,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T00:14:39Z",
+      "updated_at": "2026-10-29T00:14:43Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "title": "Bump jose from 6.2.3 to 6.2.13",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/40",
+      "number": 40,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T00:14:51Z",
+      "updated_at": "2026-10-29T00:14:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump @modelcontextprotocol/sdk from 1.30.0 to 1.32.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/41",
+      "number": 41,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-29T00:15:03Z",
+      "updated_at": "2026-10-29T00:15:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2855,7 +2855,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T21:12:46Z",
+    "since": "2026-07-31T01:07:00Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
