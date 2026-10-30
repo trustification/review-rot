@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T10:37:04.371885276Z",
+  "generated_at": "2026-10-30T16:54:11.083028236Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -117,6 +117,28 @@
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(fullsend): bump CLI and sandbox image together to v0.52.0",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/364",
+      "number": 364,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-10-30T14:47:58Z",
+      "updated_at": "2026-10-30T15:25:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -595,28 +617,6 @@
       "labels": []
     },
     {
-      "title": "fix: unify remediation orchestrator with conflict-aware groups",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/681",
-      "number": 681,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "Strum355",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
-      },
-      "created_at": "2026-10-28T20:09:15Z",
-      "updated_at": "2026-10-29T16:24:14Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 7,
-      "labels": []
-    },
-    {
       "title": "build(deps-dev): bump esmock from 2.8.0 to 3.0.0 in the npm-dependencies group across 1 directory",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/682",
       "number": 682,
@@ -640,6 +640,28 @@
         "dependencies",
         "javascript"
       ]
+    },
+    {
+      "title": "feat(report): add divergence and skipped rendering to report generator",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/684",
+      "number": 684,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-10-30T12:20:00Z",
+      "updated_at": "2026-10-30T14:19:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
@@ -1010,7 +1032,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/86094767?u=ce64dcaa7e6830ae9816eea2488b9817d7db4107\u0026v=4"
       },
       "created_at": "2026-10-05T08:10:51Z",
-      "updated_at": "2026-10-30T07:30:14Z",
+      "updated_at": "2026-10-30T13:46:05Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1232,7 +1254,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-27T09:26:47Z",
-      "updated_at": "2026-10-29T13:32:47Z",
+      "updated_at": "2026-10-30T16:24:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1276,7 +1298,29 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-29T16:28:11Z",
-      "updated_at": "2026-10-29T16:32:49Z",
+      "updated_at": "2026-10-30T15:45:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 8,
+      "labels": []
+    },
+    {
+      "title": "fix(purl): synthesize recommendations from OSV fixed events",
+      "url": "https://github.com/guacsec/trustify/pull/2829",
+      "number": 2829,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-10-30T10:53:23Z",
+      "updated_at": "2026-10-30T14:48:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1286,6 +1330,50 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "docs(ui): start PostgreSQL before running the console",
+      "url": "https://github.com/guacsec/trustify/pull/2831",
+      "number": 2831,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-10-30T14:53:09Z",
+      "updated_at": "2026-10-30T14:56:46Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "chore: removing unused dependencies [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify/pull/2832",
+      "number": 2832,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-10-30T16:28:23Z",
+      "updated_at": "2026-10-30T16:44:58Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1365,6 +1453,53 @@
       },
       "created_at": "2026-10-22T17:45:33Z",
       "updated_at": "2026-10-22T17:45:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ]
+    },
+    {
+      "title": "test: run live Kustomize OIDC E2E",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/435",
+      "number": 435,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-10-30T12:27:26Z",
+      "updated_at": "2026-10-30T13:02:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): bump filelock from 4.0.12 to 4.2.1",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/437",
+      "number": 437,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-30T13:21:04Z",
+      "updated_at": "2026-10-30T13:21:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2813,12 +2948,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T10:35:57Z",
+    "since": "2026-08-01T16:53:13Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
         "reviews": 154,
         "prs": [
+          {
+            "title": "feat(report): add divergence and skipped rendering to report generator",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/684",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 684,
+            "author": "Strum355",
+            "engaged_at": "2026-10-30T12:25:06Z"
+          },
           {
             "title": "build(deps-dev): bump esmock from 2.8.0 to 3.0.0 in the npm-dependencies group across 1 directory",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/682",
@@ -4042,14 +4185,6 @@
             "number": 600,
             "author": "dependabot",
             "engaged_at": "2026-08-03T06:56:30Z"
-          },
-          {
-            "title": "build(deps): bump brace-expansion from 1.1.11 to 1.1.18 in /src/test/resources/tst_manifests/yarn-berry/deps_with_ignore",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/569",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 569,
-            "author": "dependabot",
-            "engaged_at": "2026-08-01T11:09:09Z"
           }
         ]
       },
@@ -5446,6 +5581,14 @@
         "reviews": 68,
         "prs": [
           {
+            "title": "fix: unify remediation orchestrator with conflict-aware groups",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/681",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 681,
+            "author": "Strum355",
+            "engaged_at": "2026-10-30T11:03:50Z"
+          },
+          {
             "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify/pull/2826",
             "repo": "guacsec/trustify",
@@ -5460,14 +5603,6 @@
             "number": 683,
             "author": "Strum355",
             "engaged_at": "2026-10-29T15:36:49Z"
-          },
-          {
-            "title": "fix: unify remediation orchestrator with conflict-aware groups",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/681",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 681,
-            "author": "Strum355",
-            "engaged_at": "2026-10-29T14:52:41Z"
           },
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -5993,8 +6128,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 63,
+        "reviews": 64,
         "prs": [
+          {
+            "title": "chore: removing unused dependencies",
+            "url": "https://github.com/guacsec/trustify/pull/2830",
+            "repo": "guacsec/trustify",
+            "number": 2830,
+            "author": "helio-frota",
+            "engaged_at": "2026-10-30T14:30:59Z"
+          },
           {
             "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
             "url": "https://github.com/guacsec/trustify/pull/2764",
@@ -8288,6 +8431,242 @@
         ]
       },
       {
+        "login": "PhilipCattanach",
+        "reviews": 14,
+        "prs": [
+          {
+            "title": "feat(correlation): paginate SBOM correlation results",
+            "url": "https://github.com/guacsec/trustify/pull/2811",
+            "repo": "guacsec/trustify",
+            "number": 2811,
+            "author": "ctron",
+            "engaged_at": "2026-10-30T16:17:47Z"
+          },
+          {
+            "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
+            "url": "https://github.com/guacsec/trustify/pull/2783",
+            "repo": "guacsec/trustify",
+            "number": 2783,
+            "author": "ctron",
+            "engaged_at": "2026-10-23T08:54:53Z"
+          },
+          {
+            "title": "New preference to enable/disable analysis upon open or save manifest …",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/734",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 734,
+            "author": "johnsteele",
+            "engaged_at": "2026-10-21T13:26:29Z"
+          },
+          {
+            "title": "fix(recommend): use advisory fixed/not_affected versions when versioned_purl has no vendor match",
+            "url": "https://github.com/guacsec/trustify/pull/2709",
+            "repo": "guacsec/trustify",
+            "number": 2709,
+            "author": "ruromero",
+            "engaged_at": "2026-09-25T10:41:36Z"
+          },
+          {
+            "title": "[TC-3272] Convert `gensbom` to TypeScript, add several security checks",
+            "url": "https://github.com/guacsec/trustify/pull/2334",
+            "repo": "guacsec/trustify",
+            "number": 2334,
+            "author": "i386x",
+            "engaged_at": "2026-09-02T16:07:05Z"
+          },
+          {
+            "title": "feat: backport CPE-identity vulnerability correlation (cpe_status) to release/0.4.z",
+            "url": "https://github.com/guacsec/trustify/pull/2598",
+            "repo": "guacsec/trustify",
+            "number": 2598,
+            "author": "mrrajan",
+            "engaged_at": "2026-08-25T16:05:32Z"
+          },
+          {
+            "title": "fix: reformulation of PR #2582 (TC-5630) for release/0.4.z.",
+            "url": "https://github.com/guacsec/trustify/pull/2587",
+            "repo": "guacsec/trustify",
+            "number": 2587,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-21T15:38:13Z"
+          },
+          {
+            "title": "fix: vuln correlation fixes",
+            "url": "https://github.com/guacsec/trustify/pull/2582",
+            "repo": "guacsec/trustify",
+            "number": 2582,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-17T10:43:07Z"
+          },
+          {
+            "title": "fix(purl): add VersionMatches filter to product status query [Backport release/0.4.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2563",
+            "repo": "guacsec/trustify",
+            "number": 2563,
+            "author": "ruromero",
+            "engaged_at": "2026-08-14T15:26:17Z"
+          },
+          {
+            "title": "fix(purl): filter purl_statuses by SBOM describing CPEs [Backport release/0.4.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2564",
+            "repo": "guacsec/trustify",
+            "number": 2564,
+            "author": "ruromero",
+            "engaged_at": "2026-08-14T14:20:00Z"
+          },
+          {
+            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring [Backport release/0.5.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2578",
+            "repo": "guacsec/trustify",
+            "number": 2578,
+            "author": "mrrajan",
+            "engaged_at": "2026-08-14T07:57:50Z"
+          },
+          {
+            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring",
+            "url": "https://github.com/guacsec/trustify/pull/2569",
+            "repo": "guacsec/trustify",
+            "number": 2569,
+            "author": "mrrajan",
+            "engaged_at": "2026-08-11T15:14:27Z"
+          },
+          {
+            "title": "chore: remove vex visualizer",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1189",
+            "repo": "guacsec/trustify-ui",
+            "number": 1189,
+            "author": "carlosthe19916",
+            "engaged_at": "2026-08-03T09:52:08Z"
+          },
+          {
+            "title": "chore(ux): set trustify-ui to publish/release0.6.z branch",
+            "url": "https://github.com/guacsec/trustify/pull/2561",
+            "repo": "guacsec/trustify",
+            "number": 2561,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-02T10:52:12Z"
+          }
+        ]
+      },
+      {
+        "login": "helio-frota",
+        "reviews": 14,
+        "prs": [
+          {
+            "title": "docs(ui): start PostgreSQL before running the console",
+            "url": "https://github.com/guacsec/trustify/pull/2831",
+            "repo": "guacsec/trustify",
+            "number": 2831,
+            "author": "ctron",
+            "engaged_at": "2026-10-30T14:56:46Z"
+          },
+          {
+            "title": "fix(docs): update CONVENTIONS.md server references to dev-server",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1389",
+            "repo": "guacsec/trustify-ui",
+            "number": 1389,
+            "author": "gildub",
+            "engaged_at": "2026-10-26T14:29:50Z"
+          },
+          {
+            "title": "chore(deps): fix npm audit vulnerabilities",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1367",
+            "repo": "guacsec/trustify-ui",
+            "number": 1367,
+            "author": "gildub",
+            "engaged_at": "2026-10-24T10:13:03Z"
+          },
+          {
+            "title": "test(api): add API tests for importers",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1219",
+            "repo": "guacsec/trustify-ui",
+            "number": 1219,
+            "author": "matejnesuta",
+            "engaged_at": "2026-10-24T09:17:51Z"
+          },
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T11:57:50Z"
+          },
+          {
+            "title": "fix(CI): write permissions for packages",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1285",
+            "repo": "guacsec/trustify-ui",
+            "number": 1285,
+            "author": "gildub",
+            "engaged_at": "2026-09-25T12:44:28Z"
+          },
+          {
+            "title": "chore(openapi): [release/0.6.z] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1277",
+            "repo": "guacsec/trustify-ui",
+            "number": 1277,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-09-23T13:51:42Z"
+          },
+          {
+            "title": "fix(upload): get duplicated warning",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1265",
+            "repo": "guacsec/trustify-ui",
+            "number": 1265,
+            "author": "gildub",
+            "engaged_at": "2026-09-21T14:01:09Z"
+          },
+          {
+            "title": "build(deps): bump Antora and js-yaml in docs book",
+            "url": "https://github.com/guacsec/trustify/pull/2677",
+            "repo": "guacsec/trustify",
+            "number": 2677,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-09-21T11:22:54Z"
+          },
+          {
+            "title": "chore(deps): bump body-parser from 2.2.2 to 2.3.0",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1173",
+            "repo": "guacsec/trustify-ui",
+            "number": 1173,
+            "author": "dependabot",
+            "engaged_at": "2026-08-24T13:16:24Z"
+          },
+          {
+            "title": "fix: Reformulation of PR #2582 (TC-5630) for release/0.5.z.",
+            "url": "https://github.com/guacsec/trustify/pull/2589",
+            "repo": "guacsec/trustify",
+            "number": 2589,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-21T18:49:04Z"
+          },
+          {
+            "title": "release: prep  0.6.z",
+            "url": "https://github.com/guacsec/trustify/pull/2591",
+            "repo": "guacsec/trustify",
+            "number": 2591,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-21T18:34:59Z"
+          },
+          {
+            "title": "fix: reformulation of PR #2582 (TC-5630) for release/0.4.z.",
+            "url": "https://github.com/guacsec/trustify/pull/2587",
+            "repo": "guacsec/trustify",
+            "number": 2587,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-08-21T16:26:36Z"
+          },
+          {
+            "title": "chore(test): adjust order of vulnerabilities after a backend change [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1207",
+            "repo": "guacsec/trustify-ui",
+            "number": 1207,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-08-13T17:29:39Z"
+          }
+        ]
+      },
+      {
         "login": "jcrossley3",
         "reviews": 14,
         "prs": [
@@ -8406,226 +8785,6 @@
         ]
       },
       {
-        "login": "PhilipCattanach",
-        "reviews": 13,
-        "prs": [
-          {
-            "title": "feat(importer): support OSV HTTP feeds alongside Git sources",
-            "url": "https://github.com/guacsec/trustify/pull/2783",
-            "repo": "guacsec/trustify",
-            "number": 2783,
-            "author": "ctron",
-            "engaged_at": "2026-10-23T08:54:53Z"
-          },
-          {
-            "title": "New preference to enable/disable analysis upon open or save manifest …",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/734",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 734,
-            "author": "johnsteele",
-            "engaged_at": "2026-10-21T13:26:29Z"
-          },
-          {
-            "title": "fix(recommend): use advisory fixed/not_affected versions when versioned_purl has no vendor match",
-            "url": "https://github.com/guacsec/trustify/pull/2709",
-            "repo": "guacsec/trustify",
-            "number": 2709,
-            "author": "ruromero",
-            "engaged_at": "2026-09-25T10:41:36Z"
-          },
-          {
-            "title": "[TC-3272] Convert `gensbom` to TypeScript, add several security checks",
-            "url": "https://github.com/guacsec/trustify/pull/2334",
-            "repo": "guacsec/trustify",
-            "number": 2334,
-            "author": "i386x",
-            "engaged_at": "2026-09-02T16:07:05Z"
-          },
-          {
-            "title": "feat: backport CPE-identity vulnerability correlation (cpe_status) to release/0.4.z",
-            "url": "https://github.com/guacsec/trustify/pull/2598",
-            "repo": "guacsec/trustify",
-            "number": 2598,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-25T16:05:32Z"
-          },
-          {
-            "title": "fix: reformulation of PR #2582 (TC-5630) for release/0.4.z.",
-            "url": "https://github.com/guacsec/trustify/pull/2587",
-            "repo": "guacsec/trustify",
-            "number": 2587,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-21T15:38:13Z"
-          },
-          {
-            "title": "fix: vuln correlation fixes",
-            "url": "https://github.com/guacsec/trustify/pull/2582",
-            "repo": "guacsec/trustify",
-            "number": 2582,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-17T10:43:07Z"
-          },
-          {
-            "title": "fix(purl): add VersionMatches filter to product status query [Backport release/0.4.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2563",
-            "repo": "guacsec/trustify",
-            "number": 2563,
-            "author": "ruromero",
-            "engaged_at": "2026-08-14T15:26:17Z"
-          },
-          {
-            "title": "fix(purl): filter purl_statuses by SBOM describing CPEs [Backport release/0.4.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2564",
-            "repo": "guacsec/trustify",
-            "number": 2564,
-            "author": "ruromero",
-            "engaged_at": "2026-08-14T14:20:00Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring [Backport release/0.5.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2578",
-            "repo": "guacsec/trustify",
-            "number": 2578,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-14T07:57:50Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring",
-            "url": "https://github.com/guacsec/trustify/pull/2569",
-            "repo": "guacsec/trustify",
-            "number": 2569,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-11T15:14:27Z"
-          },
-          {
-            "title": "chore: remove vex visualizer",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1189",
-            "repo": "guacsec/trustify-ui",
-            "number": 1189,
-            "author": "carlosthe19916",
-            "engaged_at": "2026-08-03T09:52:08Z"
-          },
-          {
-            "title": "chore(ux): set trustify-ui to publish/release0.6.z branch",
-            "url": "https://github.com/guacsec/trustify/pull/2561",
-            "repo": "guacsec/trustify",
-            "number": 2561,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-02T10:52:12Z"
-          }
-        ]
-      },
-      {
-        "login": "helio-frota",
-        "reviews": 13,
-        "prs": [
-          {
-            "title": "fix(docs): update CONVENTIONS.md server references to dev-server",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1389",
-            "repo": "guacsec/trustify-ui",
-            "number": 1389,
-            "author": "gildub",
-            "engaged_at": "2026-10-26T14:29:50Z"
-          },
-          {
-            "title": "chore(deps): fix npm audit vulnerabilities",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1367",
-            "repo": "guacsec/trustify-ui",
-            "number": 1367,
-            "author": "gildub",
-            "engaged_at": "2026-10-24T10:13:03Z"
-          },
-          {
-            "title": "test(api): add API tests for importers",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1219",
-            "repo": "guacsec/trustify-ui",
-            "number": 1219,
-            "author": "matejnesuta",
-            "engaged_at": "2026-10-24T09:17:51Z"
-          },
-          {
-            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
-            "url": "https://github.com/guacsec/trustify/pull/2782",
-            "repo": "guacsec/trustify",
-            "number": 2782,
-            "author": "ctron",
-            "engaged_at": "2026-10-22T11:57:50Z"
-          },
-          {
-            "title": "fix(CI): write permissions for packages",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1285",
-            "repo": "guacsec/trustify-ui",
-            "number": 1285,
-            "author": "gildub",
-            "engaged_at": "2026-09-25T12:44:28Z"
-          },
-          {
-            "title": "chore(openapi): [release/0.6.z] update client/openapi/trustd.yaml",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1277",
-            "repo": "guacsec/trustify-ui",
-            "number": 1277,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-09-23T13:51:42Z"
-          },
-          {
-            "title": "fix(upload): get duplicated warning",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1265",
-            "repo": "guacsec/trustify-ui",
-            "number": 1265,
-            "author": "gildub",
-            "engaged_at": "2026-09-21T14:01:09Z"
-          },
-          {
-            "title": "build(deps): bump Antora and js-yaml in docs book",
-            "url": "https://github.com/guacsec/trustify/pull/2677",
-            "repo": "guacsec/trustify",
-            "number": 2677,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-09-21T11:22:54Z"
-          },
-          {
-            "title": "chore(deps): bump body-parser from 2.2.2 to 2.3.0",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1173",
-            "repo": "guacsec/trustify-ui",
-            "number": 1173,
-            "author": "dependabot",
-            "engaged_at": "2026-08-24T13:16:24Z"
-          },
-          {
-            "title": "fix: Reformulation of PR #2582 (TC-5630) for release/0.5.z.",
-            "url": "https://github.com/guacsec/trustify/pull/2589",
-            "repo": "guacsec/trustify",
-            "number": 2589,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-21T18:49:04Z"
-          },
-          {
-            "title": "release: prep  0.6.z",
-            "url": "https://github.com/guacsec/trustify/pull/2591",
-            "repo": "guacsec/trustify",
-            "number": 2591,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-21T18:34:59Z"
-          },
-          {
-            "title": "fix: reformulation of PR #2582 (TC-5630) for release/0.4.z.",
-            "url": "https://github.com/guacsec/trustify/pull/2587",
-            "repo": "guacsec/trustify",
-            "number": 2587,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-21T16:26:36Z"
-          },
-          {
-            "title": "chore(test): adjust order of vulnerabilities after a backend change [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1207",
-            "repo": "guacsec/trustify-ui",
-            "number": 1207,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-13T17:29:39Z"
-          }
-        ]
-      },
-      {
         "login": "carlosthe19916",
         "reviews": 10,
         "prs": [
@@ -8713,8 +8872,16 @@
       },
       {
         "login": "mrizzi",
-        "reviews": 9,
+        "reviews": 10,
         "prs": [
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2828",
+            "repo": "guacsec/trustify",
+            "number": 2828,
+            "author": "ruromero",
+            "engaged_at": "2026-10-30T15:45:58Z"
+          },
           {
             "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
             "url": "https://github.com/guacsec/trustify/pull/2765",
