@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:54:11.083028236Z",
+  "generated_at": "2026-10-30T21:16:09.460665766Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -135,10 +135,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
       },
       "created_at": "2026-10-30T14:47:58Z",
-      "updated_at": "2026-10-30T15:25:28Z",
+      "updated_at": "2026-10-30T19:06:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1349,28 +1349,6 @@
       "size": null,
       "reviews": {
         "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "chore: removing unused dependencies [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2832",
-      "number": 2832,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-10-30T16:28:23Z",
-      "updated_at": "2026-10-30T16:44:58Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -2948,7 +2926,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T16:53:13Z",
+    "since": "2026-08-01T21:15:14Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
