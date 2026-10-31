@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:16:09.460665766Z",
+  "generated_at": "2026-10-31T00:56:31.345906919Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1254,10 +1254,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-27T09:26:47Z",
-      "updated_at": "2026-10-30T16:24:22Z",
+      "updated_at": "2026-10-30T23:09:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2287,6 +2287,131 @@
       ]
     },
     {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/299",
+      "number": 299,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:03:14Z",
+      "updated_at": "2026-10-31T00:03:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 56881c8",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/300",
+      "number": 300,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:03:25Z",
+      "updated_at": "2026-10-31T00:03:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/301",
+      "number": 301,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:03:28Z",
+      "updated_at": "2026-10-31T00:03:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 56881c8",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/302",
+      "number": 302,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:03:40Z",
+      "updated_at": "2026-10-31T00:03:41Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/303",
+      "number": 303,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:04:02Z",
+      "updated_at": "2026-10-31T00:04:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
       "title": "fix: restrict EI 3.2.0 to OCP 4.19 through 5.0",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/50",
       "number": 50,
@@ -2307,6 +2432,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/51",
+      "number": 51,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-10-31T00:03:25Z",
+      "updated_at": "2026-10-31T00:03:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -2926,7 +3076,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T21:15:14Z",
+    "since": "2026-08-02T00:55:41Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
