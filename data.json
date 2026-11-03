@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:33:18.951240558Z",
+  "generated_at": "2026-11-03T18:11:42.291887675Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -102,28 +102,6 @@
         "dependencies",
         "github_actions"
       ]
-    },
-    {
-      "title": "chore(evals): move skill-eval CI to claude-opus-5-5 / claude-sonnet-5-5",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/368",
-      "number": 368,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-03T09:13:56Z",
-      "updated_at": "2026-11-03T10:10:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -598,50 +576,6 @@
       ]
     },
     {
-      "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/680",
-      "number": 680,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "a-oren",
-        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
-      },
-      "created_at": "2026-10-21T10:21:24Z",
-      "updated_at": "2026-11-02T12:27:28Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": true
-      },
-      "unresolved_conversations": 12,
-      "labels": []
-    },
-    {
-      "title": "feat(report): add divergence and skipped rendering to report generator",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/684",
-      "number": 684,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "Strum355",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
-      },
-      "created_at": "2026-10-30T12:20:00Z",
-      "updated_at": "2026-11-02T12:34:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 3 updates",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/686",
       "number": 686,
@@ -651,7 +585,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-03T06:44:02Z",
-      "updated_at": "2026-11-03T06:48:26Z",
+      "updated_at": "2026-11-03T15:58:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -664,6 +598,31 @@
       "labels": [
         "dependencies",
         "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
+      "number": 687,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-03T15:56:58Z",
+      "updated_at": "2026-11-03T16:00:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
       ]
     },
     {
@@ -1139,6 +1098,28 @@
       "labels": []
     },
     {
+      "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1425",
+      "number": 1425,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-11-03T13:29:26Z",
+      "updated_at": "2026-11-03T13:49:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 4,
+      "labels": []
+    },
+    {
       "title": "feat(validation): add document validation module",
       "url": "https://github.com/guacsec/trustify/pull/2551",
       "number": 2551,
@@ -1236,10 +1217,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T16:11:15Z",
-      "updated_at": "2026-10-30T08:32:28Z",
+      "updated_at": "2026-11-03T17:34:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1270,28 +1251,6 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(correlation): paginate SBOM correlation results",
-      "url": "https://github.com/guacsec/trustify/pull/2811",
-      "number": 2811,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-10-27T09:26:47Z",
-      "updated_at": "2026-11-03T10:07:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -1348,7 +1307,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-10-30T14:48:05Z",
+      "updated_at": "2026-11-03T16:49:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1357,7 +1316,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
@@ -1370,13 +1329,79 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/141611?u=707eefdfcf122ecd0489b6d3ef0991b52dbd4c15\u0026v=4"
       },
       "created_at": "2026-11-02T13:05:20Z",
-      "updated_at": "2026-11-03T09:45:19Z",
+      "updated_at": "2026-11-03T15:41:01Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 7,
+      "labels": []
+    },
+    {
+      "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
+      "url": "https://github.com/guacsec/trustify/pull/2834",
+      "number": 2834,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-11-03T11:45:42Z",
+      "updated_at": "2026-11-03T15:16:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
+      "url": "https://github.com/guacsec/trustify/pull/2836",
+      "number": 2836,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-11-03T13:55:54Z",
+      "updated_at": "2026-11-03T13:56:18Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "sec: resolve cargo-deny advisory findings",
+      "url": "https://github.com/guacsec/trustify/pull/2837",
+      "number": 2837,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-11-03T16:32:07Z",
+      "updated_at": "2026-11-03T16:45:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1583,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-03T07:19:43Z",
-      "updated_at": "2026-11-03T07:59:05Z",
+      "updated_at": "2026-11-03T14:34:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2294,28 +2319,6 @@
       ]
     },
     {
-      "title": "Worktree tc 5943 version api",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/389",
-      "number": 389,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "TamarW0",
-        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
-      },
-      "created_at": "2026-11-02T10:10:26Z",
-      "updated_at": "2026-11-02T10:27:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (TC-7243)",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/391",
       "number": 391,
@@ -2325,13 +2328,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-11-02T13:45:46Z",
-      "updated_at": "2026-11-02T14:47:51Z",
+      "updated_at": "2026-11-03T11:43:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2369,7 +2372,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-03T06:51:49Z",
-      "updated_at": "2026-11-03T06:51:50Z",
+      "updated_at": "2026-11-03T11:36:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2391,13 +2394,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-11-03T10:30:35Z",
-      "updated_at": "2026-11-03T10:31:21Z",
+      "updated_at": "2026-11-03T10:32:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2544,6 +2547,28 @@
       "labels": [
         "konflux-nudge"
       ]
+    },
+    {
+      "title": "docs: remove duplicate registry credentials",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/318",
+      "number": 318,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "xinredhat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
+      },
+      "created_at": "2026-11-03T13:08:39Z",
+      "updated_at": "2026-11-03T14:16:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -3185,12 +3210,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T10:32:21Z",
+    "since": "2026-08-05T18:10:52Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
         "reviews": 151,
         "prs": [
+          {
+            "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 687,
+            "author": "dependabot",
+            "engaged_at": "2026-11-03T16:00:41Z"
+          },
           {
             "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 3 updates",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/686",
@@ -4390,14 +4423,6 @@
             "number": 655,
             "author": "dependabot",
             "engaged_at": "2026-08-05T19:25:39Z"
-          },
-          {
-            "title": "build(deps): bump undici from 6.27.0 to 6.28.0",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/605",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 605,
-            "author": "dependabot",
-            "engaged_at": "2026-08-05T16:59:36Z"
           }
         ]
       },
@@ -5831,7 +5856,7 @@
             "repo": "guacsec/trustify-da-javascript-client",
             "number": 680,
             "author": "a-oren",
-            "engaged_at": "2026-10-26T17:17:25Z"
+            "engaged_at": "2026-10-26T11:11:14Z"
           },
           {
             "title": "fix(ci): pin bundled PostgreSQL version",
@@ -6349,8 +6374,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 65,
+        "reviews": 66,
         "prs": [
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
+            "url": "https://github.com/guacsec/trustify/pull/2834",
+            "repo": "guacsec/trustify",
+            "number": 2834,
+            "author": "Strum355",
+            "engaged_at": "2026-11-03T15:08:04Z"
+          },
           {
             "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
             "url": "https://github.com/guacsec/trustify/pull/2833",
@@ -6883,7 +6916,7 @@
             "repo": "guacsec/trustify-da-javascript-client",
             "number": 680,
             "author": "a-oren",
-            "engaged_at": "2026-11-02T12:27:27Z"
+            "engaged_at": "2026-11-03T15:14:22Z"
           },
           {
             "title": "build(deps): bump the npm-dependencies group across 1 directory with 3 updates",
@@ -7248,295 +7281,33 @@
         ]
       },
       {
-        "login": "a-oren",
-        "reviews": 35,
-        "prs": [
-          {
-            "title": "chore(deps): bump minimatch from 10.2.5 to 11.0.1",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/951",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 951,
-            "author": "dependabot",
-            "engaged_at": "2026-11-02T08:45:52Z"
-          },
-          {
-            "title": "chore(deps): bump ip-address from 10.7.3 to 10.7.5",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/949",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 949,
-            "author": "dependabot",
-            "engaged_at": "2026-11-02T08:31:19Z"
-          },
-          {
-            "title": "chore(deps-dev): bump fast-uri from 3.1.8 to 3.1.9",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/948",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 948,
-            "author": "dependabot",
-            "engaged_at": "2026-11-01T11:53:52Z"
-          },
-          {
-            "title": "feat(report): add divergence and skipped rendering to report generator",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/684",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 684,
-            "author": "Strum355",
-            "engaged_at": "2026-11-01T09:06:46Z"
-          },
-          {
-            "title": "build(deps): bump body-parser from 1.20.6 to 1.20.9 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/680",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 680,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T08:58:31Z"
-          },
-          {
-            "title": "build(deps): bump launch-editor from 2.14.1 to 2.14.2 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/677",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 677,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T08:37:37Z"
-          },
-          {
-            "title": "fix: support Gradle version catalog (libs.versions.toml) in analysis",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/668",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 668,
-            "author": "Strum355",
-            "engaged_at": "2026-10-13T11:48:21Z"
-          },
-          {
-            "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/946",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 946,
-            "author": "dependabot",
-            "engaged_at": "2026-10-06T11:11:26Z"
-          },
-          {
-            "title": "chore(deps-dev): bump brace-expansion from 1.1.18 to 1.1.21",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/945",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 945,
-            "author": "dependabot",
-            "engaged_at": "2026-10-06T10:46:17Z"
-          },
-          {
-            "title": "chore(deps): bump ip-address from 10.5.0 to 10.7.3",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/944",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 944,
-            "author": "dependabot",
-            "engaged_at": "2026-10-06T10:43:06Z"
-          },
-          {
-            "title": "chore(deps-dev): bump fast-uri from 3.1.6 to 3.1.8",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/943",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 943,
-            "author": "dependabot",
-            "engaged_at": "2026-10-06T09:03:43Z"
-          },
-          {
-            "title": "chore(deps-dev): bump @babel/core from 7.27.4 to 7.29.7",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/942",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 942,
-            "author": "dependabot",
-            "engaged_at": "2026-10-06T09:00:44Z"
-          },
-          {
-            "title": "feat(remediate): add exclude option to runRemediation and --exclude CLI flag",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/650",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 650,
-            "author": "Strum355",
-            "engaged_at": "2026-10-06T05:22:51Z"
-          },
-          {
-            "title": "chore(deps-dev): bump js-yaml from 3.14.2 to 3.15.2",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/939",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 939,
-            "author": "dependabot",
-            "engaged_at": "2026-09-29T07:53:03Z"
-          },
-          {
-            "title": "chore(deps): bump smol-toml from 1.6.1 to 1.9.0",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/938",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 938,
-            "author": "dependabot",
-            "engaged_at": "2026-09-29T06:46:58Z"
-          },
-          {
-            "title": "build(deps): bump undici from 6.28.0 to 6.29.0",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/649",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 649,
-            "author": "dependabot",
-            "engaged_at": "2026-09-29T06:32:59Z"
-          },
-          {
-            "title": "chore(deps-dev): bump browserslist from 4.28.1 to 4.29.2",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/935",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 935,
-            "author": "dependabot",
-            "engaged_at": "2026-09-29T06:27:38Z"
-          },
-          {
-            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/646",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 646,
-            "author": "dependabot",
-            "engaged_at": "2026-09-29T06:25:31Z"
-          },
-          {
-            "title": "chore(deps): upgrade vulnerable deps",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/664",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 664,
-            "author": "ruromero",
-            "engaged_at": "2026-09-28T13:15:52Z"
-          },
-          {
-            "title": "chore: bump javascript-api version",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/940",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 940,
-            "author": "Strum355",
-            "engaged_at": "2026-09-24T11:31:32Z"
-          },
-          {
-            "title": "build(deps): bump js-yaml from 4.3.0 to 4.3.2",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/633",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 633,
-            "author": "dependabot",
-            "engaged_at": "2026-09-15T08:52:31Z"
-          },
-          {
-            "title": "build(deps): bump smol-toml from 1.7.0 to 1.7.1",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/632",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 632,
-            "author": "dependabot",
-            "engaged_at": "2026-09-15T08:47:09Z"
-          },
-          {
-            "title": "build(deps): bump colord from 2.9.3 to 2.10.0 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/662",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 662,
-            "author": "dependabot",
-            "engaged_at": "2026-09-15T08:44:35Z"
-          },
-          {
-            "title": "fix: extract advisories correctly for remediations",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/636",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 636,
-            "author": "Strum355",
-            "engaged_at": "2026-09-14T15:25:55Z"
-          },
-          {
-            "title": "fix(summary): deduplicate CVE IDs across purls in VulnerabilityCounter",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/658",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 658,
-            "author": "ruromero",
-            "engaged_at": "2026-09-01T08:27:10Z"
-          },
-          {
-            "title": "feat: add support for trustify-da-ignore marker for Go/Maven/Gradle/Python",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/623",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 623,
-            "author": "Strum355",
-            "engaged_at": "2026-08-31T11:13:50Z"
-          },
-          {
-            "title": "chore: bump CI node to 24 LTS",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/930",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 930,
-            "author": "Strum355",
-            "engaged_at": "2026-08-27T10:48:22Z"
-          },
-          {
-            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 619,
-            "author": "Strum355",
-            "engaged_at": "2026-08-26T13:18:19Z"
-          },
-          {
-            "title": "chore(deps): bump fast-uri from 3.1.2 to 3.1.6",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/927",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 927,
-            "author": "dependabot",
-            "engaged_at": "2026-08-26T10:06:30Z"
-          },
-          {
-            "title": "chore(deps-dev): bump brace-expansion from 1.1.15 to 1.1.18",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/925",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 925,
-            "author": "dependabot",
-            "engaged_at": "2026-08-26T10:03:14Z"
-          },
-          {
-            "title": "chore(deps): bump tar from 7.5.13 to 7.5.22",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/922",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 922,
-            "author": "dependabot",
-            "engaged_at": "2026-08-26T09:58:14Z"
-          },
-          {
-            "title": "chore(deps): bump minimatch from 10.2.4 to 10.2.5",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/910",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 910,
-            "author": "dependabot",
-            "engaged_at": "2026-08-26T09:50:59Z"
-          },
-          {
-            "title": "chore(deps): bump fast-xml-parser from 5.5.8 to 5.11.0",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/886",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 886,
-            "author": "dependabot",
-            "engaged_at": "2026-08-26T09:10:35Z"
-          },
-          {
-            "title": "docs(cli): add remediate command documentation and GitHub Action example",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/611",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 611,
-            "author": "ruromero",
-            "engaged_at": "2026-08-10T14:33:36Z"
-          },
-          {
-            "title": "feat(cli): add remediate command with dry-run and apply modes",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 604,
-            "author": "ruromero",
-            "engaged_at": "2026-08-09T10:32:53Z"
-          }
-        ]
-      },
-      {
         "login": "tmihalac",
-        "reviews": 35,
+        "reviews": 38,
         "prs": [
+          {
+            "title": "docs: remove duplicate registry credentials",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/318",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 318,
+            "author": "xinredhat",
+            "engaged_at": "2026-11-03T14:16:44Z"
+          },
+          {
+            "title": "Worktree tc 5943 version api",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/389",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 389,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-03T12:58:00Z"
+          },
+          {
+            "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (TC-7243)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/391",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 391,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-03T11:43:24Z"
+          },
           {
             "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (main)",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/397",
@@ -7820,224 +7591,288 @@
         ]
       },
       {
-        "login": "vbelouso",
-        "reviews": 27,
+        "login": "a-oren",
+        "reviews": 35,
         "prs": [
           {
-            "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/357",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 357,
-            "author": "i386x",
-            "engaged_at": "2026-10-13T07:21:13Z"
-          },
-          {
-            "title": "fix TC-5834",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/305",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 305,
-            "author": "tmihalac",
-            "engaged_at": "2026-09-02T09:34:21Z"
-          },
-          {
-            "title": "Add NetworkPolicy RBAC to CSV",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/110",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 110,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-31T11:57:00Z"
-          },
-          {
-            "title": "Tc 5655 main base",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/342",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 342,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-26T13:10:58Z"
-          },
-          {
-            "title": "docs: correct Cognito sign-out URL to /api/v1/user/logged-out endpoint",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/341",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 341,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-26T13:05:17Z"
-          },
-          {
-            "title": "docs: add required Cognito sign-out URL configuration for logout",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/340",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 340,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-26T11:33:26Z"
-          },
-          {
-            "title": "Appeng 5865 doc base main",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/339",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 339,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-26T11:31:16Z"
-          },
-          {
-            "title": "feat: add support for Keycloak/Cognito to OCP deployment profile",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/96",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 96,
+            "title": "feat(report): add divergence and skipped rendering to report generator",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/684",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 684,
             "author": "Strum355",
-            "engaged_at": "2026-08-25T14:44:54Z"
+            "engaged_at": "2026-11-03T13:25:08Z"
           },
           {
-            "title": "docs: update AWS Cognito IdP configuration steps",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/338",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 338,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T11:26:12Z"
+            "title": "chore(deps): bump minimatch from 10.2.5 to 11.0.1",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/951",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 951,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T08:45:52Z"
           },
           {
-            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 302,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-17T22:51:38Z"
+            "title": "chore(deps): bump ip-address from 10.7.3 to 10.7.5",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/949",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 949,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T08:31:19Z"
           },
           {
-            "title": "docs: correct Cognito sign-out URL to /api/v1/user/logged-out endpoint",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/337",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 337,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-16T12:39:32Z"
+            "title": "chore(deps-dev): bump fast-uri from 3.1.8 to 3.1.9",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/948",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 948,
+            "author": "dependabot",
+            "engaged_at": "2026-11-01T11:53:52Z"
           },
           {
-            "title": "Ga based 12 08",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/301",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 301,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T13:04:49Z"
+            "title": "build(deps): bump body-parser from 1.20.6 to 1.20.9 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/680",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 680,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T08:58:31Z"
           },
           {
-            "title": "ga-based-12-08",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/336",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 336,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T12:52:36Z"
+            "title": "build(deps): bump launch-editor from 2.14.1 to 2.14.2 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/677",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 677,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T08:37:37Z"
           },
           {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 335,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T15:40:24Z"
+            "title": "fix: support Gradle version catalog (libs.versions.toml) in analysis",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/668",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 668,
+            "author": "Strum355",
+            "engaged_at": "2026-10-13T11:48:21Z"
           },
           {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/334",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 334,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T09:45:31Z"
+            "title": "chore(deps-dev): bump source-map-js from 1.2.1 to 1.2.2",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/946",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 946,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T11:11:26Z"
           },
           {
-            "title": "docs: add required COGNITO_DOMAIN environment variable for client",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/333",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 333,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-09T23:34:40Z"
+            "title": "chore(deps-dev): bump brace-expansion from 1.1.18 to 1.1.21",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/945",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 945,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T10:46:17Z"
           },
           {
-            "title": "Fix logout back",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/300",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 300,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-09T15:32:53Z"
+            "title": "chore(deps): bump ip-address from 10.5.0 to 10.7.3",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/944",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 944,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T10:43:06Z"
           },
           {
-            "title": "docs: add required Cognito sign-out URL configuration for logout",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/332",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 332,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-06T15:45:23Z"
+            "title": "chore(deps-dev): bump fast-uri from 3.1.6 to 3.1.8",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/943",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 943,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:03:43Z"
           },
           {
-            "title": "fix: implement custom Cognito logout to use correct parameters",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-06T13:36:52Z"
+            "title": "chore(deps-dev): bump @babel/core from 7.27.4 to 7.29.7",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/942",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 942,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T09:00:44Z"
           },
           {
-            "title": "fix: CVE ID  will not be accepted as package NVR (#297)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/298",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 298,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T11:04:49Z"
+            "title": "feat(remediate): add exclude option to runRemediation and --exclude CLI flag",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/650",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 650,
+            "author": "Strum355",
+            "engaged_at": "2026-10-06T05:22:51Z"
           },
           {
-            "title": "fix: CVE ID  will not be accepted as package NVR",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 297,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T08:55:45Z"
+            "title": "chore(deps-dev): bump js-yaml from 3.14.2 to 3.15.2",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/939",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 939,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T07:53:03Z"
           },
           {
-            "title": "Appeng 5865 logout",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/296",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 296,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-06T08:40:46Z"
+            "title": "chore(deps): bump smol-toml from 1.6.1 to 1.9.0",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/938",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 938,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:46:58Z"
           },
           {
-            "title": "fix: Extract username from JWT token claims instead of UserInfo (#291)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/295",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 295,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T14:16:37Z"
+            "title": "build(deps): bump undici from 6.28.0 to 6.29.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/649",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 649,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:32:59Z"
           },
           {
-            "title": "feat: Add AWS Cognito as OIDC Identity Provider (#325)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/331",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 331,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T14:13:21Z"
+            "title": "chore(deps-dev): bump browserslist from 4.28.1 to 4.29.2",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/935",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 935,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:27:38Z"
           },
           {
-            "title": "fix: add a distinct message so the agent to prevent confusion between…",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/330",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 330,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T14:08:53Z"
+            "title": "build(deps): bump fast-uri from 3.1.6 to 3.1.8",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/646",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 646,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T06:25:31Z"
           },
           {
-            "title": "worker process",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/323",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 323,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-05T13:31:42Z"
+            "title": "chore(deps): upgrade vulnerable deps",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/664",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 664,
+            "author": "ruromero",
+            "engaged_at": "2026-09-28T13:15:52Z"
           },
           {
-            "title": "chore(deps): update konflux references",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/20",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-            "number": 20,
-            "author": "red-hat-konflux-kflux-prd-rh02",
-            "engaged_at": "2026-08-05T10:59:00Z"
+            "title": "chore: bump javascript-api version",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/940",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 940,
+            "author": "Strum355",
+            "engaged_at": "2026-09-24T11:31:32Z"
+          },
+          {
+            "title": "build(deps): bump js-yaml from 4.3.0 to 4.3.2",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/633",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 633,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:52:31Z"
+          },
+          {
+            "title": "build(deps): bump smol-toml from 1.7.0 to 1.7.1",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/632",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 632,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:47:09Z"
+          },
+          {
+            "title": "build(deps): bump colord from 2.9.3 to 2.10.0 in /ui",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/662",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 662,
+            "author": "dependabot",
+            "engaged_at": "2026-09-15T08:44:35Z"
+          },
+          {
+            "title": "fix: extract advisories correctly for remediations",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/636",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 636,
+            "author": "Strum355",
+            "engaged_at": "2026-09-14T15:25:55Z"
+          },
+          {
+            "title": "fix(summary): deduplicate CVE IDs across purls in VulnerabilityCounter",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/658",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 658,
+            "author": "ruromero",
+            "engaged_at": "2026-09-01T08:27:10Z"
+          },
+          {
+            "title": "feat: add support for trustify-da-ignore marker for Go/Maven/Gradle/Python",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/623",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 623,
+            "author": "Strum355",
+            "engaged_at": "2026-08-31T11:13:50Z"
+          },
+          {
+            "title": "chore: bump CI node to 24 LTS",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/930",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 930,
+            "author": "Strum355",
+            "engaged_at": "2026-08-27T10:48:22Z"
+          },
+          {
+            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 619,
+            "author": "Strum355",
+            "engaged_at": "2026-08-26T13:18:19Z"
+          },
+          {
+            "title": "chore(deps): bump fast-uri from 3.1.2 to 3.1.6",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/927",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 927,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T10:06:30Z"
+          },
+          {
+            "title": "chore(deps-dev): bump brace-expansion from 1.1.15 to 1.1.18",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/925",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 925,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T10:03:14Z"
+          },
+          {
+            "title": "chore(deps): bump tar from 7.5.13 to 7.5.22",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/922",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 922,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T09:58:14Z"
+          },
+          {
+            "title": "chore(deps): bump minimatch from 10.2.4 to 10.2.5",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/910",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 910,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T09:50:59Z"
+          },
+          {
+            "title": "chore(deps): bump fast-xml-parser from 5.5.8 to 5.11.0",
+            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/886",
+            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+            "number": 886,
+            "author": "dependabot",
+            "engaged_at": "2026-08-26T09:10:35Z"
+          },
+          {
+            "title": "docs(cli): add remediate command documentation and GitHub Action example",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/611",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 611,
+            "author": "ruromero",
+            "engaged_at": "2026-08-10T14:33:36Z"
+          },
+          {
+            "title": "feat(cli): add remediate command with dry-run and apply modes",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 604,
+            "author": "ruromero",
+            "engaged_at": "2026-08-09T10:32:53Z"
           }
         ]
       },
@@ -8220,6 +8055,188 @@
             "number": 99,
             "author": "tmihalac",
             "engaged_at": "2026-08-27T09:28:29Z"
+          }
+        ]
+      },
+      {
+        "login": "vbelouso",
+        "reviews": 22,
+        "prs": [
+          {
+            "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/357",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 357,
+            "author": "i386x",
+            "engaged_at": "2026-10-13T07:21:13Z"
+          },
+          {
+            "title": "fix TC-5834",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/305",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 305,
+            "author": "tmihalac",
+            "engaged_at": "2026-09-02T09:34:21Z"
+          },
+          {
+            "title": "Add NetworkPolicy RBAC to CSV",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/110",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 110,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-31T11:57:00Z"
+          },
+          {
+            "title": "Tc 5655 main base",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/342",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 342,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-26T13:10:58Z"
+          },
+          {
+            "title": "docs: correct Cognito sign-out URL to /api/v1/user/logged-out endpoint",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/341",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 341,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-26T13:05:17Z"
+          },
+          {
+            "title": "docs: add required Cognito sign-out URL configuration for logout",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/340",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 340,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-26T11:33:26Z"
+          },
+          {
+            "title": "Appeng 5865 doc base main",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/339",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 339,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-26T11:31:16Z"
+          },
+          {
+            "title": "feat: add support for Keycloak/Cognito to OCP deployment profile",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/96",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 96,
+            "author": "Strum355",
+            "engaged_at": "2026-08-25T14:44:54Z"
+          },
+          {
+            "title": "docs: update AWS Cognito IdP configuration steps",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/338",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 338,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-18T11:26:12Z"
+          },
+          {
+            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 302,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-17T22:51:38Z"
+          },
+          {
+            "title": "docs: correct Cognito sign-out URL to /api/v1/user/logged-out endpoint",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/337",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 337,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-16T12:39:32Z"
+          },
+          {
+            "title": "Ga based 12 08",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/301",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 301,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-12T13:04:49Z"
+          },
+          {
+            "title": "ga-based-12-08",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/336",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 336,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-12T12:52:36Z"
+          },
+          {
+            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 335,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-11T15:40:24Z"
+          },
+          {
+            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/334",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 334,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-11T09:45:31Z"
+          },
+          {
+            "title": "docs: add required COGNITO_DOMAIN environment variable for client",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/333",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 333,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-09T23:34:40Z"
+          },
+          {
+            "title": "Fix logout back",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/300",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 300,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-09T15:32:53Z"
+          },
+          {
+            "title": "docs: add required Cognito sign-out URL configuration for logout",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/332",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 332,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-06T15:45:23Z"
+          },
+          {
+            "title": "fix: implement custom Cognito logout to use correct parameters",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 299,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-06T13:36:52Z"
+          },
+          {
+            "title": "fix: CVE ID  will not be accepted as package NVR (#297)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/298",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 298,
+            "author": "rhartuv",
+            "engaged_at": "2026-08-06T11:04:49Z"
+          },
+          {
+            "title": "fix: CVE ID  will not be accepted as package NVR",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 297,
+            "author": "rhartuv",
+            "engaged_at": "2026-08-06T08:55:45Z"
+          },
+          {
+            "title": "Appeng 5865 logout",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/296",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 296,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-06T08:40:46Z"
           }
         ]
       },
@@ -8602,116 +8619,6 @@
         ]
       },
       {
-        "login": "zvigrinberg",
-        "reviews": 13,
-        "prs": [
-          {
-            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 302,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T06:41:56Z"
-          },
-          {
-            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 86,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-12T13:49:55Z"
-          },
-          {
-            "title": "fix: implement custom Cognito logout to use correct parameters",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T10:45:40Z"
-          },
-          {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 335,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T17:06:12Z"
-          },
-          {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/334",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 334,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T13:16:22Z"
-          },
-          {
-            "title": "docs: add required COGNITO_DOMAIN environment variable for client",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/333",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 333,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-10T15:31:39Z"
-          },
-          {
-            "title": "docs: add required Cognito sign-out URL configuration for logout",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/332",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 332,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-06T15:57:49Z"
-          },
-          {
-            "title": "fix: CVE ID  will not be accepted as package NVR (#297)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/298",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 298,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T12:26:31Z"
-          },
-          {
-            "title": "fix: CVE ID  will not be accepted as package NVR",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 297,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T10:56:12Z"
-          },
-          {
-            "title": "worker process",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/323",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 323,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-05T16:01:21Z"
-          },
-          {
-            "title": "docs: Update ducomentation with deployment process of AWS cognito as …",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/328",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 328,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T15:58:34Z"
-          },
-          {
-            "title": "feat: Add AWS Cognito as OIDC Identity Provider (#325)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/331",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 331,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T15:55:35Z"
-          },
-          {
-            "title": "fix: Extract username from JWT token claims instead of UserInfo (#291)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/295",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 295,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T15:53:37Z"
-          }
-        ]
-      },
-      {
         "login": "PhilipCattanach",
         "reviews": 12,
         "prs": [
@@ -8815,8 +8722,24 @@
       },
       {
         "login": "mrizzi",
-        "reviews": 10,
+        "reviews": 12,
         "prs": [
+          {
+            "title": "fix(purl): synthesize recommendations from OSV fixed events",
+            "url": "https://github.com/guacsec/trustify/pull/2829",
+            "repo": "guacsec/trustify",
+            "number": 2829,
+            "author": "ruromero",
+            "engaged_at": "2026-11-03T13:40:10Z"
+          },
+          {
+            "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
+            "url": "https://github.com/guacsec/trustify/pull/2833",
+            "repo": "guacsec/trustify",
+            "number": 2833,
+            "author": "dejanb",
+            "engaged_at": "2026-11-03T11:13:54Z"
+          },
           {
             "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify/pull/2828",
@@ -8900,84 +8823,6 @@
         ]
       },
       {
-        "login": "carlosthe19916",
-        "reviews": 9,
-        "prs": [
-          {
-            "title": "fix(crypto): restore table state persistence and SBOM key size",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1407",
-            "repo": "guacsec/trustify-ui",
-            "number": 1407,
-            "author": "gildub",
-            "engaged_at": "2026-10-30T07:48:18Z"
-          },
-          {
-            "title": "fix(crypto): address primitive and size columns issues",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1403",
-            "repo": "guacsec/trustify-ui",
-            "number": 1403,
-            "author": "gildub",
-            "engaged_at": "2026-10-29T08:44:06Z"
-          },
-          {
-            "title": "fix(crypto): address more remediation issues",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1385",
-            "repo": "guacsec/trustify-ui",
-            "number": 1385,
-            "author": "gildub",
-            "engaged_at": "2026-10-26T12:02:59Z"
-          },
-          {
-            "title": "fix(crypto): address remediation issues",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1379",
-            "repo": "guacsec/trustify-ui",
-            "number": 1379,
-            "author": "gildub",
-            "engaged_at": "2026-10-26T10:52:33Z"
-          },
-          {
-            "title": "feat(crypto): add remediation mapping import UI",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1344",
-            "repo": "guacsec/trustify-ui",
-            "number": 1344,
-            "author": "gildub",
-            "engaged_at": "2026-10-26T07:42:36Z"
-          },
-          {
-            "title": "revert(1165): avoid PurgeCSS bug",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1209",
-            "repo": "guacsec/trustify-ui",
-            "number": 1209,
-            "author": "gildub",
-            "engaged_at": "2026-08-17T10:03:38Z"
-          },
-          {
-            "title": "fix(ui): match leave-page warning modal to design and align with moda…",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1206",
-            "repo": "guacsec/trustify-ui",
-            "number": 1206,
-            "author": "a-oren",
-            "engaged_at": "2026-08-13T12:44:58Z"
-          },
-          {
-            "title": "tests: add home page tests",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1197",
-            "repo": "guacsec/trustify-ui",
-            "number": 1197,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-05T12:29:46Z"
-          },
-          {
-            "title": "Chore: Removed @tsd-ui/core dependency",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1196",
-            "repo": "guacsec/trustify-ui",
-            "number": 1196,
-            "author": "stanislavsemeniuk",
-            "engaged_at": "2026-08-05T10:44:09Z"
-          }
-        ]
-      },
-      {
         "login": "mrrajan",
         "reviews": 9,
         "prs": [
@@ -9052,6 +8897,146 @@
             "number": 1205,
             "author": "matejnesuta",
             "engaged_at": "2026-08-13T12:44:30Z"
+          }
+        ]
+      },
+      {
+        "login": "zvigrinberg",
+        "reviews": 9,
+        "prs": [
+          {
+            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 302,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-18T06:41:56Z"
+          },
+          {
+            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 86,
+            "author": "xinredhat",
+            "engaged_at": "2026-08-12T13:49:55Z"
+          },
+          {
+            "title": "fix: implement custom Cognito logout to use correct parameters",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 299,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-12T10:45:40Z"
+          },
+          {
+            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 335,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-11T17:06:12Z"
+          },
+          {
+            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/334",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 334,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-11T13:16:22Z"
+          },
+          {
+            "title": "docs: add required COGNITO_DOMAIN environment variable for client",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/333",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 333,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-10T15:31:39Z"
+          },
+          {
+            "title": "docs: add required Cognito sign-out URL configuration for logout",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/332",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 332,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-06T15:57:49Z"
+          },
+          {
+            "title": "fix: CVE ID  will not be accepted as package NVR (#297)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/298",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 298,
+            "author": "rhartuv",
+            "engaged_at": "2026-08-06T12:26:31Z"
+          },
+          {
+            "title": "fix: CVE ID  will not be accepted as package NVR",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 297,
+            "author": "rhartuv",
+            "engaged_at": "2026-08-06T10:56:12Z"
+          }
+        ]
+      },
+      {
+        "login": "carlosthe19916",
+        "reviews": 7,
+        "prs": [
+          {
+            "title": "fix(crypto): restore table state persistence and SBOM key size",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1407",
+            "repo": "guacsec/trustify-ui",
+            "number": 1407,
+            "author": "gildub",
+            "engaged_at": "2026-10-30T07:48:18Z"
+          },
+          {
+            "title": "fix(crypto): address primitive and size columns issues",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1403",
+            "repo": "guacsec/trustify-ui",
+            "number": 1403,
+            "author": "gildub",
+            "engaged_at": "2026-10-29T08:44:06Z"
+          },
+          {
+            "title": "fix(crypto): address more remediation issues",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1385",
+            "repo": "guacsec/trustify-ui",
+            "number": 1385,
+            "author": "gildub",
+            "engaged_at": "2026-10-26T12:02:59Z"
+          },
+          {
+            "title": "fix(crypto): address remediation issues",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1379",
+            "repo": "guacsec/trustify-ui",
+            "number": 1379,
+            "author": "gildub",
+            "engaged_at": "2026-10-26T10:52:33Z"
+          },
+          {
+            "title": "feat(crypto): add remediation mapping import UI",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1344",
+            "repo": "guacsec/trustify-ui",
+            "number": 1344,
+            "author": "gildub",
+            "engaged_at": "2026-10-26T07:42:36Z"
+          },
+          {
+            "title": "revert(1165): avoid PurgeCSS bug",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1209",
+            "repo": "guacsec/trustify-ui",
+            "number": 1209,
+            "author": "gildub",
+            "engaged_at": "2026-08-17T10:03:38Z"
+          },
+          {
+            "title": "fix(ui): match leave-page warning modal to design and align with moda…",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1206",
+            "repo": "guacsec/trustify-ui",
+            "number": 1206,
+            "author": "a-oren",
+            "engaged_at": "2026-08-13T12:44:58Z"
           }
         ]
       },
@@ -9306,20 +9291,6 @@
             "number": 1232,
             "author": "gildub",
             "engaged_at": "2026-09-04T15:46:50Z"
-          }
-        ]
-      },
-      {
-        "login": "rhartuv",
-        "reviews": 1,
-        "prs": [
-          {
-            "title": "docs: Update ducomentation with deployment process of AWS cognito as …",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/328",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 328,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-05T16:57:48Z"
           }
         ]
       },
