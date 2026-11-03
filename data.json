@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:00:34.473503379Z",
+  "generated_at": "2026-11-03T10:33:18.951240558Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -102,6 +102,28 @@
         "dependencies",
         "github_actions"
       ]
+    },
+    {
+      "title": "chore(evals): move skill-eval CI to claude-opus-5-5 / claude-sonnet-5-5",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/368",
+      "number": 368,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-11-03T09:13:56Z",
+      "updated_at": "2026-11-03T10:10:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -620,16 +642,16 @@
       "labels": []
     },
     {
-      "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 2 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/685",
-      "number": 685,
+      "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 3 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/686",
+      "number": 686,
       "repo": "guacsec/trustify-da-javascript-client",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-02T06:54:22Z",
-      "updated_at": "2026-11-02T06:59:18Z",
+      "created_at": "2026-11-03T06:44:02Z",
+      "updated_at": "2026-11-03T06:48:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1260,16 +1282,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-10-27T09:26:47Z",
-      "updated_at": "2026-11-02T10:16:32Z",
+      "updated_at": "2026-11-03T10:07:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -1304,7 +1326,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-29T16:28:11Z",
-      "updated_at": "2026-10-30T15:45:59Z",
+      "updated_at": "2026-11-03T08:03:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1313,7 +1335,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -1348,13 +1370,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/141611?u=707eefdfcf122ecd0489b6d3ef0991b52dbd4c15\u0026v=4"
       },
       "created_at": "2026-11-02T13:05:20Z",
-      "updated_at": "2026-11-02T15:37:24Z",
+      "updated_at": "2026-11-03T09:45:19Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1550,6 +1572,50 @@
         "dependencies",
         "python:uv"
       ]
+    },
+    {
+      "title": "chore(bumped versions): bumped versions ",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/479",
+      "number": 479,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-03T07:19:43Z",
+      "updated_at": "2026-11-03T07:59:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump brotli to 1.2.1 to address CVE-2026-111497 (TC-7130)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/481",
+      "number": 481,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-03T09:55:44Z",
+      "updated_at": "2026-11-03T10:11:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "fix: Extract username from JWT token claims instead of UserInfo (#291)",
@@ -2281,10 +2347,54 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-11-02T23:11:03Z",
-      "updated_at": "2026-11-02T23:15:07Z",
+      "updated_at": "2026-11-03T10:00:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(bumped versions): updated syft to 1.56",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/396",
+      "number": 396,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-03T06:51:49Z",
+      "updated_at": "2026-11-03T06:51:50Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (main)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/397",
+      "number": 397,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-03T10:30:35Z",
+      "updated_at": "2026-11-03T10:31:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3075,12 +3185,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T02:59:39Z",
+    "since": "2026-08-05T10:32:21Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
         "reviews": 151,
         "prs": [
+          {
+            "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 3 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/686",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 686,
+            "author": "dependabot",
+            "engaged_at": "2026-11-03T06:48:26Z"
+          },
           {
             "title": "chore(deps): bump minimatch from 10.2.5 to 11.0.1",
             "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/951",
@@ -4280,14 +4398,6 @@
             "number": 605,
             "author": "dependabot",
             "engaged_at": "2026-08-05T16:59:36Z"
-          },
-          {
-            "title": "feat(cli): add remediate command with dry-run and apply modes",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 604,
-            "author": "ruromero",
-            "engaged_at": "2026-08-05T09:02:30Z"
           }
         ]
       },
@@ -4296,20 +4406,20 @@
         "reviews": 103,
         "prs": [
           {
+            "title": "feat(correlation): paginate SBOM correlation results",
+            "url": "https://github.com/guacsec/trustify/pull/2811",
+            "repo": "guacsec/trustify",
+            "number": 2811,
+            "author": "ctron",
+            "engaged_at": "2026-11-03T10:07:51Z"
+          },
+          {
             "title": "feat(ui): embed Trustify Console and add browser end-to-end tests",
             "url": "https://github.com/guacsec/trustify/pull/2814",
             "repo": "guacsec/trustify",
             "number": 2814,
             "author": "ctron",
             "engaged_at": "2026-10-28T09:36:11Z"
-          },
-          {
-            "title": "feat(correlation): paginate SBOM correlation results",
-            "url": "https://github.com/guacsec/trustify/pull/2811",
-            "repo": "guacsec/trustify",
-            "number": 2811,
-            "author": "ctron",
-            "engaged_at": "2026-10-28T06:18:36Z"
           },
           {
             "title": "fix(xtask): fail dump generation on ingestion errors",
@@ -6247,7 +6357,7 @@
             "repo": "guacsec/trustify",
             "number": 2833,
             "author": "dejanb",
-            "engaged_at": "2026-11-02T13:07:11Z"
+            "engaged_at": "2026-11-03T09:45:19Z"
           },
           {
             "title": "chore: removing unused dependencies",
@@ -7139,7 +7249,7 @@
       },
       {
         "login": "a-oren",
-        "reviews": 36,
+        "reviews": 35,
         "prs": [
           {
             "title": "chore(deps): bump minimatch from 10.2.5 to 11.0.1",
@@ -7420,21 +7530,29 @@
             "number": 604,
             "author": "ruromero",
             "engaged_at": "2026-08-09T10:32:53Z"
-          },
-          {
-            "title": "feat: add remediation report generator for PR body output",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/601",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 601,
-            "author": "ruromero",
-            "engaged_at": "2026-08-05T06:53:38Z"
           }
         ]
       },
       {
         "login": "tmihalac",
-        "reviews": 34,
+        "reviews": 35,
         "prs": [
+          {
+            "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (main)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/397",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 397,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-03T10:32:46Z"
+          },
+          {
+            "title": "fix: pin brotli4j to 1.24.0 to address CVE-2026-111497 (TC-7244)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/395",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 395,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-03T10:00:52Z"
+          },
           {
             "title": "fix: subclass Embeddings in _LoggingEmbeddingProxy (TC-6789)",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/423",
@@ -7698,20 +7816,12 @@
             "number": 300,
             "author": "TamarW0",
             "engaged_at": "2026-08-10T06:47:39Z"
-          },
-          {
-            "title": "Appeng 5697",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/322",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 322,
-            "author": "RedTanny",
-            "engaged_at": "2026-08-05T08:30:09Z"
           }
         ]
       },
       {
         "login": "vbelouso",
-        "reviews": 29,
+        "reviews": 27,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -7928,22 +8038,6 @@
             "number": 20,
             "author": "red-hat-konflux-kflux-prd-rh02",
             "engaged_at": "2026-08-05T10:59:00Z"
-          },
-          {
-            "title": "Updated mcp server with latest agent client changes",
-            "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/14",
-            "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-            "number": 14,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-05T09:52:35Z"
-          },
-          {
-            "title": "TC-5489: count SBOM product scans once toward per-user queue limit",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/294",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 294,
-            "author": "gnetanel",
-            "engaged_at": "2026-08-05T04:51:49Z"
           }
         ]
       },
@@ -8509,7 +8603,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8614,14 +8708,6 @@
             "number": 295,
             "author": "TamarW0",
             "engaged_at": "2026-08-05T15:53:37Z"
-          },
-          {
-            "title": "TC-5489: count SBOM product scans once toward per-user queue limit",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/294",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 294,
-            "author": "gnetanel",
-            "engaged_at": "2026-08-05T05:42:01Z"
           }
         ]
       },
