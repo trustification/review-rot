@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T18:11:42.291887675Z",
+  "generated_at": "2026-11-03T23:33:02.946212707Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1019,7 +1019,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/86094767?u=ce64dcaa7e6830ae9816eea2488b9817d7db4107\u0026v=4"
       },
       "created_at": "2026-10-05T08:10:51Z",
-      "updated_at": "2026-10-30T13:46:05Z",
+      "updated_at": "2026-11-03T22:42:09Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1028,7 +1028,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -1217,10 +1217,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T16:11:15Z",
-      "updated_at": "2026-11-03T17:34:37Z",
+      "updated_at": "2026-11-03T18:46:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1285,7 +1285,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-29T16:28:11Z",
-      "updated_at": "2026-11-03T08:03:44Z",
+      "updated_at": "2026-11-03T22:03:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3210,11 +3210,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T18:10:52Z",
+    "since": "2026-08-05T23:32:15Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 151,
+        "reviews": 150,
         "prs": [
           {
             "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
@@ -4415,14 +4415,6 @@
             "number": 571,
             "author": "dependabot",
             "engaged_at": "2026-08-07T00:45:17Z"
-          },
-          {
-            "title": "build(deps): bump fast-uri from 3.1.2 to 3.1.6 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/655",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 655,
-            "author": "dependabot",
-            "engaged_at": "2026-08-05T19:25:39Z"
           }
         ]
       },
@@ -9133,6 +9125,44 @@
         ]
       },
       {
+        "login": "matejnesuta",
+        "reviews": 4,
+        "prs": [
+          {
+            "title": "test: add @vendor-remediation E2E automation for LW/RHLW recommendations",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1315",
+            "repo": "guacsec/trustify-ui",
+            "number": 1315,
+            "author": "mrrajan",
+            "engaged_at": "2026-11-03T22:42:09Z"
+          },
+          {
+            "title": "test(e2e): add license export tests for CycloneDX SBOMs",
+            "url": "https://github.com/guacsec/trustify-ui/pull/942",
+            "repo": "guacsec/trustify-ui",
+            "number": 942,
+            "author": "a-oren",
+            "engaged_at": "2026-10-05T16:17:30Z"
+          },
+          {
+            "title": "test(e2e): add BDD tests for CVSS display and vulnerability detail tabs",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1215",
+            "repo": "guacsec/trustify-ui",
+            "number": 1215,
+            "author": "xinredhat",
+            "engaged_at": "2026-08-24T14:04:53Z"
+          },
+          {
+            "title": "test(e2e): analysis response to art-images on Atlas",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1183",
+            "repo": "guacsec/trustify-ui",
+            "number": 1183,
+            "author": "vobratil",
+            "engaged_at": "2026-08-12T16:00:31Z"
+          }
+        ]
+      },
+      {
         "login": "desmax74",
         "reviews": 3,
         "prs": [
@@ -9159,36 +9189,6 @@
             "number": 2782,
             "author": "ctron",
             "engaged_at": "2026-10-22T12:02:51Z"
-          }
-        ]
-      },
-      {
-        "login": "matejnesuta",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "test(e2e): add license export tests for CycloneDX SBOMs",
-            "url": "https://github.com/guacsec/trustify-ui/pull/942",
-            "repo": "guacsec/trustify-ui",
-            "number": 942,
-            "author": "a-oren",
-            "engaged_at": "2026-10-05T16:17:30Z"
-          },
-          {
-            "title": "test(e2e): add BDD tests for CVSS display and vulnerability detail tabs",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1215",
-            "repo": "guacsec/trustify-ui",
-            "number": 1215,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-24T14:04:53Z"
-          },
-          {
-            "title": "test(e2e): analysis response to art-images on Atlas",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1183",
-            "repo": "guacsec/trustify-ui",
-            "number": 1183,
-            "author": "vobratil",
-            "engaged_at": "2026-08-12T16:00:31Z"
           }
         ]
       },
