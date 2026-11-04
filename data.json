@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:57:44.962165753Z",
+  "generated_at": "2026-11-04T11:49:12.790418315Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -585,7 +585,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-03T06:44:02Z",
-      "updated_at": "2026-11-03T15:58:30Z",
+      "updated_at": "2026-11-04T06:43:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -874,6 +874,28 @@
         "dependencies",
         "javascript"
       ]
+    },
+    {
+      "title": "fix(spdx): support case-insensitive SPDX 2.3 LicenseRefs",
+      "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/682",
+      "number": 682,
+      "repo": "guacsec/trustify-dependency-analytics",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-11-04T10:48:09Z",
+      "updated_at": "2026-11-04T11:33:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "test(e2e): Add SBOM and Advisory Upload tests",
@@ -1217,7 +1239,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T16:11:15Z",
-      "updated_at": "2026-11-03T18:46:58Z",
+      "updated_at": "2026-11-04T11:00:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1226,7 +1248,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 9,
       "labels": [
         "backport release/0.7.z"
       ]
@@ -1276,28 +1298,6 @@
       "labels": []
     },
     {
-      "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2828",
-      "number": 2828,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
-      },
-      "created_at": "2026-10-29T16:28:11Z",
-      "updated_at": "2026-11-03T22:03:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 6,
-      "labels": []
-    },
-    {
       "title": "fix(purl): synthesize recommendations from OSV fixed events",
       "url": "https://github.com/guacsec/trustify/pull/2829",
       "number": 2829,
@@ -1307,7 +1307,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-03T16:49:37Z",
+      "updated_at": "2026-11-04T09:33:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1316,7 +1316,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -1329,38 +1329,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/141611?u=707eefdfcf122ecd0489b6d3ef0991b52dbd4c15\u0026v=4"
       },
       "created_at": "2026-11-02T13:05:20Z",
-      "updated_at": "2026-11-03T15:41:01Z",
+      "updated_at": "2026-11-04T11:22:18Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 7,
-      "labels": []
-    },
-    {
-      "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
-      "url": "https://github.com/guacsec/trustify/pull/2834",
-      "number": 2834,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "Strum355",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
-      },
-      "created_at": "2026-11-03T11:45:42Z",
-      "updated_at": "2026-11-03T15:16:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1395,13 +1373,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-03T16:32:07Z",
-      "updated_at": "2026-11-03T16:45:29Z",
+      "updated_at": "2026-11-04T07:41:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2525,28 +2503,26 @@
       ]
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to 3a99c42",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/305",
-      "number": 305,
+      "title": "fix: bump Go toolchain image, x/net and ubi-minimal base",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/324",
+      "number": 324,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
-      "created_at": "2026-10-31T04:07:51Z",
-      "updated_at": "2026-10-31T08:09:20Z",
+      "created_at": "2026-11-04T11:06:41Z",
+      "updated_at": "2026-11-04T11:06:41Z",
       "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
+      "is_automated": false,
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "konflux-nudge"
-      ]
+      "labels": []
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -3188,12 +3164,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T03:57:03Z",
+    "since": "2026-08-06T11:48:28Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 150,
+        "reviews": 151,
         "prs": [
+          {
+            "title": "fix(spdx): support case-insensitive SPDX 2.3 LicenseRefs",
+            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/682",
+            "repo": "guacsec/trustify-dependency-analytics",
+            "number": 682,
+            "author": "a-oren",
+            "engaged_at": "2026-11-04T10:59:31Z"
+          },
           {
             "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
@@ -5228,7 +5212,7 @@
       },
       {
         "login": "gildub",
-        "reviews": 70,
+        "reviews": 69,
         "prs": [
           {
             "title": "chore(deps): bump the patternfly group with 7 updates",
@@ -5781,14 +5765,6 @@
             "number": 1200,
             "author": "carlosthe19916",
             "engaged_at": "2026-08-06T13:26:33Z"
-          },
-          {
-            "title": "chore: fix CONVENTIONS.md data information",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1201",
-            "repo": "guacsec/trustify-ui",
-            "number": 1201,
-            "author": "carlosthe19916",
-            "engaged_at": "2026-08-06T09:12:45Z"
           }
         ]
       },
@@ -6344,8 +6320,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 66,
+        "reviews": 67,
         "prs": [
+          {
+            "title": "sec: resolve cargo-deny advisory findings",
+            "url": "https://github.com/guacsec/trustify/pull/2837",
+            "repo": "guacsec/trustify",
+            "number": 2837,
+            "author": "Strum355",
+            "engaged_at": "2026-11-04T07:41:11Z"
+          },
           {
             "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
             "url": "https://github.com/guacsec/trustify/pull/2834",
@@ -6878,7 +6862,7 @@
       },
       {
         "login": "Strum355",
-        "reviews": 46,
+        "reviews": 45,
         "prs": [
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
@@ -7239,14 +7223,6 @@
             "number": 604,
             "author": "ruromero",
             "engaged_at": "2026-08-07T16:01:59Z"
-          },
-          {
-            "title": "fix: harden setting scopes and add Workspace Trust support (CVE-2026-18389)",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/926",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 926,
-            "author": "a-oren",
-            "engaged_at": "2026-08-06T11:26:20Z"
           }
         ]
       },
@@ -8030,7 +8006,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 22,
+        "reviews": 19,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -8183,30 +8159,6 @@
             "number": 299,
             "author": "TamarW0",
             "engaged_at": "2026-08-06T13:36:52Z"
-          },
-          {
-            "title": "fix: CVE ID  will not be accepted as package NVR (#297)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/298",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 298,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T11:04:49Z"
-          },
-          {
-            "title": "fix: CVE ID  will not be accepted as package NVR",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 297,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T08:55:45Z"
-          },
-          {
-            "title": "Appeng 5865 logout",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/296",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 296,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-06T08:40:46Z"
           }
         ]
       },
@@ -8695,12 +8647,28 @@
         "reviews": 12,
         "prs": [
           {
+            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
+            "url": "https://github.com/guacsec/trustify/pull/2765",
+            "repo": "guacsec/trustify",
+            "number": 2765,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T11:00:58Z"
+          },
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2828",
+            "repo": "guacsec/trustify",
+            "number": 2828,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T09:47:58Z"
+          },
+          {
             "title": "fix(purl): synthesize recommendations from OSV fixed events",
             "url": "https://github.com/guacsec/trustify/pull/2829",
             "repo": "guacsec/trustify",
             "number": 2829,
             "author": "ruromero",
-            "engaged_at": "2026-11-03T13:40:10Z"
+            "engaged_at": "2026-11-04T09:33:06Z"
           },
           {
             "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
@@ -8709,22 +8677,6 @@
             "number": 2833,
             "author": "dejanb",
             "engaged_at": "2026-11-03T11:13:54Z"
-          },
-          {
-            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2828",
-            "repo": "guacsec/trustify",
-            "number": 2828,
-            "author": "ruromero",
-            "engaged_at": "2026-10-30T15:45:58Z"
-          },
-          {
-            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
-            "url": "https://github.com/guacsec/trustify/pull/2765",
-            "repo": "guacsec/trustify",
-            "number": 2765,
-            "author": "ruromero",
-            "engaged_at": "2026-10-30T08:32:27Z"
           },
           {
             "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
@@ -8872,7 +8824,7 @@
       },
       {
         "login": "zvigrinberg",
-        "reviews": 9,
+        "reviews": 8,
         "prs": [
           {
             "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
@@ -8937,14 +8889,6 @@
             "number": 298,
             "author": "rhartuv",
             "engaged_at": "2026-08-06T12:26:31Z"
-          },
-          {
-            "title": "fix: CVE ID  will not be accepted as package NVR",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/297",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 297,
-            "author": "rhartuv",
-            "engaged_at": "2026-08-06T10:56:12Z"
           }
         ]
       },
