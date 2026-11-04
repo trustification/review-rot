@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:33:02.946212707Z",
+  "generated_at": "2026-11-04T03:57:44.962165753Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -2549,28 +2549,6 @@
       ]
     },
     {
-      "title": "docs: remove duplicate registry credentials",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/318",
-      "number": 318,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-11-03T13:08:39Z",
-      "updated_at": "2026-11-03T14:16:44Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/10",
       "number": 10,
@@ -3210,7 +3188,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T23:32:15Z",
+    "since": "2026-08-06T03:57:03Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
