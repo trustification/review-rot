@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:41:56.190343504Z",
+  "generated_at": "2026-11-05T21:42:58.542978725Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1179,7 +1179,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-11-03T13:29:26Z",
-      "updated_at": "2026-11-03T13:49:08Z",
+      "updated_at": "2026-11-05T17:01:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1280,30 +1280,6 @@
       "labels": []
     },
     {
-      "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
-      "url": "https://github.com/guacsec/trustify/pull/2765",
-      "number": 2765,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
-      },
-      "created_at": "2026-10-13T16:11:15Z",
-      "updated_at": "2026-11-05T15:30:03Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "feat(importer): restore OSV HTTP feed support (PR #2783)",
       "url": "https://github.com/guacsec/trustify/pull/2801",
       "number": 2801,
@@ -1379,7 +1355,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-03T13:55:54Z",
-      "updated_at": "2026-11-04T16:22:58Z",
+      "updated_at": "2026-11-05T20:26:31Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1423,7 +1399,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-04T12:44:39Z",
-      "updated_at": "2026-11-05T14:21:14Z",
+      "updated_at": "2026-11-05T16:34:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1433,7 +1409,11 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "backport release/0.5.z",
+        "backport release/0.6.z",
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "build: update install-action to fix trunk install on aarch64-apple-darwin",
@@ -1445,7 +1425,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-04T16:30:49Z",
-      "updated_at": "2026-11-05T14:21:10Z",
+      "updated_at": "2026-11-05T16:34:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1455,7 +1435,11 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "backport release/0.5.z",
+        "backport release/0.6.z",
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "fix(purl): preserve status IDs when loading recommendation remediations",
@@ -1489,7 +1473,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-11-04T19:15:45Z",
-      "updated_at": "2026-11-05T13:43:00Z",
+      "updated_at": "2026-11-05T20:36:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1502,30 +1486,6 @@
       "labels": []
     },
     {
-      "title": "TLS-PQC-Improve",
-      "url": "https://github.com/guacsec/trustify/pull/2845",
-      "number": 2845,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "desmax74",
-        "avatar_url": "https://avatars.githubusercontent.com/u/141301?u=1152923a887068e54893cc8927cac9028ec7e9dc\u0026v=4"
-      },
-      "created_at": "2026-11-05T12:21:12Z",
-      "updated_at": "2026-11-05T15:03:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "fix(ingestor): backport Red Hat Lightwell OSV support (#2833) to release/0.7.z",
       "url": "https://github.com/guacsec/trustify/pull/2846",
       "number": 2846,
@@ -1535,60 +1495,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
       },
       "created_at": "2026-11-05T12:31:18Z",
-      "updated_at": "2026-11-05T15:29:18Z",
+      "updated_at": "2026-11-05T17:50:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": true
-      },
-      "unresolved_conversations": 7,
-      "labels": []
-    },
-    {
-      "title": "fix(ci): select the migration dump by the run's base branch (release/0.7.z)",
-      "url": "https://github.com/guacsec/trustify/pull/2847",
-      "number": 2847,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-05T13:46:15Z",
-      "updated_at": "2026-11-05T13:51:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(ci): select the migration dump by the run's base branch",
-      "url": "https://github.com/guacsec/trustify/pull/2848",
-      "number": 2848,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-05T13:46:33Z",
-      "updated_at": "2026-11-05T13:51:26Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
@@ -1601,16 +1517,60 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-05T15:00:35Z",
-      "updated_at": "2026-11-05T15:03:27Z",
+      "updated_at": "2026-11-05T19:33:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "TLS-PQC-Improve [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify/pull/2850",
+      "number": 2850,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-11-05T16:08:03Z",
+      "updated_at": "2026-11-05T20:15:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "ci: optimize rust-cache to prevent thrashing and improve hit rates",
+      "url": "https://github.com/guacsec/trustify/pull/2854",
+      "number": 2854,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-11-05T16:59:35Z",
+      "updated_at": "2026-11-05T17:18:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1736,10 +1696,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-05T09:59:53Z",
-      "updated_at": "2026-11-05T15:26:18Z",
+      "updated_at": "2026-11-05T21:00:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2563,7 +2523,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-1-1 to e7a58d6",
+      "title": "chore(deps): update operator-3-1-1 to 7574ddc",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/249",
       "number": 249,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2572,7 +2532,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-10-12T16:07:06Z",
-      "updated_at": "2026-10-31T08:07:17Z",
+      "updated_at": "2026-11-05T16:08:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2587,38 +2547,16 @@
       ]
     },
     {
-      "title": "feat: create NetworkPolicies for the ExploitIQ operands (TC-6045)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/327",
-      "number": 327,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-11-04T14:16:15Z",
-      "updated_at": "2026-11-04T14:38:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9-micro docker digest to 6d9eff1",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/333",
-      "number": 333,
+      "title": "chore(deps): update operator-3-2-0 to 88f5b20",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/337",
+      "number": 337,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
         "login": "red-hat-konflux-kflux-prd-rh02",
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
-      "created_at": "2026-11-05T12:02:57Z",
-      "updated_at": "2026-11-05T12:02:59Z",
+      "created_at": "2026-11-05T20:57:55Z",
+      "updated_at": "2026-11-05T21:12:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2629,31 +2567,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "/approve",
-        "/lgtm"
+        "konflux-nudge"
       ]
-    },
-    {
-      "title": "[0.0.5] feat: create NetworkPolicies for the ExploitIQ operands (TC-6045)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/334",
-      "number": 334,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-11-05T13:21:43Z",
-      "updated_at": "2026-11-05T15:02:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -3295,7 +3210,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T15:41:08Z",
+    "since": "2026-08-07T21:42:08Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4505,8 +4420,24 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 105,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
+            "url": "https://github.com/guacsec/trustify/pull/2836",
+            "repo": "guacsec/trustify",
+            "number": 2836,
+            "author": "ctron",
+            "engaged_at": "2026-11-05T20:26:21Z"
+          },
+          {
+            "title": "TLS-PQC-Improve [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2850",
+            "repo": "guacsec/trustify",
+            "number": 2850,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-05T20:15:01Z"
+          },
           {
             "title": "[WIP] feat(fullstack): Initial ADR",
             "url": "https://github.com/guacsec/trustify/pull/2844",
@@ -5359,7 +5290,7 @@
             "repo": "guacsec/trustify",
             "number": 2846,
             "author": "mrizzi",
-            "engaged_at": "2026-11-05T15:28:36Z"
+            "engaged_at": "2026-11-05T16:54:57Z"
           },
           {
             "title": "fix(spdx): support case-insensitive SPDX 2.3 LicenseRefs",
@@ -7001,8 +6932,32 @@
       },
       {
         "login": "Strum355",
-        "reviews": 45,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2851",
+            "repo": "guacsec/trustify",
+            "number": 2851,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T16:27:48Z"
+          },
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2852",
+            "repo": "guacsec/trustify",
+            "number": 2852,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T16:27:42Z"
+          },
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat [Backport release/0.5.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2853",
+            "repo": "guacsec/trustify",
+            "number": 2853,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T16:27:26Z"
+          },
           {
             "title": "feat(bun): lockfile-only analysis from bun.lock + fix reader defects",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/680",
@@ -7354,14 +7309,6 @@
             "number": 607,
             "author": "ruromero",
             "engaged_at": "2026-08-10T10:34:25Z"
-          },
-          {
-            "title": "feat(cli): add remediate command with dry-run and apply modes",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/604",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 604,
-            "author": "ruromero",
-            "engaged_at": "2026-08-07T16:01:59Z"
           }
         ]
       },
@@ -8775,8 +8722,16 @@
       },
       {
         "login": "mrizzi",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
+            "url": "https://github.com/guacsec/trustify/pull/2834",
+            "repo": "guacsec/trustify",
+            "number": 2834,
+            "author": "Strum355",
+            "engaged_at": "2026-11-05T19:31:27Z"
+          },
           {
             "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
             "url": "https://github.com/guacsec/trustify/pull/2765",
