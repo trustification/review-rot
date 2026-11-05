@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:07:04.535238496Z",
+  "generated_at": "2026-11-05T00:28:15.915356544Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1264,7 +1264,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-13T16:11:15Z",
-      "updated_at": "2026-11-04T15:50:53Z",
+      "updated_at": "2026-11-04T19:23:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1273,7 +1273,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 11,
       "labels": [
         "backport release/0.7.z"
       ]
@@ -1332,7 +1332,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-04T18:48:34Z",
+      "updated_at": "2026-11-04T21:56:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1341,7 +1341,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1445,13 +1445,35 @@
       "updated_at": "2026-11-04T18:52:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "[WIP] feat(fullstack): Initial ADR",
+      "url": "https://github.com/guacsec/trustify/pull/2844",
+      "number": 2844,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-11-04T19:15:45Z",
+      "updated_at": "2026-11-04T19:48:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -2590,31 +2612,6 @@
       "labels": []
     },
     {
-      "title": "Bump @types/node from 22.19.21 to 26.6.5",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/32",
-      "number": 32,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T00:14:18Z",
-      "updated_at": "2026-10-15T00:14:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "Bump express and @types/express",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/34",
       "number": 34,
@@ -2712,41 +2709,16 @@
       ]
     },
     {
-      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `dcbe5b4`",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/39",
-      "number": 39,
+      "title": "Bump @modelcontextprotocol/sdk from 1.30.0 to 1.32.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/41",
+      "number": 41,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-10-29T00:14:39Z",
-      "updated_at": "2026-10-29T00:14:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker"
-      ]
-    },
-    {
-      "title": "Bump jose from 6.2.3 to 6.2.13",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/40",
-      "number": 40,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T00:14:51Z",
-      "updated_at": "2026-10-29T00:14:56Z",
+      "created_at": "2026-10-29T00:15:03Z",
+      "updated_at": "2026-10-29T00:15:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2762,16 +2734,66 @@
       ]
     },
     {
-      "title": "Bump @modelcontextprotocol/sdk from 1.30.0 to 1.32.2",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/41",
-      "number": 41,
+      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `e32a098`",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/43",
+      "number": 43,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-10-29T00:15:03Z",
-      "updated_at": "2026-10-29T00:15:07Z",
+      "created_at": "2026-11-05T00:14:36Z",
+      "updated_at": "2026-11-05T00:14:41Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "title": "Bump jose from 6.2.3 to 6.2.15",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/44",
+      "number": 44,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T00:14:58Z",
+      "updated_at": "2026-11-05T00:15:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump @types/node from 22.19.21 to 26.6.6",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/45",
+      "number": 45,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T00:15:07Z",
+      "updated_at": "2026-11-05T00:15:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3111,7 +3133,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T19:06:15Z",
+    "since": "2026-08-07T00:27:31Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -8578,6 +8600,14 @@
         "reviews": 12,
         "prs": [
           {
+            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
+            "url": "https://github.com/guacsec/trustify/pull/2765",
+            "repo": "guacsec/trustify",
+            "number": 2765,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T19:23:52Z"
+          },
+          {
             "title": "fix(purl): synthesize recommendations from OSV fixed events",
             "url": "https://github.com/guacsec/trustify/pull/2829",
             "repo": "guacsec/trustify",
@@ -8592,14 +8622,6 @@
             "number": 2833,
             "author": "dejanb",
             "engaged_at": "2026-11-04T17:23:00Z"
-          },
-          {
-            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
-            "url": "https://github.com/guacsec/trustify/pull/2765",
-            "repo": "guacsec/trustify",
-            "number": 2765,
-            "author": "ruromero",
-            "engaged_at": "2026-11-04T11:00:58Z"
           },
           {
             "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
