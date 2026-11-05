@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:28:15.915356544Z",
+  "generated_at": "2026-11-05T07:10:26.190644194Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -80,15 +80,40 @@
     },
     {
       "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.53.0",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/350",
-      "number": 350,
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/373",
+      "number": 373,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-10-22T00:43:38Z",
-      "updated_at": "2026-11-02T08:31:02Z",
+      "created_at": "2026-11-05T00:44:14Z",
+      "updated_at": "2026-11-05T00:44:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "chore(deps): bump stbenjam/skillsaw from 1bf34517f8c38193814a0ff7199d028897fbf344 to d0abad2205185883c237351192b3fea997050b64",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/374",
+      "number": 374,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T00:44:21Z",
+      "updated_at": "2026-11-05T00:44:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -113,7 +138,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2025-07-21T16:02:56Z",
-      "updated_at": "2026-10-20T05:34:13Z",
+      "updated_at": "2026-11-05T03:38:07Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -601,31 +626,6 @@
       ]
     },
     {
-      "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 3 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/686",
-      "number": 686,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-03T06:44:02Z",
-      "updated_at": "2026-11-04T06:43:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
       "number": 687,
@@ -648,6 +648,31 @@
       "labels": [
         "dependencies",
         "github_actions"
+      ]
+    },
+    {
+      "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 4 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/688",
+      "number": 688,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T06:43:55Z",
+      "updated_at": "2026-11-05T06:48:23Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
       ]
     },
     {
@@ -2481,10 +2506,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-04T14:39:12Z",
-      "updated_at": "2026-11-04T15:57:53Z",
+      "updated_at": "2026-11-05T06:38:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2884,31 +2909,6 @@
       ]
     },
     {
-      "title": "Bump pyasn1 from 0.6.3 to 0.6.4",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/33",
-      "number": 33,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-24T14:20:53Z",
-      "updated_at": "2026-09-24T14:20:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Update scikit-learn requirement from \u003e=1.3.0 to \u003e=1.9.1",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/35",
       "number": 35,
@@ -3034,31 +3034,6 @@
       ]
     },
     {
-      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.1",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/43",
-      "number": 43,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T05:08:58Z",
-      "updated_at": "2026-10-15T05:09:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Update pandas requirement from \u003e=2.0.0 to \u003e=3.1.0",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/44",
       "number": 44,
@@ -3129,16 +3104,74 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/47",
+      "number": 47,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T05:12:22Z",
+      "updated_at": "2026-11-05T05:12:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "title": "Bump pyasn1 from 0.6.3 to 0.6.5",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/48",
+      "number": 48,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-05T05:12:26Z",
+      "updated_at": "2026-11-05T05:12:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T00:27:31Z",
+    "since": "2026-08-07T07:09:40Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
         "reviews": 151,
         "prs": [
+          {
+            "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 4 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/688",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 688,
+            "author": "dependabot",
+            "engaged_at": "2026-11-05T06:48:23Z"
+          },
           {
             "title": "fix(spdx): support case-insensitive SPDX 2.3 LicenseRefs",
             "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/682",
@@ -4338,14 +4371,6 @@
             "number": 607,
             "author": "ruromero",
             "engaged_at": "2026-08-07T08:20:43Z"
-          },
-          {
-            "title": "build(deps): bump brace-expansion from 1.1.11 to 1.1.18 in /src/test/resources/tst_manifests/npm/deps_with_ignore",
-            "url": "https://github.com/guacsec/trustify-da-java-client/pull/571",
-            "repo": "guacsec/trustify-da-java-client",
-            "number": 571,
-            "author": "dependabot",
-            "engaged_at": "2026-08-07T00:45:17Z"
           }
         ]
       },
