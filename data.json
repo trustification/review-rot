@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:30:55.605753682Z",
+  "generated_at": "2026-11-06T21:43:43.863323496Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -126,6 +126,30 @@
       "labels": [
         "dependencies",
         "github_actions"
+      ]
+    },
+    {
+      "title": "fix(triage-security): drop the executor's redundant comment footer",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/376",
+      "number": 376,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-11-06T16:41:12Z",
+      "updated_at": "2026-11-06T17:25:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
       ]
     },
     {
@@ -1355,7 +1379,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-03T13:55:54Z",
-      "updated_at": "2026-11-06T16:21:57Z",
+      "updated_at": "2026-11-06T21:32:00Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": null,
@@ -1493,13 +1517,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-05T16:59:35Z",
-      "updated_at": "2026-11-05T17:18:05Z",
+      "updated_at": "2026-11-06T16:40:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1518,7 +1542,7 @@
       "updated_at": "2026-11-06T16:07:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1540,7 +1564,7 @@
       "updated_at": "2026-11-06T16:15:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3228,7 +3252,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T16:30:00Z",
+    "since": "2026-08-08T21:42:58Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4446,8 +4470,16 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 109,
+        "reviews": 110,
         "prs": [
+          {
+            "title": "ci: optimize rust-cache to prevent thrashing and improve hit rates",
+            "url": "https://github.com/guacsec/trustify/pull/2854",
+            "repo": "guacsec/trustify",
+            "number": 2854,
+            "author": "Strum355",
+            "engaged_at": "2026-11-06T16:40:19Z"
+          },
           {
             "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
             "url": "https://github.com/guacsec/trustify/pull/2765",
