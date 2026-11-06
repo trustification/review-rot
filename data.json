@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:56:30.706890451Z",
+  "generated_at": "2026-11-06T08:47:59.166873043Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -651,16 +651,16 @@
       ]
     },
     {
-      "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 4 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/688",
-      "number": 688,
+      "title": "build(deps): bump the npm-dependencies group across 1 directory with 5 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/689",
+      "number": 689,
       "repo": "guacsec/trustify-da-javascript-client",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-05T06:43:55Z",
-      "updated_at": "2026-11-05T06:48:23Z",
+      "created_at": "2026-11-06T06:44:01Z",
+      "updated_at": "2026-11-06T06:48:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1473,17 +1473,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-11-04T19:15:45Z",
-      "updated_at": "2026-11-05T21:52:38Z",
+      "updated_at": "2026-11-06T08:08:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 6,
-      "labels": []
+      "unresolved_conversations": 0,
+      "labels": [
+        "frontend"
+      ]
     },
     {
       "title": "fix(ingestor): backport Red Hat Lightwell OSV support (#2833) to release/0.7.z",
@@ -1498,7 +1500,7 @@
       "updated_at": "2026-11-05T17:50:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1524,28 +1526,6 @@
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "TLS-PQC-Improve [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2850",
-      "number": 2850,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-11-05T16:08:03Z",
-      "updated_at": "2026-11-05T20:15:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -1687,16 +1667,16 @@
       ]
     },
     {
-      "title": "[0.0.5] fix: Python venv, package list and dependency tree for setup.py repos (TC-7405)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/492",
-      "number": 492,
+      "title": "chore: trigger operator e2e sibling matching",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/500",
+      "number": 500,
       "repo": "RHEcosystemAppEng/exploit-iq-agent",
       "author": {
         "login": "tmihalac",
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
-      "created_at": "2026-11-05T09:59:53Z",
-      "updated_at": "2026-11-05T21:00:24Z",
+      "created_at": "2026-11-06T07:09:29Z",
+      "updated_at": "2026-11-06T07:09:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2407,6 +2387,28 @@
       "labels": []
     },
     {
+      "title": "chore: update Quarkus and Jackson versions",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/400",
+      "number": 400,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-06T06:50:22Z",
+      "updated_at": "2026-11-06T06:50:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): bump flask from 3.1.1 to 3.1.3",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-feedback-api/pull/10",
       "number": 10,
@@ -2547,28 +2549,26 @@
       ]
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to 88f5b20",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/337",
-      "number": 337,
+      "title": "chore(deps): upgrade security dependencies",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/339",
+      "number": 339,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
-      "created_at": "2026-11-05T20:57:55Z",
-      "updated_at": "2026-11-05T21:12:32Z",
+      "created_at": "2026-11-06T06:51:36Z",
+      "updated_at": "2026-11-06T07:45:40Z",
       "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
+      "is_automated": false,
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "konflux-nudge"
-      ]
+      "labels": []
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -3210,12 +3210,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T01:55:46Z",
+    "since": "2026-08-08T08:47:13Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 150,
+        "reviews": 151,
         "prs": [
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 5 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/689",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 689,
+            "author": "dependabot",
+            "engaged_at": "2026-11-06T06:48:51Z"
+          },
           {
             "title": "build(deps-dev): bump the npm-dependencies group across 1 directory with 4 updates",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/688",
@@ -4423,6 +4431,14 @@
         "reviews": 107,
         "prs": [
           {
+            "title": "[WIP] feat(fullstack): Initial ADR",
+            "url": "https://github.com/guacsec/trustify/pull/2844",
+            "repo": "guacsec/trustify",
+            "number": 2844,
+            "author": "gildub",
+            "engaged_at": "2026-11-06T04:49:59Z"
+          },
+          {
             "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
             "url": "https://github.com/guacsec/trustify/pull/2836",
             "repo": "guacsec/trustify",
@@ -4437,14 +4453,6 @@
             "number": 2850,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-11-05T20:15:01Z"
-          },
-          {
-            "title": "[WIP] feat(fullstack): Initial ADR",
-            "url": "https://github.com/guacsec/trustify/pull/2844",
-            "repo": "guacsec/trustify",
-            "number": 2844,
-            "author": "gildub",
-            "engaged_at": "2026-11-05T13:43:00Z"
           },
           {
             "title": "TLS-PQC-Improve",
