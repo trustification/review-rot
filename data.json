@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:47:59.166873043Z",
+  "generated_at": "2026-11-06T16:30:55.605753682Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1333,7 +1333,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-04T21:56:25Z",
+      "updated_at": "2026-11-06T16:11:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1355,10 +1355,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-03T13:55:54Z",
-      "updated_at": "2026-11-05T20:26:31Z",
+      "updated_at": "2026-11-06T16:21:57Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1416,32 +1416,6 @@
       ]
     },
     {
-      "title": "build: update install-action to fix trunk install on aarch64-apple-darwin",
-      "url": "https://github.com/guacsec/trustify/pull/2842",
-      "number": 2842,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "Strum355",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
-      },
-      "created_at": "2026-11-04T16:30:49Z",
-      "updated_at": "2026-11-05T16:34:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.5.z",
-        "backport release/0.6.z",
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "fix(purl): preserve status IDs when loading recommendation remediations",
       "url": "https://github.com/guacsec/trustify/pull/2843",
       "number": 2843,
@@ -1473,31 +1447,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-11-04T19:15:45Z",
-      "updated_at": "2026-11-06T08:08:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "frontend"
-      ]
-    },
-    {
-      "title": "fix(ingestor): backport Red Hat Lightwell OSV support (#2833) to release/0.7.z",
-      "url": "https://github.com/guacsec/trustify/pull/2846",
-      "number": 2846,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-05T12:31:18Z",
-      "updated_at": "2026-11-05T17:50:48Z",
+      "updated_at": "2026-11-06T11:14:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1506,8 +1456,10 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
-      "labels": []
+      "unresolved_conversations": 1,
+      "labels": [
+        "frontend"
+      ]
     },
     {
       "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
@@ -1519,16 +1471,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-05T15:00:35Z",
-      "updated_at": "2026-11-05T19:33:16Z",
+      "updated_at": "2026-11-06T15:56:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -1545,6 +1497,50 @@
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "sec: fix actix-web/actix-http advisories (RUSTSEC-2026-0446/0447/0448)",
+      "url": "https://github.com/guacsec/trustify/pull/2856",
+      "number": 2856,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-11-06T15:02:47Z",
+      "updated_at": "2026-11-06T16:07:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "docs(conventions): remove tooling and environment duplication",
+      "url": "https://github.com/guacsec/trustify/pull/2857",
+      "number": 2857,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-11-06T15:45:31Z",
+      "updated_at": "2026-11-06T16:15:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1667,7 +1663,7 @@
       ]
     },
     {
-      "title": "chore: trigger operator e2e sibling matching",
+      "title": "fix(e2e): ignore Ubuntu advisory 5xx failures",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/500",
       "number": 500,
       "repo": "RHEcosystemAppEng/exploit-iq-agent",
@@ -1676,7 +1672,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-06T07:09:29Z",
-      "updated_at": "2026-11-06T07:09:29Z",
+      "updated_at": "2026-11-06T11:51:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2558,7 +2554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-06T06:51:36Z",
-      "updated_at": "2026-11-06T07:45:40Z",
+      "updated_at": "2026-11-06T11:51:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3206,11 +3202,33 @@
         "dependencies",
         "python"
       ]
+    },
+    {
+      "title": "[Snyk] Security upgrade pyasn1 from 0.5.1 to 0.6.5",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/49",
+      "number": 49,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "ptomanRH",
+        "avatar_url": "https://avatars.githubusercontent.com/u/193603976?u=46fde1183f07f456b4b0a75f5c5351cd63fd8212\u0026v=4"
+      },
+      "created_at": "2026-11-06T09:36:12Z",
+      "updated_at": "2026-11-06T09:36:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T08:47:13Z",
+    "since": "2026-08-08T16:30:00Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4428,15 +4446,23 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 107,
+        "reviews": 109,
         "prs": [
           {
-            "title": "[WIP] feat(fullstack): Initial ADR",
-            "url": "https://github.com/guacsec/trustify/pull/2844",
+            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
+            "url": "https://github.com/guacsec/trustify/pull/2765",
             "repo": "guacsec/trustify",
-            "number": 2844,
-            "author": "gildub",
-            "engaged_at": "2026-11-06T04:49:59Z"
+            "number": 2765,
+            "author": "ruromero",
+            "engaged_at": "2026-11-06T13:35:54Z"
+          },
+          {
+            "title": "sec: fix cargo-deny supply chain audit failure",
+            "url": "https://github.com/guacsec/trustify/pull/2855",
+            "repo": "guacsec/trustify",
+            "number": 2855,
+            "author": "Strum355",
+            "engaged_at": "2026-11-06T12:45:05Z"
           },
           {
             "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
@@ -4444,7 +4470,15 @@
             "repo": "guacsec/trustify",
             "number": 2836,
             "author": "ctron",
-            "engaged_at": "2026-11-05T20:26:21Z"
+            "engaged_at": "2026-11-06T12:26:22Z"
+          },
+          {
+            "title": "[WIP] feat(fullstack): Initial ADR",
+            "url": "https://github.com/guacsec/trustify/pull/2844",
+            "repo": "guacsec/trustify",
+            "number": 2844,
+            "author": "gildub",
+            "engaged_at": "2026-11-06T11:14:59Z"
           },
           {
             "title": "TLS-PQC-Improve [Backport release/0.7.z]",
@@ -5298,7 +5332,7 @@
             "repo": "guacsec/trustify",
             "number": 2846,
             "author": "mrizzi",
-            "engaged_at": "2026-11-05T16:54:57Z"
+            "engaged_at": "2026-11-06T09:11:54Z"
           },
           {
             "title": "fix(spdx): support case-insensitive SPDX 2.3 LicenseRefs",
@@ -5856,8 +5890,24 @@
       },
       {
         "login": "ctron",
-        "reviews": 67,
+        "reviews": 69,
         "prs": [
+          {
+            "title": "sec: fix cargo-deny supply chain audit failure",
+            "url": "https://github.com/guacsec/trustify/pull/2855",
+            "repo": "guacsec/trustify",
+            "number": 2855,
+            "author": "Strum355",
+            "engaged_at": "2026-11-06T12:44:56Z"
+          },
+          {
+            "title": "build: update install-action to fix trunk install on aarch64-apple-darwin",
+            "url": "https://github.com/guacsec/trustify/pull/2842",
+            "repo": "guacsec/trustify",
+            "number": 2842,
+            "author": "Strum355",
+            "engaged_at": "2026-11-06T09:27:55Z"
+          },
           {
             "title": "sec: resolve cargo-deny advisory findings",
             "url": "https://github.com/guacsec/trustify/pull/2837",
@@ -8383,6 +8433,132 @@
         ]
       },
       {
+        "login": "mrizzi",
+        "reviews": 15,
+        "prs": [
+          {
+            "title": "docs(conventions): make the AI commit trailer harness-agnostic",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/375",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 375,
+            "author": "ruromero",
+            "engaged_at": "2026-11-06T16:25:49Z"
+          },
+          {
+            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2849",
+            "repo": "guacsec/trustify",
+            "number": 2849,
+            "author": "ruromero",
+            "engaged_at": "2026-11-06T09:07:46Z"
+          },
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
+            "url": "https://github.com/guacsec/trustify/pull/2834",
+            "repo": "guacsec/trustify",
+            "number": 2834,
+            "author": "Strum355",
+            "engaged_at": "2026-11-05T19:31:27Z"
+          },
+          {
+            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
+            "url": "https://github.com/guacsec/trustify/pull/2765",
+            "repo": "guacsec/trustify",
+            "number": 2765,
+            "author": "ruromero",
+            "engaged_at": "2026-11-05T15:30:02Z"
+          },
+          {
+            "title": "fix(purl): synthesize recommendations from OSV fixed events",
+            "url": "https://github.com/guacsec/trustify/pull/2829",
+            "repo": "guacsec/trustify",
+            "number": 2829,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T18:48:33Z"
+          },
+          {
+            "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
+            "url": "https://github.com/guacsec/trustify/pull/2833",
+            "repo": "guacsec/trustify",
+            "number": 2833,
+            "author": "dejanb",
+            "engaged_at": "2026-11-04T17:23:00Z"
+          },
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2828",
+            "repo": "guacsec/trustify",
+            "number": 2828,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T09:47:58Z"
+          },
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
+            "url": "https://github.com/guacsec/trustify/pull/2764",
+            "repo": "guacsec/trustify",
+            "number": 2764,
+            "author": "ruromero",
+            "engaged_at": "2026-10-29T08:25:24Z"
+          },
+          {
+            "title": "Improve plan-feature shared-artifact coverage",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/359",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 359,
+            "author": "ruromero",
+            "engaged_at": "2026-10-28T17:03:25Z"
+          },
+          {
+            "title": "feat(implement-task): align eval assertions with requirements and fixtures",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 357,
+            "author": "ruromero",
+            "engaged_at": "2026-10-27T12:02:41Z"
+          },
+          {
+            "title": "feat(setup): capture verified security image identity",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 351,
+            "author": "ruromero",
+            "engaged_at": "2026-10-26T16:14:00Z"
+          },
+          {
+            "title": "feat(triage-security): add release Jira orchestration and cross-CVE dedup",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/322",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 322,
+            "author": "ruromero",
+            "engaged_at": "2026-10-07T11:09:26Z"
+          },
+          {
+            "title": "docs(adr): add ADR 00022 for feature gates",
+            "url": "https://github.com/guacsec/trustify/pull/2663",
+            "repo": "guacsec/trustify",
+            "number": 2663,
+            "author": "ctron",
+            "engaged_at": "2026-10-01T11:04:09Z"
+          },
+          {
+            "title": "fix(implement-task): require module-level tests before committing for Rust repos",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/290",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 290,
+            "author": "ruromero",
+            "engaged_at": "2026-09-08T07:53:38Z"
+          },
+          {
+            "title": "fix(implement-task): add symbol dedup and null guard guidance",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/269",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 269,
+            "author": "ruromero",
+            "engaged_at": "2026-08-24T08:38:51Z"
+          }
+        ]
+      },
+      {
         "login": "helio-frota",
         "reviews": 14,
         "prs": [
@@ -8725,116 +8901,6 @@
             "number": 2569,
             "author": "mrrajan",
             "engaged_at": "2026-08-11T15:14:27Z"
-          }
-        ]
-      },
-      {
-        "login": "mrizzi",
-        "reviews": 13,
-        "prs": [
-          {
-            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
-            "url": "https://github.com/guacsec/trustify/pull/2834",
-            "repo": "guacsec/trustify",
-            "number": 2834,
-            "author": "Strum355",
-            "engaged_at": "2026-11-05T19:31:27Z"
-          },
-          {
-            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
-            "url": "https://github.com/guacsec/trustify/pull/2765",
-            "repo": "guacsec/trustify",
-            "number": 2765,
-            "author": "ruromero",
-            "engaged_at": "2026-11-05T15:30:02Z"
-          },
-          {
-            "title": "fix(purl): synthesize recommendations from OSV fixed events",
-            "url": "https://github.com/guacsec/trustify/pull/2829",
-            "repo": "guacsec/trustify",
-            "number": 2829,
-            "author": "ruromero",
-            "engaged_at": "2026-11-04T18:48:33Z"
-          },
-          {
-            "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
-            "url": "https://github.com/guacsec/trustify/pull/2833",
-            "repo": "guacsec/trustify",
-            "number": 2833,
-            "author": "dejanb",
-            "engaged_at": "2026-11-04T17:23:00Z"
-          },
-          {
-            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2828",
-            "repo": "guacsec/trustify",
-            "number": 2828,
-            "author": "ruromero",
-            "engaged_at": "2026-11-04T09:47:58Z"
-          },
-          {
-            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
-            "url": "https://github.com/guacsec/trustify/pull/2764",
-            "repo": "guacsec/trustify",
-            "number": 2764,
-            "author": "ruromero",
-            "engaged_at": "2026-10-29T08:25:24Z"
-          },
-          {
-            "title": "Improve plan-feature shared-artifact coverage",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/359",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 359,
-            "author": "ruromero",
-            "engaged_at": "2026-10-28T17:03:25Z"
-          },
-          {
-            "title": "feat(implement-task): align eval assertions with requirements and fixtures",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 357,
-            "author": "ruromero",
-            "engaged_at": "2026-10-27T12:02:41Z"
-          },
-          {
-            "title": "feat(setup): capture verified security image identity",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 351,
-            "author": "ruromero",
-            "engaged_at": "2026-10-26T16:14:00Z"
-          },
-          {
-            "title": "feat(triage-security): add release Jira orchestration and cross-CVE dedup",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/322",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 322,
-            "author": "ruromero",
-            "engaged_at": "2026-10-07T11:09:26Z"
-          },
-          {
-            "title": "docs(adr): add ADR 00022 for feature gates",
-            "url": "https://github.com/guacsec/trustify/pull/2663",
-            "repo": "guacsec/trustify",
-            "number": 2663,
-            "author": "ctron",
-            "engaged_at": "2026-10-01T11:04:09Z"
-          },
-          {
-            "title": "fix(implement-task): require module-level tests before committing for Rust repos",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/290",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 290,
-            "author": "ruromero",
-            "engaged_at": "2026-09-08T07:53:38Z"
-          },
-          {
-            "title": "fix(implement-task): add symbol dedup and null guard guidance",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/269",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 269,
-            "author": "ruromero",
-            "engaged_at": "2026-08-24T08:38:51Z"
           }
         ]
       },
