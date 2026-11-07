@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:43:43.863323496Z",
+  "generated_at": "2026-11-07T01:28:27.852438764Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1561,7 +1561,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-06T15:45:31Z",
-      "updated_at": "2026-11-06T16:15:54Z",
+      "updated_at": "2026-11-06T22:46:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2591,6 +2591,131 @@
       "labels": []
     },
     {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/341",
+      "number": 341,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-07T00:03:37Z",
+      "updated_at": "2026-11-07T00:03:38Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/342",
+      "number": 342,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-07T00:03:41Z",
+      "updated_at": "2026-11-07T00:03:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 3eb2cd0",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/343",
+      "number": 343,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-07T00:03:48Z",
+      "updated_at": "2026-11-07T00:03:49Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 3eb2cd0",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/344",
+      "number": 344,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-07T00:03:50Z",
+      "updated_at": "2026-11-07T00:03:51Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/54",
+      "number": 54,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-07T00:03:32Z",
+      "updated_at": "2026-11-07T00:03:34Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/10",
       "number": 10,
@@ -3252,7 +3377,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T21:42:58Z",
+    "since": "2026-08-09T01:27:40Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
