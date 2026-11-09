@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:21:43.951793991Z",
+  "generated_at": "2026-11-09T22:36:50.336323798Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -129,30 +129,6 @@
       ]
     },
     {
-      "title": "fix(triage-security): drop the executor's redundant comment footer",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/376",
-      "number": 376,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-06T16:41:12Z",
-      "updated_at": "2026-11-06T17:25:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "feat: add 'ignore for this file' in notifications",
       "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/805",
       "number": 805,
@@ -198,6 +174,28 @@
         "dependencies",
         "javascript"
       ]
+    },
+    {
+      "title": "fix: pin web-tree-sitter to its CommonJS build",
+      "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/952",
+      "number": 952,
+      "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-11-09T18:13:03Z",
+      "updated_at": "2026-11-09T18:17:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
     },
     {
       "title": "build(deps): bump codecov/codecov-action from 5 to 7",
@@ -1381,7 +1379,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-03T13:55:54Z",
-      "updated_at": "2026-11-09T12:12:52Z",
+      "updated_at": "2026-11-09T15:52:53Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": null,
@@ -1473,7 +1471,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
       "created_at": "2026-11-04T19:15:45Z",
-      "updated_at": "2026-11-06T11:14:59Z",
+      "updated_at": "2026-11-09T13:48:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1497,7 +1495,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-05T15:00:35Z",
-      "updated_at": "2026-11-09T12:15:34Z",
+      "updated_at": "2026-11-09T16:08:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1510,47 +1508,25 @@
       "labels": []
     },
     {
-      "title": "sec: fix actix-web/actix-http advisories (RUSTSEC-2026-0446/0447/0448)",
-      "url": "https://github.com/guacsec/trustify/pull/2856",
-      "number": 2856,
+      "title": "fix: minor bug in CLI with duplicate error message",
+      "url": "https://github.com/guacsec/trustify/pull/2862",
+      "number": 2862,
       "repo": "guacsec/trustify",
       "author": {
-        "login": "Strum355",
-        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+        "login": "helio-frota",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
       },
-      "created_at": "2026-11-06T15:02:47Z",
-      "updated_at": "2026-11-09T10:53:56Z",
+      "created_at": "2026-11-09T12:42:55Z",
+      "updated_at": "2026-11-09T15:16:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "perf: avoid repeated version matching in vuln sbom queries.",
-      "url": "https://github.com/guacsec/trustify/pull/2858",
-      "number": 2858,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-11-07T06:02:34Z",
-      "updated_at": "2026-11-09T11:55:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -1645,7 +1621,7 @@
       ]
     },
     {
-      "title": "test: cover CycloneDX source provenance fallbacks",
+      "title": "fix: tolerate empty C dependency trees",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/509",
       "number": 509,
       "repo": "RHEcosystemAppEng/exploit-iq-agent",
@@ -1654,7 +1630,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-09T07:24:05Z",
-      "updated_at": "2026-11-09T12:04:36Z",
+      "updated_at": "2026-11-09T15:55:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1676,7 +1652,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
       },
       "created_at": "2026-11-09T11:52:40Z",
-      "updated_at": "2026-11-09T12:03:13Z",
+      "updated_at": "2026-11-09T12:25:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2215,31 +2191,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump com.github.luben:zstd-jni from 1.5.7-20 to 1.5.7-24",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/381",
-      "number": 381,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-26T14:27:10Z",
-      "updated_at": "2026-10-26T14:27:15Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "java"
-      ]
-    },
-    {
       "title": "chore(deps): bump io.quarkiverse.quinoa:quarkus-quinoa from 2.9.2 to 2.9.3",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/382",
       "number": 382,
@@ -2324,7 +2275,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-09T07:12:24Z",
-      "updated_at": "2026-11-09T07:12:25Z",
+      "updated_at": "2026-11-09T15:46:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2335,6 +2286,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "chore(deps): bump com.github.luben:zstd-jni from 1.5.7-20 to 1.5.7-25",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/403",
+      "number": 403,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-09T14:29:38Z",
+      "updated_at": "2026-11-09T14:29:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "java"
+      ]
     },
     {
       "title": "chore(deps): bump flask from 3.1.1 to 3.1.3",
@@ -2523,7 +2499,7 @@
       ]
     },
     {
-      "title": "test: cover CycloneDX source provenance fallbacks",
+      "title": "docs: document CycloneDX 1.7 source-provenance fixtures",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/353",
       "number": 353,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2532,10 +2508,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-09T07:24:05Z",
-      "updated_at": "2026-11-09T12:17:46Z",
+      "updated_at": "2026-11-09T15:55:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3206,11 +3182,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T12:20:52Z",
+    "since": "2026-08-11T22:35:59Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 147,
+        "reviews": 145,
         "prs": [
           {
             "title": "build(deps): bump the npm-dependencies group across 1 directory with 8 updates",
@@ -4371,29 +4347,21 @@
             "number": 614,
             "author": "a-oren",
             "engaged_at": "2026-08-16T13:47:49Z"
-          },
-          {
-            "title": "build(deps): bump js-yaml from 3.14.2 to 3.15.1 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/657",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 657,
-            "author": "dependabot",
-            "engaged_at": "2026-08-11T20:32:41Z"
-          },
-          {
-            "title": "build(deps): bump nanoid from 3.3.11 to 3.3.18 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/656",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 656,
-            "author": "dependabot",
-            "engaged_at": "2026-08-11T19:04:40Z"
           }
         ]
       },
       {
         "login": "rh-jfuller",
-        "reviews": 110,
+        "reviews": 111,
         "prs": [
+          {
+            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2849",
+            "repo": "guacsec/trustify",
+            "number": 2849,
+            "author": "ruromero",
+            "engaged_at": "2026-11-09T16:08:47Z"
+          },
           {
             "title": "ci: optimize rust-cache to prevent thrashing and improve hit rates",
             "url": "https://github.com/guacsec/trustify/pull/2854",
@@ -6378,7 +6346,7 @@
       },
       {
         "login": "ruromero",
-        "reviews": 67,
+        "reviews": 66,
         "prs": [
           {
             "title": "fix(ingestor): backport Red Hat Lightwell OSV support (#2833) to release/0.7.z",
@@ -6907,14 +6875,6 @@
             "number": 635,
             "author": "dependabot",
             "engaged_at": "2026-08-24T10:28:38Z"
-          },
-          {
-            "title": "feat(report): add remediation and recommendation details to pipeline summary",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/586",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 586,
-            "author": "a-oren",
-            "engaged_at": "2026-08-11T13:23:19Z"
           }
         ]
       },
@@ -8308,7 +8268,7 @@
             "repo": "guacsec/trustify",
             "number": 2849,
             "author": "ruromero",
-            "engaged_at": "2026-11-09T12:15:34Z"
+            "engaged_at": "2026-11-09T14:15:07Z"
           },
           {
             "title": "docs(conventions): make the AI commit trailer harness-agnostic",
@@ -8544,7 +8504,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -8649,20 +8609,12 @@
             "number": 336,
             "author": "TamarW0",
             "engaged_at": "2026-08-12T12:52:36Z"
-          },
-          {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 335,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T15:40:24Z"
           }
         ]
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 13,
+        "reviews": 12,
         "prs": [
           {
             "title": "feat(tools): add SBOM group vulnerability report generator",
@@ -8759,14 +8711,6 @@
             "number": 2578,
             "author": "mrrajan",
             "engaged_at": "2026-08-14T07:57:50Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring",
-            "url": "https://github.com/guacsec/trustify/pull/2569",
-            "repo": "guacsec/trustify",
-            "number": 2569,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-11T15:14:27Z"
           }
         ]
       },
@@ -8957,52 +8901,6 @@
         ]
       },
       {
-        "login": "zvigrinberg",
-        "reviews": 5,
-        "prs": [
-          {
-            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 302,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T06:41:56Z"
-          },
-          {
-            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 86,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-12T13:49:55Z"
-          },
-          {
-            "title": "fix: implement custom Cognito logout to use correct parameters",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T10:45:40Z"
-          },
-          {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)- #334",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/335",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 335,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T17:06:12Z"
-          },
-          {
-            "title": "fix: handle ChatNVIDIA model_name→model attribute rename (TC-5597)",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/334",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 334,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-11T13:16:22Z"
-          }
-        ]
-      },
-      {
         "login": "dejanb",
         "reviews": 4,
         "prs": [
@@ -9143,6 +9041,36 @@
             "number": 1174,
             "author": "chetna14manku",
             "engaged_at": "2026-08-18T13:11:07Z"
+          }
+        ]
+      },
+      {
+        "login": "zvigrinberg",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 302,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-18T06:41:56Z"
+          },
+          {
+            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 86,
+            "author": "xinredhat",
+            "engaged_at": "2026-08-12T13:49:55Z"
+          },
+          {
+            "title": "fix: implement custom Cognito logout to use correct parameters",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 299,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-12T10:45:40Z"
           }
         ]
       },
