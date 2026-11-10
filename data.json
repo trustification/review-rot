@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:27:02.648370148Z",
+  "generated_at": "2026-11-10T12:52:21.799458664Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -673,19 +673,19 @@
       ]
     },
     {
-      "title": "build(deps): bump the npm-dependencies group across 1 directory with 8 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/690",
-      "number": 690,
+      "title": "build(deps): bump the npm-dependencies group across 1 directory with 9 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/691",
+      "number": 691,
       "repo": "guacsec/trustify-da-javascript-client",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-09T06:57:25Z",
-      "updated_at": "2026-11-09T07:01:26Z",
+      "created_at": "2026-11-10T06:44:28Z",
+      "updated_at": "2026-11-10T06:44:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -696,6 +696,50 @@
         "dependencies",
         "javascript"
       ]
+    },
+    {
+      "title": "fix(python): select venv python.exe on Windows for python3 sources",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/692",
+      "number": 692,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-11-10T11:57:07Z",
+      "updated_at": "2026-11-10T12:17:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix(python-pip): decode UTF-16 requirements.txt before parsing",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/693",
+      "number": 693,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-11-10T12:45:15Z",
+      "updated_at": "2026-11-10T12:48:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 3,
+      "labels": []
     },
     {
       "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
@@ -1214,6 +1258,30 @@
       "labels": []
     },
     {
+      "title": "fix(crypto): filter for keys",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1426",
+      "number": 1426,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-11-10T11:39:19Z",
+      "updated_at": "2026-11-10T11:55:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
+    },
+    {
       "title": "feat(validation): add document validation module",
       "url": "https://github.com/guacsec/trustify/pull/2551",
       "number": 2551,
@@ -1495,7 +1563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-05T15:00:35Z",
-      "updated_at": "2026-11-09T16:08:58Z",
+      "updated_at": "2026-11-10T10:32:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1528,6 +1596,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix(correlation): support Linux kernel CPEs in older correlation path legacy matching",
+      "url": "https://github.com/guacsec/trustify/pull/2864",
+      "number": 2864,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
+      },
+      "created_at": "2026-11-10T11:52:58Z",
+      "updated_at": "2026-11-10T12:00:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "Appeng 5620",
@@ -1621,41 +1713,19 @@
       ]
     },
     {
-      "title": "fix: tolerate empty C dependency trees",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/509",
-      "number": 509,
+      "title": "test: trigger E2E validation",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/515",
+      "number": 515,
       "repo": "RHEcosystemAppEng/exploit-iq-agent",
       "author": {
         "login": "tmihalac",
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
-      "created_at": "2026-11-09T07:24:05Z",
-      "updated_at": "2026-11-09T15:55:51Z",
+      "created_at": "2026-11-10T07:14:18Z",
+      "updated_at": "2026-11-10T12:10:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: decompress CentOS repodata by format (gzip or zstandard)",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/513",
-      "number": 513,
-      "repo": "RHEcosystemAppEng/exploit-iq-agent",
-      "author": {
-        "login": "TamarW0",
-        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
-      },
-      "created_at": "2026-11-10T01:18:14Z",
-      "updated_at": "2026-11-10T03:20:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2266,28 +2336,6 @@
       ]
     },
     {
-      "title": "feat: accept CycloneDX source provenance",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/402",
-      "number": 402,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-11-09T07:12:24Z",
-      "updated_at": "2026-11-09T15:46:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): bump com.github.luben:zstd-jni from 1.5.7-20 to 1.5.7-25",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/403",
       "number": 403,
@@ -2311,6 +2359,28 @@
         "dependencies",
         "java"
       ]
+    },
+    {
+      "title": "fix(TC-7264): point About help link to EI guide",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/404",
+      "number": 404,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-10T10:22:48Z",
+      "updated_at": "2026-11-10T12:26:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "chore(deps): bump flask from 3.1.1 to 3.1.3",
@@ -2499,16 +2569,16 @@
       ]
     },
     {
-      "title": "docs: document CycloneDX 1.7 source-provenance fixtures",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/353",
-      "number": 353,
+      "title": "test: trigger E2E validation",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/356",
+      "number": 356,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
       "author": {
         "login": "tmihalac",
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
-      "created_at": "2026-11-09T07:24:05Z",
-      "updated_at": "2026-11-09T15:55:54Z",
+      "created_at": "2026-11-10T07:14:20Z",
+      "updated_at": "2026-11-10T12:10:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2518,6 +2588,28 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(TC-7264): pin nginx cache image by digest",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/361",
+      "number": 361,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-10T10:09:06Z",
+      "updated_at": "2026-11-10T12:26:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3182,12 +3274,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T04:26:19Z",
+    "since": "2026-08-12T12:51:29Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 145,
+        "reviews": 147,
         "prs": [
+          {
+            "title": "fix(python-pip): decode UTF-16 requirements.txt before parsing",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/693",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 693,
+            "author": "a-oren",
+            "engaged_at": "2026-11-10T12:48:20Z"
+          },
+          {
+            "title": "fix(python): select venv python.exe on Windows for python3 sources",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/692",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 692,
+            "author": "a-oren",
+            "engaged_at": "2026-11-10T12:02:12Z"
+          },
           {
             "title": "build(deps): bump the npm-dependencies group across 1 directory with 8 updates",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/690",
@@ -4352,7 +4460,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 111,
+        "reviews": 105,
         "prs": [
           {
             "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
@@ -5193,61 +5301,21 @@
             "number": 2359,
             "author": "jcrossley3",
             "engaged_at": "2026-08-13T06:39:18Z"
-          },
-          {
-            "title": "chore: include underlying error when logging failed exploit intelligence job reason",
-            "url": "https://github.com/guacsec/trustify/pull/2568",
-            "repo": "guacsec/trustify",
-            "number": 2568,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T09:25:11Z"
-          },
-          {
-            "title": "fix: configurable oauth scope instead of hardcoded 'openid' scope",
-            "url": "https://github.com/guacsec/trustify/pull/2566",
-            "repo": "guacsec/trustify",
-            "number": 2566,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T09:12:27Z"
-          },
-          {
-            "title": "fix: reject empty/whitespace-only vulnerability_id in /v3/exploit-intelligence/analyze endpoint",
-            "url": "https://github.com/guacsec/trustify/pull/2567",
-            "repo": "guacsec/trustify",
-            "number": 2567,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T09:08:04Z"
-          },
-          {
-            "title": "fix: correctly serialize RFC3339 datetimes in EI API types",
-            "url": "https://github.com/guacsec/trustify/pull/2565",
-            "repo": "guacsec/trustify",
-            "number": 2565,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T08:59:48Z"
-          },
-          {
-            "title": "fix: persist total_components count for EI analysis when job terminates",
-            "url": "https://github.com/guacsec/trustify/pull/2570",
-            "repo": "guacsec/trustify",
-            "number": 2570,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T08:51:49Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring",
-            "url": "https://github.com/guacsec/trustify/pull/2569",
-            "repo": "guacsec/trustify",
-            "number": 2569,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-12T08:19:54Z"
           }
         ]
       },
       {
         "login": "ctron",
-        "reviews": 69,
+        "reviews": 70,
         "prs": [
+          {
+            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2849",
+            "repo": "guacsec/trustify",
+            "number": 2849,
+            "author": "ruromero",
+            "engaged_at": "2026-11-10T10:32:33Z"
+          },
           {
             "title": "sec: fix cargo-deny supply chain audit failure",
             "url": "https://github.com/guacsec/trustify/pull/2855",
@@ -6346,8 +6414,16 @@
       },
       {
         "login": "ruromero",
-        "reviews": 66,
+        "reviews": 67,
         "prs": [
+          {
+            "title": "fix(perf): Fix full table scans in PURL recommendations ",
+            "url": "https://github.com/guacsec/trustify/pull/2863",
+            "repo": "guacsec/trustify",
+            "number": 2863,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-10T09:42:44Z"
+          },
           {
             "title": "fix(ingestor): backport Red Hat Lightwell OSV support (#2833) to release/0.7.z",
             "url": "https://github.com/guacsec/trustify/pull/2846",
@@ -6880,7 +6956,7 @@
       },
       {
         "login": "Strum355",
-        "reviews": 44,
+        "reviews": 40,
         "prs": [
           {
             "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat [Backport release/0.7.z]",
@@ -7201,45 +7277,37 @@
             "number": 2577,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-12T15:59:43Z"
-          },
-          {
-            "title": "fix: persist total_components count for EI analysis when job terminates [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2574",
-            "repo": "guacsec/trustify",
-            "number": 2574,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-12T12:01:41Z"
-          },
-          {
-            "title": "chore: include underlying error when logging failed exploit intelligence job reason [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2572",
-            "repo": "guacsec/trustify",
-            "number": 2572,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-12T11:55:07Z"
-          },
-          {
-            "title": "fix: configurable oauth scope instead of hardcoded 'openid' scope [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2573",
-            "repo": "guacsec/trustify",
-            "number": 2573,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-12T11:54:58Z"
-          },
-          {
-            "title": "fix: reject empty/whitespace-only vulnerability_id in /v3/exploit-intelligence/analyze endpoint [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2571",
-            "repo": "guacsec/trustify",
-            "number": 2571,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-12T11:54:36Z"
           }
         ]
       },
       {
         "login": "tmihalac",
-        "reviews": 37,
+        "reviews": 39,
         "prs": [
+          {
+            "title": "fix(TC-7264): point About help link to EI guide",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/404",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 404,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-10T12:26:35Z"
+          },
+          {
+            "title": "fix(TC-7264): pin nginx cache image by digest",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/361",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 361,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-10T12:26:14Z"
+          },
+          {
+            "title": "fix: decompress CentOS repodata by format (gzip or zstandard)",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/513",
+            "repo": "RHEcosystemAppEng/exploit-iq-agent",
+            "number": 513,
+            "author": "TamarW0",
+            "engaged_at": "2026-11-10T07:56:34Z"
+          },
           {
             "title": "docs: remove duplicate registry credentials",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/318",
@@ -7527,14 +7595,6 @@
             "number": 337,
             "author": "TamarW0",
             "engaged_at": "2026-08-16T12:46:47Z"
-          },
-          {
-            "title": "fix: implement custom Cognito logout to use correct parameters",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T09:08:08Z"
           }
         ]
       },
@@ -8863,6 +8923,52 @@
         ]
       },
       {
+        "login": "dejanb",
+        "reviews": 5,
+        "prs": [
+          {
+            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2849",
+            "repo": "guacsec/trustify",
+            "number": 2849,
+            "author": "ruromero",
+            "engaged_at": "2026-11-10T10:20:10Z"
+          },
+          {
+            "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
+            "url": "https://github.com/guacsec/trustify/pull/2684",
+            "repo": "guacsec/trustify",
+            "number": 2684,
+            "author": "rhredhat",
+            "engaged_at": "2026-10-14T09:31:10Z"
+          },
+          {
+            "title": "chore: upgrade to unreleased csaf-walker 0.20.0",
+            "url": "https://github.com/guacsec/trustify/pull/2760",
+            "repo": "guacsec/trustify",
+            "number": 2760,
+            "author": "ctron",
+            "engaged_at": "2026-10-14T09:31:10Z"
+          },
+          {
+            "title": "chore: replace serde_yaml_ng with serde-saphyr",
+            "url": "https://github.com/guacsec/trustify/pull/2756",
+            "repo": "guacsec/trustify",
+            "number": 2756,
+            "author": "ctron",
+            "engaged_at": "2026-10-13T12:41:48Z"
+          },
+          {
+            "title": "fix: replace deprecated fetch_update with try_update",
+            "url": "https://github.com/guacsec/trustify/pull/2750",
+            "repo": "guacsec/trustify",
+            "number": 2750,
+            "author": "ctron",
+            "engaged_at": "2026-10-13T08:08:07Z"
+          }
+        ]
+      },
+      {
         "login": "desmax74",
         "reviews": 5,
         "prs": [
@@ -8905,44 +9011,6 @@
             "number": 2782,
             "author": "ctron",
             "engaged_at": "2026-10-22T12:02:51Z"
-          }
-        ]
-      },
-      {
-        "login": "dejanb",
-        "reviews": 4,
-        "prs": [
-          {
-            "title": "feat(cyclonedx): adopt the CycloneDX 1.7 model",
-            "url": "https://github.com/guacsec/trustify/pull/2684",
-            "repo": "guacsec/trustify",
-            "number": 2684,
-            "author": "rhredhat",
-            "engaged_at": "2026-10-14T09:31:10Z"
-          },
-          {
-            "title": "chore: upgrade to unreleased csaf-walker 0.20.0",
-            "url": "https://github.com/guacsec/trustify/pull/2760",
-            "repo": "guacsec/trustify",
-            "number": 2760,
-            "author": "ctron",
-            "engaged_at": "2026-10-14T09:31:10Z"
-          },
-          {
-            "title": "chore: replace serde_yaml_ng with serde-saphyr",
-            "url": "https://github.com/guacsec/trustify/pull/2756",
-            "repo": "guacsec/trustify",
-            "number": 2756,
-            "author": "ctron",
-            "engaged_at": "2026-10-13T12:41:48Z"
-          },
-          {
-            "title": "fix: replace deprecated fetch_update with try_update",
-            "url": "https://github.com/guacsec/trustify/pull/2750",
-            "repo": "guacsec/trustify",
-            "number": 2750,
-            "author": "ctron",
-            "engaged_at": "2026-10-13T08:08:07Z"
           }
         ]
       },
@@ -9053,36 +9121,6 @@
         ]
       },
       {
-        "login": "zvigrinberg",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 302,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T06:41:56Z"
-          },
-          {
-            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 86,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-12T13:49:55Z"
-          },
-          {
-            "title": "fix: implement custom Cognito logout to use correct parameters",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/299",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 299,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-12T10:45:40Z"
-          }
-        ]
-      },
-      {
         "login": "heatherzh01",
         "reviews": 2,
         "prs": [
@@ -9127,16 +9165,24 @@
         ]
       },
       {
-        "login": "i386x",
-        "reviews": 1,
+        "login": "zvigrinberg",
+        "reviews": 2,
         "prs": [
           {
-            "title": "fix: reject empty/whitespace-only vulnerability_id in /v3/exploit-intelligence/analyze endpoint",
-            "url": "https://github.com/guacsec/trustify/pull/2567",
-            "repo": "guacsec/trustify",
-            "number": 2567,
-            "author": "Strum355",
-            "engaged_at": "2026-08-12T07:10:00Z"
+            "title": "fix: SBOM analysis request should be blocked when user limit exceeded",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/302",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 302,
+            "author": "TamarW0",
+            "engaged_at": "2026-08-18T06:41:56Z"
+          },
+          {
+            "title": "chore(bundle): update engine and webapp digests for 0.0.3 stage release",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/86",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 86,
+            "author": "xinredhat",
+            "engaged_at": "2026-08-12T13:49:55Z"
           }
         ]
       },
