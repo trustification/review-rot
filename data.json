@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:45:28.244702517Z",
+  "generated_at": "2026-11-11T07:23:27.607296593Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -673,31 +673,6 @@
       ]
     },
     {
-      "title": "build(deps): bump the npm-dependencies group across 1 directory with 9 updates",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/691",
-      "number": 691,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-10T06:44:28Z",
-      "updated_at": "2026-11-10T06:44:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "fix(python): select venv python.exe on Windows for python3 sources",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/692",
       "number": 692,
@@ -740,6 +715,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "build(deps): bump the npm-dependencies group across 1 directory with 10 updates",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/694",
+      "number": 694,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-11T06:44:26Z",
+      "updated_at": "2026-11-11T06:44:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
     },
     {
       "title": "build(deps): bump ip-address from 10.5.0 to 10.7.2 in /ui",
@@ -3204,7 +3204,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T00:44:44Z",
+    "since": "2026-08-13T07:22:41Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4390,7 +4390,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 107,
+        "reviews": 105,
         "prs": [
           {
             "title": "fix(correlation): support Linux kernel CPEs in older correlation path legacy matching [Backport release/0.7.z]",
@@ -5231,22 +5231,6 @@
             "number": 2579,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-13T14:39:05Z"
-          },
-          {
-            "title": "fix: cargo audit quick-xml finding",
-            "url": "https://github.com/guacsec/trustify/pull/2576",
-            "repo": "guacsec/trustify",
-            "number": 2576,
-            "author": "gkamathe",
-            "engaged_at": "2026-08-13T06:45:42Z"
-          },
-          {
-            "title": "Add some test data for TC-4427 created by Phil and AI",
-            "url": "https://github.com/guacsec/trustify/pull/2359",
-            "repo": "guacsec/trustify",
-            "number": 2359,
-            "author": "jcrossley3",
-            "engaged_at": "2026-08-13T06:39:18Z"
           }
         ]
       },
