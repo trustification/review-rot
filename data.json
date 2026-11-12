@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T03:12:09.809602581Z",
+  "generated_at": "2026-11-12T11:36:43.262904607Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -164,6 +164,31 @@
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "chore(deps): bump fast-xml-parser from 5.11.0 to 5.12.0",
+      "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/953",
+      "number": 953,
+      "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T04:25:54Z",
+      "updated_at": "2026-11-12T04:25:57Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -626,7 +651,7 @@
       ]
     },
     {
-      "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
+      "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group across 1 directory",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
       "number": 687,
       "repo": "guacsec/trustify-da-javascript-client",
@@ -635,10 +660,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-03T15:56:58Z",
-      "updated_at": "2026-11-09T06:57:07Z",
+      "updated_at": "2026-11-12T10:45:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -651,50 +676,6 @@
       ]
     },
     {
-      "title": "fix(python): select venv python.exe on Windows for python3 sources",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/692",
-      "number": 692,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "a-oren",
-        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
-      },
-      "created_at": "2026-11-10T11:57:07Z",
-      "updated_at": "2026-11-11T15:36:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": true
-      },
-      "unresolved_conversations": 4,
-      "labels": []
-    },
-    {
-      "title": "fix(python-pip): decode UTF-16 requirements.txt before parsing",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/693",
-      "number": 693,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "a-oren",
-        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
-      },
-      "created_at": "2026-11-10T12:45:15Z",
-      "updated_at": "2026-11-11T17:25:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 6,
-      "labels": []
-    },
-    {
       "title": "build(deps): bump the npm-dependencies group across 1 directory with 10 updates",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/694",
       "number": 694,
@@ -704,10 +685,35 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-11T06:44:31Z",
+      "updated_at": "2026-11-12T10:44:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): bump fast-xml-parser from 5.11.2 to 5.12.0",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/695",
+      "number": 695,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T05:29:55Z",
+      "updated_at": "2026-11-12T05:33:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1223,7 +1229,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-11-11T15:47:35Z",
-      "updated_at": "2026-11-11T16:15:22Z",
+      "updated_at": "2026-11-12T11:07:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1377,7 +1383,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-11T22:38:47Z",
+      "updated_at": "2026-11-12T09:09:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1443,7 +1449,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-04T18:49:59Z",
-      "updated_at": "2026-11-04T18:52:17Z",
+      "updated_at": "2026-11-12T10:04:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1452,7 +1458,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1480,50 +1486,6 @@
       ]
     },
     {
-      "title": "ci: notify Matrix when releases are prepared and published",
-      "url": "https://github.com/guacsec/trustify/pull/2867",
-      "number": 2867,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-11T10:36:08Z",
-      "updated_at": "2026-11-11T13:21:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 5,
-      "labels": []
-    },
-    {
-      "title": "build(deps): update release dependencies and pin csaf-rs to 0.5.1",
-      "url": "https://github.com/guacsec/trustify/pull/2868",
-      "number": 2868,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-11T11:18:50Z",
-      "updated_at": "2026-11-11T16:36:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore: attempt to reduce grype xtask container alerts",
       "url": "https://github.com/guacsec/trustify/pull/2870",
       "number": 2870,
@@ -1533,10 +1495,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
       },
       "created_at": "2026-11-11T12:55:10Z",
-      "updated_at": "2026-11-11T14:54:09Z",
+      "updated_at": "2026-11-12T09:36:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1555,7 +1517,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-11T15:21:59Z",
-      "updated_at": "2026-11-11T17:50:12Z",
+      "updated_at": "2026-11-12T09:10:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1571,28 +1533,6 @@
       ]
     },
     {
-      "title": "build(deps): update csaf-rs to 0.7.1",
-      "url": "https://github.com/guacsec/trustify/pull/2872",
-      "number": 2872,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-11T15:54:39Z",
-      "updated_at": "2026-11-11T16:13:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "perf(http): prefer zstd compression for API responses and load tests",
       "url": "https://github.com/guacsec/trustify/pull/2874",
       "number": 2874,
@@ -1602,7 +1542,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-11-11T20:07:17Z",
-      "updated_at": "2026-11-11T20:17:05Z",
+      "updated_at": "2026-11-12T11:24:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1611,7 +1551,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1715,10 +1655,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-10T07:14:18Z",
-      "updated_at": "2026-11-11T23:55:49Z",
+      "updated_at": "2026-11-12T10:44:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1737,10 +1677,230 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T11:11:08Z",
-      "updated_at": "2026-11-11T23:57:22Z",
+      "updated_at": "2026-11-12T11:09:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope Kustomize cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/603",
+      "number": 603,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:30Z",
+      "updated_at": "2026-11-12T09:44:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope Kustomize cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/604",
+      "number": 604,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:31Z",
+      "updated_at": "2026-11-12T09:44:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope Kustomize cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/605",
+      "number": 605,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:32Z",
+      "updated_at": "2026-11-12T09:44:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump certifi to distrust eMudhra intermediate CAs (TC-7283, TC-7470)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/619",
+      "number": 619,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:34:30Z",
+      "updated_at": "2026-11-12T10:54:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump botocore to distrust eMudhra intermediate CAs (TC-7302)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/623",
+      "number": 623,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:39:31Z",
+      "updated_at": "2026-11-12T10:57:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: 3.1.2 low-risk CVE dep bumps — pyasn1, dnspython, aiohttp, fsspec",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/624",
+      "number": 624,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:46:28Z",
+      "updated_at": "2026-11-12T10:58:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump gitpython to 3.2.1 for 3.1.2 CVEs (TC-7172)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/625",
+      "number": 625,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:50:51Z",
+      "updated_at": "2026-11-12T11:06:05Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump authlib to 1.9.5 for 3.1.2 CVE (TC-7241)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/626",
+      "number": 626,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:56:11Z",
+      "updated_at": "2026-11-12T10:56:26Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump graphql-core to 3.2.14 for 3.1.2 CVEs (TC-7294)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/627",
+      "number": 627,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:58:31Z",
+      "updated_at": "2026-11-12T10:58:42Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump pillow to 13.0.0 for 3.1.2 Pillow CVEs",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/628",
+      "number": 628,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T11:05:48Z",
+      "updated_at": "2026-11-12T11:06:08Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2558,7 +2718,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-1-1 to d40a47a",
+      "title": "chore(deps): update operator-3-1-1 to 5512f27",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/249",
       "number": 249,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2567,7 +2727,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-10-12T16:07:06Z",
-      "updated_at": "2026-11-11T14:54:18Z",
+      "updated_at": "2026-11-12T04:11:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2637,10 +2797,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T10:30:51Z",
-      "updated_at": "2026-11-11T20:36:49Z",
+      "updated_at": "2026-11-12T07:14:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2648,56 +2808,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9-micro docker digest to b59ac4f",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/382",
-      "number": 382,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-11T12:03:11Z",
-      "updated_at": "2026-11-12T00:02:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update ghcr.io/actions/actions-runner docker tag to v2.338.2",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/383",
-      "number": 383,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-11T12:03:22Z",
-      "updated_at": "2026-11-12T00:02:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
     },
     {
       "title": "chore(deps): update ghcr.io/actions/actions-runner docker tag to v2.338.2",
@@ -2709,32 +2819,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-11T12:03:22Z",
-      "updated_at": "2026-11-12T00:02:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update ghcr.io/actions/actions-runner:2.338.2 docker digest to 6d0b2d8",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/400",
-      "number": 400,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-11T20:02:06Z",
-      "updated_at": "2026-11-12T00:02:18Z",
+      "updated_at": "2026-11-12T08:02:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2759,8 +2844,118 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T20:25:06Z",
-      "updated_at": "2026-11-12T00:21:12Z",
+      "updated_at": "2026-11-12T10:44:56Z",
       "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope OLM cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/437",
+      "number": 437,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:31Z",
+      "updated_at": "2026-11-12T09:44:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope OLM cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/438",
+      "number": 438,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:32Z",
+      "updated_at": "2026-11-12T09:44:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): scope OLM cleanup to requested PR",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/439",
+      "number": 439,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-12T09:44:32Z",
+      "updated_at": "2026-11-12T09:44:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "ci: enable native auto-merge for MintMaker PRs",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/443",
+      "number": 443,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "xinredhat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
+      },
+      "created_at": "2026-11-12T10:00:06Z",
+      "updated_at": "2026-11-12T10:11:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump Go to 1.26.9 and x/net to 0.60.0 for stdlib CVEs (TC-7436, TC-7430, TC-7425)",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/459",
+      "number": 459,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "TamarW0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/98809100?u=e4eadbc441072bb5e97af40cee9014d45f1f8315\u0026v=4"
+      },
+      "created_at": "2026-11-12T11:34:51Z",
+      "updated_at": "2026-11-12T11:35:20Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
@@ -3287,31 +3482,6 @@
       ]
     },
     {
-      "title": "Update pandas requirement from \u003e=2.0.0 to \u003e=3.1.0",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/44",
-      "number": 44,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T05:18:15Z",
-      "updated_at": "2026-10-29T05:18:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Bump zipp from 3.19.1 to 4.1.2",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/45",
       "number": 45,
@@ -3359,31 +3529,6 @@
       "labels": []
     },
     {
-      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.2",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/47",
-      "number": 47,
-      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-05T05:12:22Z",
-      "updated_at": "2026-11-05T05:12:26Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "python"
-      ]
-    },
-    {
       "title": "Bump pyasn1 from 0.6.3 to 0.6.5",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/48",
       "number": 48,
@@ -3429,16 +3574,82 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update pandas requirement from \u003e=2.0.0 to \u003e=3.1.1",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/50",
+      "number": 50,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T05:12:25Z",
+      "updated_at": "2026-11-12T05:12:29Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
+      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.3",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/51",
+      "number": 51,
+      "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T05:12:32Z",
+      "updated_at": "2026-11-12T05:12:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T03:11:19Z",
+    "since": "2026-08-14T11:35:51Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 148,
+        "reviews": 150,
         "prs": [
+          {
+            "title": "build(deps): bump the npm-dependencies group across 1 directory with 10 updates",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/694",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 694,
+            "author": "dependabot",
+            "engaged_at": "2026-11-12T10:44:45Z"
+          },
+          {
+            "title": "build(deps): bump fast-xml-parser from 5.11.2 to 5.12.0",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/695",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 695,
+            "author": "dependabot",
+            "engaged_at": "2026-11-12T05:33:30Z"
+          },
           {
             "title": "fix: pin web-tree-sitter to its CommonJS build",
             "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/952",
@@ -3496,7 +3707,7 @@
             "engaged_at": "2026-11-04T10:59:31Z"
           },
           {
-            "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group",
+            "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group across 1 directory",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
             "repo": "guacsec/trustify-da-javascript-client",
             "number": 687,
@@ -4627,7 +4838,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 104,
+        "reviews": 103,
         "prs": [
           {
             "title": "fix(correlation): support Linux kernel CPEs in older correlation path legacy matching [Backport release/0.7.z]",
@@ -5452,21 +5663,29 @@
             "number": 2553,
             "author": "waldemar-kindler",
             "engaged_at": "2026-08-18T10:44:58Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring [Backport release/0.5.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2578",
-            "repo": "guacsec/trustify",
-            "number": 2578,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-14T08:44:45Z"
           }
         ]
       },
       {
         "login": "ctron",
-        "reviews": 71,
+        "reviews": 73,
         "prs": [
+          {
+            "title": "chore: prepare release 0.7.2",
+            "url": "https://github.com/guacsec/trustify/pull/2876",
+            "repo": "guacsec/trustify",
+            "number": 2876,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-12T10:08:24Z"
+          },
+          {
+            "title": "perf(http): prefer zstd compression for API responses and load tests",
+            "url": "https://github.com/guacsec/trustify/pull/2874",
+            "repo": "guacsec/trustify",
+            "number": 2874,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-12T10:01:13Z"
+          },
           {
             "title": "ci: skip SARIF upload in merge queue to avoid ephemeral ref race",
             "url": "https://github.com/guacsec/trustify/pull/2840",
@@ -7126,20 +7345,20 @@
         "reviews": 42,
         "prs": [
           {
-            "title": "fix(python-pip): decode UTF-16 requirements.txt before parsing",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/693",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 693,
-            "author": "a-oren",
-            "engaged_at": "2026-11-11T17:25:13Z"
-          },
-          {
             "title": "fix(python): select venv python.exe on Windows for python3 sources",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/692",
             "repo": "guacsec/trustify-da-javascript-client",
             "number": 692,
             "author": "a-oren",
-            "engaged_at": "2026-11-11T15:36:24Z"
+            "engaged_at": "2026-11-12T11:14:03Z"
+          },
+          {
+            "title": "fix(python-pip): decode UTF-16 requirements.txt before parsing",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/693",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 693,
+            "author": "a-oren",
+            "engaged_at": "2026-11-12T10:29:03Z"
           },
           {
             "title": "fix: pin web-tree-sitter to its CommonJS build",
@@ -8755,7 +8974,7 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 12,
+        "reviews": 11,
         "prs": [
           {
             "title": "feat(tools): add SBOM group vulnerability report generator",
@@ -8844,14 +9063,6 @@
             "number": 2564,
             "author": "ruromero",
             "engaged_at": "2026-08-14T14:20:00Z"
-          },
-          {
-            "title": "fix(cvss): honor Exploit Maturity threat metric in CVSS v4.0 scoring [Backport release/0.5.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2578",
-            "repo": "guacsec/trustify",
-            "number": 2578,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-14T07:57:50Z"
           }
         ]
       },
@@ -8950,6 +9161,84 @@
         ]
       },
       {
+        "login": "desmax74",
+        "reviews": 9,
+        "prs": [
+          {
+            "title": "ci: notify Matrix when releases are prepared and published",
+            "url": "https://github.com/guacsec/trustify/pull/2867",
+            "repo": "guacsec/trustify",
+            "number": 2867,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T09:09:14Z"
+          },
+          {
+            "title": "build(deps): update csaf-rs to 0.7.1",
+            "url": "https://github.com/guacsec/trustify/pull/2872",
+            "repo": "guacsec/trustify",
+            "number": 2872,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T09:08:58Z"
+          },
+          {
+            "title": "build(deps): update release dependencies and pin csaf-rs to 0.5.1",
+            "url": "https://github.com/guacsec/trustify/pull/2868",
+            "repo": "guacsec/trustify",
+            "number": 2868,
+            "author": "ctron",
+            "engaged_at": "2026-11-11T11:28:22Z"
+          },
+          {
+            "title": "build: update from nodejs 22 to nodejs 24",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1427",
+            "repo": "guacsec/trustify-ui",
+            "number": 1427,
+            "author": "helio-frota",
+            "engaged_at": "2026-11-10T13:10:07Z"
+          },
+          {
+            "title": "fix(ci): select the migration dump by the run's base branch",
+            "url": "https://github.com/guacsec/trustify/pull/2848",
+            "repo": "guacsec/trustify",
+            "number": 2848,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T13:51:26Z"
+          },
+          {
+            "title": "fix(ci): select the migration dump by the run's base branch (release/0.7.z)",
+            "url": "https://github.com/guacsec/trustify/pull/2847",
+            "repo": "guacsec/trustify",
+            "number": 2847,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T13:51:04Z"
+          },
+          {
+            "title": "build: update from node 22 to node 24",
+            "url": "https://github.com/guacsec/trustify/pull/2822",
+            "repo": "guacsec/trustify",
+            "number": 2822,
+            "author": "helio-frota",
+            "engaged_at": "2026-10-28T14:20:20Z"
+          },
+          {
+            "title": "fix(deps) [backport release/0.4.z] bump axios to 1.20",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1340",
+            "repo": "guacsec/trustify-ui",
+            "number": 1340,
+            "author": "gildub",
+            "engaged_at": "2026-10-22T14:19:09Z"
+          },
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T12:02:51Z"
+          }
+        ]
+      },
+      {
         "login": "mrrajan",
         "reviews": 8,
         "prs": [
@@ -9016,68 +9305,6 @@
             "number": 2580,
             "author": "rh-jfuller",
             "engaged_at": "2026-08-14T14:19:37Z"
-          }
-        ]
-      },
-      {
-        "login": "desmax74",
-        "reviews": 7,
-        "prs": [
-          {
-            "title": "build(deps): update release dependencies and pin csaf-rs to 0.5.1",
-            "url": "https://github.com/guacsec/trustify/pull/2868",
-            "repo": "guacsec/trustify",
-            "number": 2868,
-            "author": "ctron",
-            "engaged_at": "2026-11-11T11:28:22Z"
-          },
-          {
-            "title": "build: update from nodejs 22 to nodejs 24",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1427",
-            "repo": "guacsec/trustify-ui",
-            "number": 1427,
-            "author": "helio-frota",
-            "engaged_at": "2026-11-10T13:10:07Z"
-          },
-          {
-            "title": "fix(ci): select the migration dump by the run's base branch",
-            "url": "https://github.com/guacsec/trustify/pull/2848",
-            "repo": "guacsec/trustify",
-            "number": 2848,
-            "author": "mrizzi",
-            "engaged_at": "2026-11-05T13:51:26Z"
-          },
-          {
-            "title": "fix(ci): select the migration dump by the run's base branch (release/0.7.z)",
-            "url": "https://github.com/guacsec/trustify/pull/2847",
-            "repo": "guacsec/trustify",
-            "number": 2847,
-            "author": "mrizzi",
-            "engaged_at": "2026-11-05T13:51:04Z"
-          },
-          {
-            "title": "build: update from node 22 to node 24",
-            "url": "https://github.com/guacsec/trustify/pull/2822",
-            "repo": "guacsec/trustify",
-            "number": 2822,
-            "author": "helio-frota",
-            "engaged_at": "2026-10-28T14:20:20Z"
-          },
-          {
-            "title": "fix(deps) [backport release/0.4.z] bump axios to 1.20",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1340",
-            "repo": "guacsec/trustify-ui",
-            "number": 1340,
-            "author": "gildub",
-            "engaged_at": "2026-10-22T14:19:09Z"
-          },
-          {
-            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
-            "url": "https://github.com/guacsec/trustify/pull/2782",
-            "repo": "guacsec/trustify",
-            "number": 2782,
-            "author": "ctron",
-            "engaged_at": "2026-10-22T12:02:51Z"
           }
         ]
       },
