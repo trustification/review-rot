@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:09:07.647930548Z",
+  "generated_at": "2026-11-12T03:12:09.809602581Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -79,16 +79,16 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.53.0",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/373",
-      "number": 373,
+      "title": "chore(deps): Bump stbenjam/skillsaw from 1bf34517f8c38193814a0ff7199d028897fbf344 to 825fc093e8a8a2a7c3fb146de54a850b04724a53",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/377",
+      "number": 377,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-05T00:44:14Z",
-      "updated_at": "2026-11-05T00:44:19Z",
+      "created_at": "2026-11-12T00:43:58Z",
+      "updated_at": "2026-11-12T00:44:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -104,16 +104,16 @@
       ]
     },
     {
-      "title": "chore(deps): bump stbenjam/skillsaw from 1bf34517f8c38193814a0ff7199d028897fbf344 to d0abad2205185883c237351192b3fea997050b64",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/374",
-      "number": 374,
+      "title": "chore(deps): Bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.54.0",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/378",
+      "number": 378,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-05T00:44:21Z",
-      "updated_at": "2026-11-05T00:44:26Z",
+      "created_at": "2026-11-12T00:44:07Z",
+      "updated_at": "2026-11-12T00:44:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -138,7 +138,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2025-07-21T16:02:56Z",
-      "updated_at": "2026-11-05T03:38:07Z",
+      "updated_at": "2026-11-11T23:13:47Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1377,7 +1377,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-11T16:39:05Z",
+      "updated_at": "2026-11-11T22:38:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1715,7 +1715,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-10T07:14:18Z",
-      "updated_at": "2026-11-11T22:03:09Z",
+      "updated_at": "2026-11-11T23:55:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1737,10 +1737,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T11:11:08Z",
-      "updated_at": "2026-11-11T22:03:09Z",
+      "updated_at": "2026-11-11T23:57:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2659,7 +2659,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-11T12:03:11Z",
-      "updated_at": "2026-11-11T20:02:09Z",
+      "updated_at": "2026-11-12T00:02:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2684,7 +2684,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-11T12:03:22Z",
-      "updated_at": "2026-11-11T20:02:08Z",
+      "updated_at": "2026-11-12T00:02:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2709,7 +2709,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-11T12:03:22Z",
-      "updated_at": "2026-11-11T20:02:15Z",
+      "updated_at": "2026-11-12T00:02:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2734,7 +2734,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-11T20:02:06Z",
-      "updated_at": "2026-11-11T20:02:07Z",
+      "updated_at": "2026-11-12T00:02:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2759,7 +2759,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T20:25:06Z",
-      "updated_at": "2026-11-11T22:08:08Z",
+      "updated_at": "2026-11-12T00:21:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2937,31 +2937,6 @@
       "labels": []
     },
     {
-      "title": "Bump vitest from 4.1.9 to 5.0.5",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/37",
-      "number": 37,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-22T00:14:20Z",
-      "updated_at": "2026-10-22T00:14:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "title": "Bump zod from 3.25.76 to 4.6.7",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/38",
       "number": 38,
@@ -3012,41 +2987,16 @@
       ]
     },
     {
-      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `e32a098`",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/43",
-      "number": 43,
+      "title": "Bump @types/node from 22.19.21 to 26.6.6",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/45",
+      "number": 45,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-05T00:14:36Z",
-      "updated_at": "2026-11-05T00:14:41Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker"
-      ]
-    },
-    {
-      "title": "Bump jose from 6.2.3 to 6.2.15",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/44",
-      "number": 44,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-05T00:14:58Z",
-      "updated_at": "2026-11-05T00:15:02Z",
+      "created_at": "2026-11-05T00:15:07Z",
+      "updated_at": "2026-11-05T00:15:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3062,19 +3012,69 @@
       ]
     },
     {
-      "title": "Bump @types/node from 22.19.21 to 26.6.6",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/45",
-      "number": 45,
+      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `30ecc98`",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/48",
+      "number": 48,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-05T00:15:07Z",
-      "updated_at": "2026-11-05T00:15:11Z",
+      "created_at": "2026-11-12T00:14:20Z",
+      "updated_at": "2026-11-12T00:14:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "title": "Bump jose from 6.2.3 to 6.2.16",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/49",
+      "number": 49,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T00:14:31Z",
+      "updated_at": "2026-11-12T00:14:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump vitest from 4.1.9 to 5.1.0",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/50",
+      "number": 50,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-12T00:14:46Z",
+      "updated_at": "2026-11-12T00:14:50Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3433,7 +3433,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T22:08:12Z",
+    "since": "2026-08-14T03:11:19Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
