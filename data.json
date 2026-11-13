@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:36:59.51316906Z",
+  "generated_at": "2026-11-13T07:29:54.028676927Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -675,6 +675,31 @@
       ]
     },
     {
+      "title": "build(deps): bump soupsieve from 2.4.1 to 4.0 in /src/test/resources/msc/python",
+      "url": "https://github.com/guacsec/trustify-da-java-client/pull/621",
+      "number": 621,
+      "repo": "guacsec/trustify-da-java-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-13T06:36:09Z",
+      "updated_at": "2026-11-13T06:36:33Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python"
+      ]
+    },
+    {
       "title": "build(deps): bump jaxxstorm/action-install-gh-release from 3.0.0 to 4.0.0 in the github-actions group across 1 directory",
       "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/687",
       "number": 687,
@@ -709,7 +734,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-12T10:44:45Z",
+      "updated_at": "2026-11-13T06:48:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2612,30 +2637,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-1-1 to 9613249",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/249",
-      "number": 249,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-10-12T16:07:06Z",
-      "updated_at": "2026-11-12T23:18:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "konflux-nudge"
-      ]
-    },
-    {
       "title": "chore(deps): update operator-3-2-0 to b823228",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/347",
       "number": 347,
@@ -2704,31 +2705,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update ghcr.io/actions/actions-runner docker tag to v2.338.2",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/384",
-      "number": 384,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-11T12:03:22Z",
-      "updated_at": "2026-11-13T00:02:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
       "title": "test: trigger E2E validation (replacement)",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/404",
       "number": 404,
@@ -2786,28 +2762,6 @@
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: prepare 3.1.2 release",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/486",
-      "number": 486,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-11-13T00:04:44Z",
-      "updated_at": "2026-11-13T00:04:44Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3478,7 +3432,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T00:36:09Z",
+    "since": "2026-08-15T07:28:57Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
