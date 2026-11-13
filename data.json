@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:37:09.267137732Z",
+  "generated_at": "2026-11-13T21:45:32.08853752Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1588,10 +1588,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
       },
       "created_at": "2026-11-11T12:55:10Z",
-      "updated_at": "2026-11-12T09:36:32Z",
+      "updated_at": "2026-11-13T20:12:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1599,30 +1599,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix(purl): scope fixed-version remediations to the package's product context",
-      "url": "https://github.com/guacsec/trustify/pull/2871",
-      "number": 2871,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
-      },
-      "created_at": "2026-11-11T15:21:59Z",
-      "updated_at": "2026-11-13T14:54:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "backport release/0.7.z"
-      ]
     },
     {
       "title": "build(dev): trying to save disk space over time",
@@ -1634,32 +1610,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
       },
       "created_at": "2026-11-12T18:14:46Z",
-      "updated_at": "2026-11-13T10:00:22Z",
+      "updated_at": "2026-11-13T20:19:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: enable tcp_nodelay [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2888",
-      "number": 2888,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-11-13T13:15:20Z",
-      "updated_at": "2026-11-13T13:17:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3385,7 +3339,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T15:36:08Z",
+    "since": "2026-08-15T21:44:33Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -8867,8 +8821,16 @@
       },
       {
         "login": "desmax74",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "fix(purl): scope fixed-version remediations to the package's product context",
+            "url": "https://github.com/guacsec/trustify/pull/2871",
+            "repo": "guacsec/trustify",
+            "number": 2871,
+            "author": "ruromero",
+            "engaged_at": "2026-11-13T17:28:27Z"
+          },
           {
             "title": "build: update from nodejs 22 to nodejs 24",
             "url": "https://github.com/guacsec/trustify/pull/2882",
