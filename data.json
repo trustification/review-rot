@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:29:54.028676927Z",
+  "generated_at": "2026-11-13T15:37:09.267137732Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1300,7 +1300,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-11-11T15:47:35Z",
-      "updated_at": "2026-11-12T11:07:10Z",
+      "updated_at": "2026-11-13T11:17:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1344,7 +1344,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-11-12T19:48:17Z",
-      "updated_at": "2026-11-12T20:03:58Z",
+      "updated_at": "2026-11-13T13:01:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1498,7 +1498,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-10-30T10:53:23Z",
-      "updated_at": "2026-11-12T16:37:23Z",
+      "updated_at": "2026-11-13T14:49:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1508,28 +1508,6 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
-      "url": "https://github.com/guacsec/trustify/pull/2836",
-      "number": 2836,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-03T13:55:54Z",
-      "updated_at": "2026-11-12T16:52:39Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1632,41 +1610,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-11T15:21:59Z",
-      "updated_at": "2026-11-12T15:01:44Z",
+      "updated_at": "2026-11-13T14:54:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
-      "labels": [
-        "backport release/0.6.z",
-        "backport release/0.7.z"
-      ]
-    },
-    {
-      "title": "chore: enable tcp_nodelay",
-      "url": "https://github.com/guacsec/trustify/pull/2877",
-      "number": 2877,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "helio-frota",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
-      },
-      "created_at": "2026-11-12T12:00:57Z",
-      "updated_at": "2026-11-12T19:05:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
       "labels": [
         "backport release/0.7.z"
       ]
@@ -1681,7 +1634,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
       },
       "created_at": "2026-11-12T18:14:46Z",
-      "updated_at": "2026-11-12T18:59:46Z",
+      "updated_at": "2026-11-13T10:00:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1694,25 +1647,25 @@
       "labels": []
     },
     {
-      "title": "perf(http): prefer zstd compression for API responses and load tests [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2885",
-      "number": 2885,
+      "title": "chore: enable tcp_nodelay [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify/pull/2888",
+      "number": 2888,
       "repo": "guacsec/trustify",
       "author": {
         "login": "trustify-ci-bot",
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-11-12T19:48:27Z",
-      "updated_at": "2026-11-12T19:52:01Z",
+      "created_at": "2026-11-13T13:15:20Z",
+      "updated_at": "2026-11-13T13:17:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1816,7 +1769,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-10T07:14:18Z",
-      "updated_at": "2026-11-12T23:02:45Z",
+      "updated_at": "2026-11-13T12:20:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3432,7 +3385,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T07:28:57Z",
+    "since": "2026-08-15T15:36:08Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4658,7 +4611,7 @@
             "repo": "guacsec/trustify",
             "number": 2877,
             "author": "helio-frota",
-            "engaged_at": "2026-11-12T18:17:14Z"
+            "engaged_at": "2026-11-13T12:05:34Z"
           },
           {
             "title": "perf(correlation): match and extract large SBOMs and advisories with bounded memory",
@@ -5488,8 +5441,16 @@
       },
       {
         "login": "ctron",
-        "reviews": 73,
+        "reviews": 74,
         "prs": [
+          {
+            "title": "perf(http): prefer zstd compression for API responses and load tests [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2887",
+            "repo": "guacsec/trustify",
+            "number": 2887,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-13T09:22:24Z"
+          },
           {
             "title": "perf(http): prefer zstd compression for API responses and load tests",
             "url": "https://github.com/guacsec/trustify/pull/2874",
