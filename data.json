@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:45:32.08853752Z",
+  "generated_at": "2026-11-14T01:55:44.119678669Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1579,28 +1579,6 @@
       ]
     },
     {
-      "title": "chore: attempt to reduce grype xtask container alerts",
-      "url": "https://github.com/guacsec/trustify/pull/2870",
-      "number": 2870,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "helio-frota",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
-      },
-      "created_at": "2026-11-11T12:55:10Z",
-      "updated_at": "2026-11-13T20:12:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "build(dev): trying to save disk space over time",
       "url": "https://github.com/guacsec/trustify/pull/2884",
       "number": 2884,
@@ -1734,6 +1712,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "chore(deps): bump dnspython from 2.9.1 to 2.9.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/656",
+      "number": 656,
+      "repo": "RHEcosystemAppEng/exploit-iq-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-13T22:34:40Z",
+      "updated_at": "2026-11-13T22:34:43Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "python:uv"
+      ]
     },
     {
       "title": "fix: Extract username from JWT token claims instead of UserInfo (#291)",
@@ -2678,6 +2681,106 @@
       "labels": []
     },
     {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 59b9b66",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/489",
+      "number": 489,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-14T00:02:20Z",
+      "updated_at": "2026-11-14T00:02:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 59b9b66",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/490",
+      "number": 490,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-14T00:02:32Z",
+      "updated_at": "2026-11-14T00:02:33Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/491",
+      "number": 491,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-14T00:02:41Z",
+      "updated_at": "2026-11-14T00:02:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
+      "title": "chore(deps): update konflux references",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/58",
+      "number": 58,
+      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+      "author": {
+        "login": "red-hat-konflux-kflux-prd-rh02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
+      },
+      "created_at": "2026-11-14T00:02:23Z",
+      "updated_at": "2026-11-14T00:02:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "/approve",
+        "/lgtm"
+      ]
+    },
+    {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
       "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/10",
       "number": 10,
@@ -3339,7 +3442,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T21:44:33Z",
+    "since": "2026-08-16T01:54:50Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
