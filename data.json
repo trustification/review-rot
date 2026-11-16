@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:18:31.868077253Z",
+  "generated_at": "2026-11-16T22:25:12.308064949Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -797,6 +797,28 @@
       "labels": []
     },
     {
+      "title": "fix(remediate): cover subproject dependencies when remediating a Gradle catalog",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/697",
+      "number": 697,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "Strum355",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
+      },
+      "created_at": "2026-11-16T12:45:37Z",
+      "updated_at": "2026-11-16T12:50:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 7,
+      "labels": []
+    },
+    {
       "title": "test(e2e): Add SBOM and Advisory Upload tests",
       "url": "https://github.com/guacsec/trustify-ui/pull/1005",
       "number": 1005,
@@ -1116,7 +1138,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/69139323?v=4"
       },
       "created_at": "2026-11-16T09:27:09Z",
-      "updated_at": "2026-11-16T09:27:21Z",
+      "updated_at": "2026-11-16T16:34:27Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1127,6 +1149,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix(crypto): skip empty filters and strengthen policy filter tests",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1436",
+      "number": 1436,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-11-16T21:39:30Z",
+      "updated_at": "2026-11-16T21:59:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "feat(validation): add document validation module",
@@ -1182,7 +1228,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-10-04T15:59:18Z",
-      "updated_at": "2026-11-12T19:12:44Z",
+      "updated_at": "2026-11-16T13:33:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1314,7 +1360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-04T18:49:59Z",
-      "updated_at": "2026-11-12T10:04:25Z",
+      "updated_at": "2026-11-16T12:56:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1349,50 +1395,6 @@
       "labels": [
         "frontend"
       ]
-    },
-    {
-      "title": "fix(perf): reduce vulnerability-to-SBOM backlink query cost",
-      "url": "https://github.com/guacsec/trustify/pull/2890",
-      "number": 2890,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-11-16T08:01:45Z",
-      "updated_at": "2026-11-16T08:17:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 3,
-      "labels": []
-    },
-    {
-      "title": "fix(purl): scope fixed-version remediations to the package's product context [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2891",
-      "number": 2891,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
-      },
-      "created_at": "2026-11-16T10:04:10Z",
-      "updated_at": "2026-11-16T10:06:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
     },
     {
       "title": "Appeng 5620",
@@ -1495,7 +1497,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-10T07:14:18Z",
-      "updated_at": "2026-11-15T10:34:06Z",
+      "updated_at": "2026-11-16T19:53:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1542,7 +1544,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-15T14:41:31Z",
-      "updated_at": "2026-11-16T09:22:16Z",
+      "updated_at": "2026-11-16T19:45:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2056,31 +2058,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump quarkus.platform.version from 3.40.1 to 3.40.1.1",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/380",
-      "number": 380,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-26T14:26:53Z",
-      "updated_at": "2026-10-26T14:26:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "java"
-      ]
-    },
-    {
       "title": "chore(deps): bump io.quarkiverse.quinoa:quarkus-quinoa from 2.9.2 to 2.9.3",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/382",
       "number": 382,
@@ -2156,31 +2133,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump com.github.luben:zstd-jni from 1.5.7-20 to 1.5.7-25",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/403",
-      "number": 403,
-      "repo": "RHEcosystemAppEng/exploit-iq-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-09T14:29:38Z",
-      "updated_at": "2026-11-10T02:35:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "java"
-      ]
-    },
-    {
       "title": "fix(TC-7264): point About help link to EI guide",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/404",
       "number": 404,
@@ -2223,6 +2175,106 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "chore(deps): bump quarkus.platform.version from 3.40.1.1 to 3.40.1.2",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/415",
+      "number": 415,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-16T14:28:17Z",
+      "updated_at": "2026-11-16T14:28:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "java"
+      ]
+    },
+    {
+      "title": "chore(deps): bump org.apache.maven:apache-maven from 3.10.0 to 3.10.1",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/416",
+      "number": 416,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-16T14:28:45Z",
+      "updated_at": "2026-11-16T14:28:49Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "java"
+      ]
+    },
+    {
+      "title": "chore(deps): bump com.github.luben:zstd-jni from 1.5.7-20 to 1.5.7-26",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/417",
+      "number": 417,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-16T14:29:15Z",
+      "updated_at": "2026-11-16T14:29:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "java"
+      ]
+    },
+    {
+      "title": "chore(deps): bump com.fasterxml.jackson:jackson-bom from 2.22.4 to 2.23.0",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/418",
+      "number": 418,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-16T14:30:26Z",
+      "updated_at": "2026-11-16T14:30:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "java"
+      ]
     },
     {
       "title": "chore(deps): bump flask from 3.1.1 to 3.1.3",
@@ -2418,7 +2470,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-11T20:25:06Z",
-      "updated_at": "2026-11-15T13:01:57Z",
+      "updated_at": "2026-11-16T19:44:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2584,32 +2636,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-15T14:41:17Z",
-      "updated_at": "2026-11-16T09:21:46Z",
+      "updated_at": "2026-11-16T19:46:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(e2e): support cluster-backed static secrets",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/502",
-      "number": 502,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "tmihalac",
-        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
-      },
-      "created_at": "2026-11-16T12:15:29Z",
-      "updated_at": "2026-11-16T12:15:29Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3280,12 +3310,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T12:17:31Z",
+    "since": "2026-08-18T22:24:04Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 150,
+        "reviews": 151,
         "prs": [
+          {
+            "title": "fix(remediate): cover subproject dependencies when remediating a Gradle catalog",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/697",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 697,
+            "author": "Strum355",
+            "engaged_at": "2026-11-16T12:50:55Z"
+          },
           {
             "title": "build(deps): bump node-forge from 1.4.0 to 1.4.3 in /ui",
             "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/683",
@@ -7082,7 +7120,7 @@
       },
       {
         "login": "tmihalac",
-        "reviews": 45,
+        "reviews": 43,
         "prs": [
           {
             "title": "fix: bump graphql-core to 3.2.14 for 3.1.2 CVEs (TC-7294)",
@@ -7427,22 +7465,6 @@
             "number": 98,
             "author": "xinredhat",
             "engaged_at": "2026-08-26T13:21:09Z"
-          },
-          {
-            "title": "docs: add samples README link and clarify NVIDIA NIM usage",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/92",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 92,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T14:52:58Z"
-          },
-          {
-            "title": "docs: update AWS Cognito IdP configuration steps",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/338",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 338,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-18T13:27:46Z"
           }
         ]
       },
@@ -8440,8 +8462,16 @@
       },
       {
         "login": "helio-frota",
-        "reviews": 15,
+        "reviews": 16,
         "prs": [
+          {
+            "title": "fix(perf): reduce vulnerability-to-SBOM backlink query cost",
+            "url": "https://github.com/guacsec/trustify/pull/2890",
+            "repo": "guacsec/trustify",
+            "number": 2890,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-16T15:35:31Z"
+          },
           {
             "title": "chores(deps) cleansing",
             "url": "https://github.com/guacsec/trustify-ui/pull/1429",
@@ -8561,6 +8591,132 @@
             "number": 2587,
             "author": "rh-jfuller",
             "engaged_at": "2026-08-21T16:26:36Z"
+          }
+        ]
+      },
+      {
+        "login": "desmax74",
+        "reviews": 15,
+        "prs": [
+          {
+            "title": "fix(purl): scope fixed-version remediations to the package's product context [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2892",
+            "repo": "guacsec/trustify",
+            "number": 2892,
+            "author": "ruromero",
+            "engaged_at": "2026-11-16T13:06:40Z"
+          },
+          {
+            "title": "fix(purl): scope fixed-version remediations to the package's product context [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2891",
+            "repo": "guacsec/trustify",
+            "number": 2891,
+            "author": "ruromero",
+            "engaged_at": "2026-11-16T13:05:13Z"
+          },
+          {
+            "title": "fix(purl): scope fixed-version remediations to the package's product context",
+            "url": "https://github.com/guacsec/trustify/pull/2871",
+            "repo": "guacsec/trustify",
+            "number": 2871,
+            "author": "ruromero",
+            "engaged_at": "2026-11-13T17:28:27Z"
+          },
+          {
+            "title": "build: update from nodejs 22 to nodejs 24",
+            "url": "https://github.com/guacsec/trustify/pull/2882",
+            "repo": "guacsec/trustify",
+            "number": 2882,
+            "author": "helio-frota",
+            "engaged_at": "2026-11-12T15:51:02Z"
+          },
+          {
+            "title": "fix(deps): upgrade zip to unblock 0.7 release audit",
+            "url": "https://github.com/guacsec/trustify/pull/2878",
+            "repo": "guacsec/trustify",
+            "number": 2878,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T13:42:24Z"
+          },
+          {
+            "title": "chore: prepare next release",
+            "url": "https://github.com/guacsec/trustify/pull/2879",
+            "repo": "guacsec/trustify",
+            "number": 2879,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T13:41:39Z"
+          },
+          {
+            "title": "ci: notify Matrix when releases are prepared and published",
+            "url": "https://github.com/guacsec/trustify/pull/2867",
+            "repo": "guacsec/trustify",
+            "number": 2867,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T09:09:14Z"
+          },
+          {
+            "title": "build(deps): update csaf-rs to 0.7.1",
+            "url": "https://github.com/guacsec/trustify/pull/2872",
+            "repo": "guacsec/trustify",
+            "number": 2872,
+            "author": "ctron",
+            "engaged_at": "2026-11-12T09:08:58Z"
+          },
+          {
+            "title": "build(deps): update release dependencies and pin csaf-rs to 0.5.1",
+            "url": "https://github.com/guacsec/trustify/pull/2868",
+            "repo": "guacsec/trustify",
+            "number": 2868,
+            "author": "ctron",
+            "engaged_at": "2026-11-11T11:28:22Z"
+          },
+          {
+            "title": "build: update from nodejs 22 to nodejs 24",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1427",
+            "repo": "guacsec/trustify-ui",
+            "number": 1427,
+            "author": "helio-frota",
+            "engaged_at": "2026-11-10T13:10:07Z"
+          },
+          {
+            "title": "fix(ci): select the migration dump by the run's base branch",
+            "url": "https://github.com/guacsec/trustify/pull/2848",
+            "repo": "guacsec/trustify",
+            "number": 2848,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T13:51:26Z"
+          },
+          {
+            "title": "fix(ci): select the migration dump by the run's base branch (release/0.7.z)",
+            "url": "https://github.com/guacsec/trustify/pull/2847",
+            "repo": "guacsec/trustify",
+            "number": 2847,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-05T13:51:04Z"
+          },
+          {
+            "title": "build: update from node 22 to node 24",
+            "url": "https://github.com/guacsec/trustify/pull/2822",
+            "repo": "guacsec/trustify",
+            "number": 2822,
+            "author": "helio-frota",
+            "engaged_at": "2026-10-28T14:20:20Z"
+          },
+          {
+            "title": "fix(deps) [backport release/0.4.z] bump axios to 1.20",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1340",
+            "repo": "guacsec/trustify-ui",
+            "number": 1340,
+            "author": "gildub",
+            "engaged_at": "2026-10-22T14:19:09Z"
+          },
+          {
+            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
+            "url": "https://github.com/guacsec/trustify/pull/2782",
+            "repo": "guacsec/trustify",
+            "number": 2782,
+            "author": "ctron",
+            "engaged_at": "2026-10-22T12:02:51Z"
           }
         ]
       },
@@ -8692,7 +8848,7 @@
       },
       {
         "login": "jcrossley3",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "fix(crypto) docs from PR#2828 [Backport release/0.7.z]",
@@ -8797,124 +8953,6 @@
             "number": 2611,
             "author": "ruromero",
             "engaged_at": "2026-09-02T13:35:52Z"
-          },
-          {
-            "title": "fix: vuln correlation fixes",
-            "url": "https://github.com/guacsec/trustify/pull/2582",
-            "repo": "guacsec/trustify",
-            "number": 2582,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-18T13:48:42Z"
-          }
-        ]
-      },
-      {
-        "login": "desmax74",
-        "reviews": 13,
-        "prs": [
-          {
-            "title": "fix(purl): scope fixed-version remediations to the package's product context",
-            "url": "https://github.com/guacsec/trustify/pull/2871",
-            "repo": "guacsec/trustify",
-            "number": 2871,
-            "author": "ruromero",
-            "engaged_at": "2026-11-13T17:28:27Z"
-          },
-          {
-            "title": "build: update from nodejs 22 to nodejs 24",
-            "url": "https://github.com/guacsec/trustify/pull/2882",
-            "repo": "guacsec/trustify",
-            "number": 2882,
-            "author": "helio-frota",
-            "engaged_at": "2026-11-12T15:51:02Z"
-          },
-          {
-            "title": "fix(deps): upgrade zip to unblock 0.7 release audit",
-            "url": "https://github.com/guacsec/trustify/pull/2878",
-            "repo": "guacsec/trustify",
-            "number": 2878,
-            "author": "ctron",
-            "engaged_at": "2026-11-12T13:42:24Z"
-          },
-          {
-            "title": "chore: prepare next release",
-            "url": "https://github.com/guacsec/trustify/pull/2879",
-            "repo": "guacsec/trustify",
-            "number": 2879,
-            "author": "ctron",
-            "engaged_at": "2026-11-12T13:41:39Z"
-          },
-          {
-            "title": "ci: notify Matrix when releases are prepared and published",
-            "url": "https://github.com/guacsec/trustify/pull/2867",
-            "repo": "guacsec/trustify",
-            "number": 2867,
-            "author": "ctron",
-            "engaged_at": "2026-11-12T09:09:14Z"
-          },
-          {
-            "title": "build(deps): update csaf-rs to 0.7.1",
-            "url": "https://github.com/guacsec/trustify/pull/2872",
-            "repo": "guacsec/trustify",
-            "number": 2872,
-            "author": "ctron",
-            "engaged_at": "2026-11-12T09:08:58Z"
-          },
-          {
-            "title": "build(deps): update release dependencies and pin csaf-rs to 0.5.1",
-            "url": "https://github.com/guacsec/trustify/pull/2868",
-            "repo": "guacsec/trustify",
-            "number": 2868,
-            "author": "ctron",
-            "engaged_at": "2026-11-11T11:28:22Z"
-          },
-          {
-            "title": "build: update from nodejs 22 to nodejs 24",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1427",
-            "repo": "guacsec/trustify-ui",
-            "number": 1427,
-            "author": "helio-frota",
-            "engaged_at": "2026-11-10T13:10:07Z"
-          },
-          {
-            "title": "fix(ci): select the migration dump by the run's base branch",
-            "url": "https://github.com/guacsec/trustify/pull/2848",
-            "repo": "guacsec/trustify",
-            "number": 2848,
-            "author": "mrizzi",
-            "engaged_at": "2026-11-05T13:51:26Z"
-          },
-          {
-            "title": "fix(ci): select the migration dump by the run's base branch (release/0.7.z)",
-            "url": "https://github.com/guacsec/trustify/pull/2847",
-            "repo": "guacsec/trustify",
-            "number": 2847,
-            "author": "mrizzi",
-            "engaged_at": "2026-11-05T13:51:04Z"
-          },
-          {
-            "title": "build: update from node 22 to node 24",
-            "url": "https://github.com/guacsec/trustify/pull/2822",
-            "repo": "guacsec/trustify",
-            "number": 2822,
-            "author": "helio-frota",
-            "engaged_at": "2026-10-28T14:20:20Z"
-          },
-          {
-            "title": "fix(deps) [backport release/0.4.z] bump axios to 1.20",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1340",
-            "repo": "guacsec/trustify-ui",
-            "number": 1340,
-            "author": "gildub",
-            "engaged_at": "2026-10-22T14:19:09Z"
-          },
-          {
-            "title": "fix(deps): upgrade embedded PostgreSQL crates to 0.22",
-            "url": "https://github.com/guacsec/trustify/pull/2782",
-            "repo": "guacsec/trustify",
-            "number": 2782,
-            "author": "ctron",
-            "engaged_at": "2026-10-22T12:02:51Z"
           }
         ]
       },
@@ -9281,36 +9319,6 @@
         ]
       },
       {
-        "login": "queria",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
-            "repo": "guacsec/trustify-ui",
-            "number": 1212,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-19T08:23:57Z"
-          },
-          {
-            "title": "test(e2e): fix downstream failures for UI tests regarding the Importe…",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1203",
-            "repo": "guacsec/trustify-ui",
-            "number": 1203,
-            "author": "matejnesuta",
-            "engaged_at": "2026-08-18T13:22:01Z"
-          },
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1174",
-            "repo": "guacsec/trustify-ui",
-            "number": 1174,
-            "author": "chetna14manku",
-            "engaged_at": "2026-08-18T13:11:07Z"
-          }
-        ]
-      },
-      {
         "login": "heatherzh01",
         "reviews": 2,
         "prs": [
@@ -9369,6 +9377,20 @@
         ]
       },
       {
+        "login": "queria",
+        "reviews": 1,
+        "prs": [
+          {
+            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
+            "repo": "guacsec/trustify-ui",
+            "number": 1212,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-08-19T08:23:57Z"
+          }
+        ]
+      },
+      {
         "login": "rhredhat",
         "reviews": 1,
         "prs": [
@@ -9379,20 +9401,6 @@
             "number": 2663,
             "author": "ctron",
             "engaged_at": "2026-10-01T08:34:11Z"
-          }
-        ]
-      },
-      {
-        "login": "stanislavsemeniuk",
-        "reviews": 1,
-        "prs": [
-          {
-            "title": "revert(1165): avoid PurgeCSS bug",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1211",
-            "repo": "guacsec/trustify-ui",
-            "number": 1211,
-            "author": "gildub",
-            "engaged_at": "2026-08-18T13:03:06Z"
           }
         ]
       },
