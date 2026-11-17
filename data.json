@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:25:12.308064949Z",
+  "generated_at": "2026-11-17T04:40:59.85327322Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1151,28 +1151,26 @@
       "labels": []
     },
     {
-      "title": "fix(crypto): skip empty filters and strengthen policy filter tests",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1436",
-      "number": 1436,
+      "title": "fix(crypto): skip empty filters and strengthen policy filter tests [Backport release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1437",
+      "number": 1437,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-11-16T21:39:30Z",
-      "updated_at": "2026-11-16T21:59:42Z",
+      "created_at": "2026-11-16T22:26:06Z",
+      "updated_at": "2026-11-16T22:30:06Z",
       "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
+      "unresolved_conversations": 2,
+      "labels": []
     },
     {
       "title": "feat(validation): add document validation module",
@@ -3310,7 +3308,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T22:24:04Z",
+    "since": "2026-08-19T04:40:03Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -8312,7 +8310,7 @@
       },
       {
         "login": "xinredhat",
-        "reviews": 18,
+        "reviews": 17,
         "prs": [
           {
             "title": "chore(deps): update konflux references",
@@ -8449,14 +8447,6 @@
             "number": 1214,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-19T06:42:41Z"
-          },
-          {
-            "title": "fix(e2e): add missing authentication background to feature files added in #1149 [Backport release/0.6.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1212",
-            "repo": "guacsec/trustify-ui",
-            "number": 1212,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-19T03:22:26Z"
           }
         ]
       },
