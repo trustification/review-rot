@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:49:29.318845662Z",
+  "generated_at": "2026-11-19T02:09:21.04570157Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -79,56 +79,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): Bump stbenjam/skillsaw from 1bf34517f8c38193814a0ff7199d028897fbf344 to 825fc093e8a8a2a7c3fb146de54a850b04724a53",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/377",
-      "number": 377,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-12T00:43:58Z",
-      "updated_at": "2026-11-12T00:44:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "chore(deps): Bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.54.0",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/378",
-      "number": 378,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-12T00:44:07Z",
-      "updated_at": "2026-11-12T00:44:11Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
       "title": "feat(triage-security): assign to the runner identity and allow disabling transitions",
       "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/379",
       "number": 379,
@@ -153,7 +103,7 @@
       ]
     },
     {
-      "title": "feat(security): batch Cargo CVE remediation safely",
+      "title": "feat(security): make CVE remediation convention-driven",
       "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/380",
       "number": 380,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
@@ -162,7 +112,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-18T08:28:06Z",
-      "updated_at": "2026-11-18T13:47:51Z",
+      "updated_at": "2026-11-19T00:53:51Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -172,6 +122,78 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): Bump stbenjam/skillsaw from 1bf34517f8c38193814a0ff7199d028897fbf344 to 8ce692c2991fbbbd605541f1dbb532521a6b2ca5",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/381",
+      "number": 381,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T00:44:09Z",
+      "updated_at": "2026-11-19T00:44:14Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "chore(deps): Bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.56.1",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/382",
+      "number": 382,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T00:44:19Z",
+      "updated_at": "2026-11-19T00:44:23Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "fix(evals): reject contradictory native gate judgments",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/383",
+      "number": 383,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-11-19T01:50:40Z",
+      "updated_at": "2026-11-19T01:56:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -1160,17 +1182,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-18T20:44:00Z",
-      "updated_at": "2026-11-18T20:47:29Z",
+      "updated_at": "2026-11-18T21:07:23Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "feat(validation): add document validation module",
@@ -2712,7 +2736,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
       },
       "created_at": "2026-11-18T00:00:31Z",
-      "updated_at": "2026-11-18T00:02:33Z",
+      "updated_at": "2026-11-19T00:07:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2965,41 +2989,16 @@
       ]
     },
     {
-      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `30ecc98`",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/48",
-      "number": 48,
+      "title": "Bump vitest from 4.1.9 to 5.1.0",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/50",
+      "number": 50,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-12T00:14:20Z",
-      "updated_at": "2026-11-12T00:14:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker"
-      ]
-    },
-    {
-      "title": "Bump jose from 6.2.3 to 6.2.16",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/49",
-      "number": 49,
-      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-12T00:14:31Z",
-      "updated_at": "2026-11-12T00:14:35Z",
+      "created_at": "2026-11-12T00:14:46Z",
+      "updated_at": "2026-11-12T00:14:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3015,19 +3014,44 @@
       ]
     },
     {
-      "title": "Bump vitest from 4.1.9 to 5.1.0",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/50",
-      "number": 50,
+      "title": "Bump ubi9/nodejs-22-minimal from `1d4e4da` to `3e6d649`",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/51",
+      "number": 51,
       "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-12T00:14:46Z",
-      "updated_at": "2026-11-12T00:14:50Z",
+      "created_at": "2026-11-19T00:14:22Z",
+      "updated_at": "2026-11-19T00:14:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "title": "Bump jose from 6.2.3 to 6.2.17",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-mcp-server/pull/52",
+      "number": 52,
+      "repo": "RHEcosystemAppEng/exploitiq-mcp-server",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T00:14:32Z",
+      "updated_at": "2026-11-19T00:14:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -3386,7 +3410,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T20:48:26Z",
+    "since": "2026-08-21T02:08:22Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -5474,7 +5498,7 @@
             "repo": "guacsec/trustify-ui",
             "number": 1440,
             "author": "trustify-ci-bot",
-            "engaged_at": "2026-11-18T20:45:12Z"
+            "engaged_at": "2026-11-19T00:32:02Z"
           },
           {
             "title": "fix(licenses): classify Unicode-DFS-2016, Unlicense and CC0-1.0 as permissive",
