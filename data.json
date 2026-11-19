@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:09:21.04570157Z",
+  "generated_at": "2026-11-19T10:34:51.466575895Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -88,7 +88,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
       },
       "created_at": "2026-11-12T17:21:25Z",
-      "updated_at": "2026-11-12T18:24:07Z",
+      "updated_at": "2026-11-19T09:17:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -97,10 +97,8 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
-      "labels": [
-        "ok-to-test"
-      ]
+      "unresolved_conversations": 1,
+      "labels": []
     },
     {
       "title": "feat(security): make CVE remediation convention-driven",
@@ -778,38 +776,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-18T16:28:00Z",
+      "updated_at": "2026-11-19T08:32:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
-      "title": "build(deps): bump fast-xml-parser from 5.11.2 to 5.12.0",
-      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/695",
-      "number": 695,
-      "repo": "guacsec/trustify-da-javascript-client",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-12T05:29:55Z",
-      "updated_at": "2026-11-18T08:12:08Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -3410,7 +3383,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T02:08:22Z",
+    "since": "2026-08-21T10:33:50Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4660,7 +4633,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 103,
+        "reviews": 102,
         "prs": [
           {
             "title": "test(purl): cover recommendation remediation associations",
@@ -5477,14 +5450,6 @@
             "number": 2588,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-08-21T17:14:23Z"
-          },
-          {
-            "title": "chore: add sales-demo-mini dataset for fast-loading demos",
-            "url": "https://github.com/guacsec/trustify/pull/2585",
-            "repo": "guacsec/trustify",
-            "number": 2585,
-            "author": "ptomanRH",
-            "engaged_at": "2026-08-21T08:03:32Z"
           }
         ]
       },
