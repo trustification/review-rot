@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:23:24.474034472Z",
+  "generated_at": "2026-11-20T08:47:05.857763224Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -135,7 +135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-19T12:46:28Z",
-      "updated_at": "2026-11-20T01:00:06Z",
+      "updated_at": "2026-11-20T07:58:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -145,7 +145,33 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 10,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "fix(fullsend): deliver presence gates in Tirith's accepted test dialect",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/385",
+      "number": 385,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-11-20T08:34:49Z",
+      "updated_at": "2026-11-20T08:44:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -729,7 +755,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-19T08:32:29Z",
+      "updated_at": "2026-11-20T06:44:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3267,7 +3293,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T01:22:24Z",
+    "since": "2026-08-22T08:46:04Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4525,7 +4551,7 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 99,
+        "reviews": 98,
         "prs": [
           {
             "title": "test(purl): cover recommendation remediation associations",
@@ -5310,14 +5336,6 @@
             "number": 2604,
             "author": "ruromero",
             "engaged_at": "2026-09-02T05:51:23Z"
-          },
-          {
-            "title": "chore: prepare release 0.6.0-rc.5",
-            "url": "https://github.com/guacsec/trustify/pull/2593",
-            "repo": "guacsec/trustify",
-            "number": 2593,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-08-22T04:49:39Z"
           }
         ]
       },
