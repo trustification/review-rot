@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:07:34.310121558Z",
+  "generated_at": "2026-11-23T04:48:36.468062077Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2025-07-21T16:02:56Z",
-      "updated_at": "2026-11-17T20:09:28Z",
+      "updated_at": "2026-11-21T13:48:58Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -756,16 +756,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-16T12:45:37Z",
-      "updated_at": "2026-11-16T12:50:55Z",
+      "updated_at": "2026-11-22T09:51:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
+        "outstanding_change_requests_on_head": true
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 9,
       "labels": []
     },
     {
@@ -1515,7 +1515,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:12Z",
-      "updated_at": "2026-11-19T16:12:29Z",
+      "updated_at": "2026-11-22T13:59:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2248,6 +2248,28 @@
       ]
     },
     {
+      "title": "test: trigger main E2E validation",
+      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/421",
+      "number": 421,
+      "repo": "RHEcosystemAppEng/exploit-iq-client",
+      "author": {
+        "login": "tmihalac",
+        "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
+      },
+      "created_at": "2026-11-22T11:25:28Z",
+      "updated_at": "2026-11-22T11:25:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): bump flask from 3.1.1 to 3.1.3",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-feedback-api/pull/10",
       "number": 10,
@@ -2386,7 +2408,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to b823228",
+      "title": "chore(deps): update operator-3-2-0 to 15d6646",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/347",
       "number": 347,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2395,7 +2417,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-07T04:08:53Z",
-      "updated_at": "2026-11-11T15:57:35Z",
+      "updated_at": "2026-11-21T16:13:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2542,72 +2564,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): refresh 0.0.4 Konflux bundles and Go toolset",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/523",
-      "number": 523,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-11-18T00:00:24Z",
-      "updated_at": "2026-11-18T00:02:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): refresh main Konflux task bundles",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/524",
-      "number": 524,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-11-18T00:00:28Z",
-      "updated_at": "2026-11-18T00:02:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): refresh 0.0.5 Konflux task bundles",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/525",
-      "number": 525,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "xinredhat",
-        "avatar_url": "https://avatars.githubusercontent.com/u/53755997?u=28e7d5452d9678da29cc6aeb33de23acd4ff0c60\u0026v=4"
-      },
-      "created_at": "2026-11-18T00:00:31Z",
-      "updated_at": "2026-11-19T00:07:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "test: trigger E2E validation (dummy)",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/536",
       "number": 536,
@@ -2617,7 +2573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:13Z",
-      "updated_at": "2026-11-19T16:12:25Z",
+      "updated_at": "2026-11-22T13:47:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2628,181 +2584,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 2ba4493",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/543",
-      "number": 543,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T00:02:26Z",
-      "updated_at": "2026-11-21T00:02:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 2ba4493",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/544",
-      "number": 544,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T00:02:36Z",
-      "updated_at": "2026-11-21T00:02:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 51eef28",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/545",
-      "number": 545,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T00:02:36Z",
-      "updated_at": "2026-11-21T00:02:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/546",
-      "number": 546,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T00:02:57Z",
-      "updated_at": "2026-11-21T00:02:58Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/547",
-      "number": 547,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T04:02:36Z",
-      "updated_at": "2026-11-21T04:02:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update konflux references",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/548",
-      "number": 548,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T04:02:54Z",
-      "updated_at": "2026-11-21T04:02:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
-    },
-    {
-      "title": "chore(deps): update konflux references to 2b5e522",
-      "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/59",
-      "number": 59,
-      "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
-      "author": {
-        "login": "red-hat-konflux-kflux-prd-rh02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
-      },
-      "created_at": "2026-11-21T04:02:27Z",
-      "updated_at": "2026-11-21T04:02:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "/approve",
-        "/lgtm"
-      ]
     },
     {
       "title": "ci: Migrate container image repo to quay.io/ecosystem-appeng",
@@ -3466,11 +3247,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-23T04:06:46Z",
+    "since": "2026-08-25T04:47:41Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 156,
+        "reviews": 154,
         "prs": [
           {
             "title": "chore(deps): bump @trustify-da/trustify-da-javascript-client to 0.4.0…",
@@ -4703,22 +4484,6 @@
             "number": 649,
             "author": "dependabot",
             "engaged_at": "2026-08-26T06:55:13Z"
-          },
-          {
-            "title": "refactor(cargo): consolidate lock file discovery and fix WORKSPACE_DIR bug",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/616",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 616,
-            "author": "a-oren",
-            "engaged_at": "2026-08-24T07:29:38Z"
-          },
-          {
-            "title": "feat(providers): extract SHA hashes from JS lock files for SBOM",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/615",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 615,
-            "author": "a-oren",
-            "engaged_at": "2026-08-23T11:03:32Z"
           }
         ]
       },
@@ -5514,7 +5279,7 @@
       },
       {
         "login": "ruromero",
-        "reviews": 80,
+        "reviews": 78,
         "prs": [
           {
             "title": "chore(openapi): [main] update client/openapi/trustd.yaml [Backport release/0.7.z]",
@@ -6139,22 +5904,6 @@
             "number": 612,
             "author": "a-oren",
             "engaged_at": "2026-08-25T08:10:13Z"
-          },
-          {
-            "title": "build(deps): bump websocket-driver from 0.7.4 to 0.7.5 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/644",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 644,
-            "author": "dependabot",
-            "engaged_at": "2026-08-24T11:34:59Z"
-          },
-          {
-            "title": "build(deps): bump http-proxy-middleware from 2.0.9 to 2.0.10 in /ui",
-            "url": "https://github.com/guacsec/trustify-dependency-analytics/pull/635",
-            "repo": "guacsec/trustify-dependency-analytics",
-            "number": 635,
-            "author": "dependabot",
-            "engaged_at": "2026-08-24T10:28:38Z"
           }
         ]
       },
@@ -6774,7 +6523,7 @@
       },
       {
         "login": "ctron",
-        "reviews": 75,
+        "reviews": 74,
         "prs": [
           {
             "title": "fix(vulnerability): order advisories deterministically",
@@ -7367,14 +7116,6 @@
             "number": 2597,
             "author": "mrrajan",
             "engaged_at": "2026-08-25T14:31:24Z"
-          },
-          {
-            "title": "Analysis module performance: reduce allocs, CPU, and DB round-trips",
-            "url": "https://github.com/guacsec/trustify/pull/2581",
-            "repo": "guacsec/trustify",
-            "number": 2581,
-            "author": "rh-jfuller",
-            "engaged_at": "2026-08-24T14:30:03Z"
           }
         ]
       },
@@ -8088,8 +7829,16 @@
       },
       {
         "login": "a-oren",
-        "reviews": 34,
+        "reviews": 35,
         "prs": [
+          {
+            "title": "fix(remediate): cover subproject dependencies when remediating a Gradle catalog",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/697",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 697,
+            "author": "Strum355",
+            "engaged_at": "2026-11-22T09:51:20Z"
+          },
           {
             "title": "build(deps): bump fast-xml-parser from 5.11.2 to 5.12.0",
             "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/695",
@@ -8595,151 +8344,65 @@
         ]
       },
       {
-        "login": "mrizzi",
-        "reviews": 17,
-        "prs": [
-          {
-            "title": "fix(evals): reject contradictory native gate judgments",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/383",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 383,
-            "author": "ruromero",
-            "engaged_at": "2026-11-19T12:55:21Z"
-          },
-          {
-            "title": "feat(performance): Add Performance Optimization Workflow",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/90",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 90,
-            "author": "mrrajan",
-            "engaged_at": "2026-11-18T17:26:16Z"
-          },
-          {
-            "title": "fix(purl): synthesize recommendations from OSV fixed events",
-            "url": "https://github.com/guacsec/trustify/pull/2829",
-            "repo": "guacsec/trustify",
-            "number": 2829,
-            "author": "ruromero",
-            "engaged_at": "2026-11-18T11:30:38Z"
-          },
-          {
-            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2849",
-            "repo": "guacsec/trustify",
-            "number": 2849,
-            "author": "ruromero",
-            "engaged_at": "2026-11-11T15:17:35Z"
-          },
-          {
-            "title": "docs(conventions): make the AI commit trailer harness-agnostic",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/375",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 375,
-            "author": "ruromero",
-            "engaged_at": "2026-11-06T16:25:49Z"
-          },
-          {
-            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
-            "url": "https://github.com/guacsec/trustify/pull/2834",
-            "repo": "guacsec/trustify",
-            "number": 2834,
-            "author": "Strum355",
-            "engaged_at": "2026-11-05T19:31:27Z"
-          },
-          {
-            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
-            "url": "https://github.com/guacsec/trustify/pull/2765",
-            "repo": "guacsec/trustify",
-            "number": 2765,
-            "author": "ruromero",
-            "engaged_at": "2026-11-05T15:30:02Z"
-          },
-          {
-            "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
-            "url": "https://github.com/guacsec/trustify/pull/2833",
-            "repo": "guacsec/trustify",
-            "number": 2833,
-            "author": "dejanb",
-            "engaged_at": "2026-11-04T17:23:00Z"
-          },
-          {
-            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
-            "url": "https://github.com/guacsec/trustify/pull/2828",
-            "repo": "guacsec/trustify",
-            "number": 2828,
-            "author": "ruromero",
-            "engaged_at": "2026-11-04T09:47:58Z"
-          },
-          {
-            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
-            "url": "https://github.com/guacsec/trustify/pull/2764",
-            "repo": "guacsec/trustify",
-            "number": 2764,
-            "author": "ruromero",
-            "engaged_at": "2026-10-29T08:25:24Z"
-          },
-          {
-            "title": "Improve plan-feature shared-artifact coverage",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/359",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 359,
-            "author": "ruromero",
-            "engaged_at": "2026-10-28T17:03:25Z"
-          },
-          {
-            "title": "feat(implement-task): align eval assertions with requirements and fixtures",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 357,
-            "author": "ruromero",
-            "engaged_at": "2026-10-27T12:02:41Z"
-          },
-          {
-            "title": "feat(setup): capture verified security image identity",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 351,
-            "author": "ruromero",
-            "engaged_at": "2026-10-26T16:14:00Z"
-          },
-          {
-            "title": "feat(triage-security): add release Jira orchestration and cross-CVE dedup",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/322",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 322,
-            "author": "ruromero",
-            "engaged_at": "2026-10-07T11:09:26Z"
-          },
-          {
-            "title": "docs(adr): add ADR 00022 for feature gates",
-            "url": "https://github.com/guacsec/trustify/pull/2663",
-            "repo": "guacsec/trustify",
-            "number": 2663,
-            "author": "ctron",
-            "engaged_at": "2026-10-01T11:04:09Z"
-          },
-          {
-            "title": "fix(implement-task): require module-level tests before committing for Rust repos",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/290",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 290,
-            "author": "ruromero",
-            "engaged_at": "2026-09-08T07:53:38Z"
-          },
-          {
-            "title": "fix(implement-task): add symbol dedup and null guard guidance",
-            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/269",
-            "repo": "RHEcosystemAppEng/sdlc-plugins",
-            "number": 269,
-            "author": "ruromero",
-            "engaged_at": "2026-08-24T08:38:51Z"
-          }
-        ]
-      },
-      {
         "login": "xinredhat",
-        "reviews": 17,
+        "reviews": 24,
         "prs": [
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/546",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 546,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-22T11:08:06Z"
+          },
+          {
+            "title": "chore(deps): update konflux references to 2b5e522",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator-fbc/pull/59",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator-fbc",
+            "number": 59,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T23:13:22Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 2ba4493",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/543",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 543,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T13:26:52Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/548",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 548,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T13:20:02Z"
+          },
+          {
+            "title": "chore(deps): update konflux references",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/547",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 547,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T13:19:58Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 51eef28",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/545",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 545,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T13:19:50Z"
+          },
+          {
+            "title": "chore(deps): update registry.access.redhat.com/ubi9/go-toolset docker digest to 2ba4493",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/544",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 544,
+            "author": "red-hat-konflux-kflux-prd-rh02",
+            "engaged_at": "2026-11-21T13:19:46Z"
+          },
           {
             "title": "chore(deps): update konflux references",
             "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/493",
@@ -8879,6 +8542,140 @@
         ]
       },
       {
+        "login": "mrizzi",
+        "reviews": 16,
+        "prs": [
+          {
+            "title": "fix(evals): reject contradictory native gate judgments",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/383",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 383,
+            "author": "ruromero",
+            "engaged_at": "2026-11-19T12:55:21Z"
+          },
+          {
+            "title": "feat(performance): Add Performance Optimization Workflow",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/90",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 90,
+            "author": "mrrajan",
+            "engaged_at": "2026-11-18T17:26:16Z"
+          },
+          {
+            "title": "fix(purl): synthesize recommendations from OSV fixed events",
+            "url": "https://github.com/guacsec/trustify/pull/2829",
+            "repo": "guacsec/trustify",
+            "number": 2829,
+            "author": "ruromero",
+            "engaged_at": "2026-11-18T11:30:38Z"
+          },
+          {
+            "title": "fix(purl): preserve advisory-specific recommendations [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2849",
+            "repo": "guacsec/trustify",
+            "number": 2849,
+            "author": "ruromero",
+            "engaged_at": "2026-11-11T15:17:35Z"
+          },
+          {
+            "title": "docs(conventions): make the AI commit trailer harness-agnostic",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/375",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 375,
+            "author": "ruromero",
+            "engaged_at": "2026-11-06T16:25:49Z"
+          },
+          {
+            "title": "fix(ci): bump embedded PostgreSQL to 17.2.1 for ubuntu-latest compat",
+            "url": "https://github.com/guacsec/trustify/pull/2834",
+            "repo": "guacsec/trustify",
+            "number": 2834,
+            "author": "Strum355",
+            "engaged_at": "2026-11-05T19:31:27Z"
+          },
+          {
+            "title": "fix(purl): remove per-CVE status dedup and expose advisory source in recommend",
+            "url": "https://github.com/guacsec/trustify/pull/2765",
+            "repo": "guacsec/trustify",
+            "number": 2765,
+            "author": "ruromero",
+            "engaged_at": "2026-11-05T15:30:02Z"
+          },
+          {
+            "title": "fix(ingestor): support Red Hat Lightwell OSV advisories",
+            "url": "https://github.com/guacsec/trustify/pull/2833",
+            "repo": "guacsec/trustify",
+            "number": 2833,
+            "author": "dejanb",
+            "engaged_at": "2026-11-04T17:23:00Z"
+          },
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized winners [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2828",
+            "repo": "guacsec/trustify",
+            "number": 2828,
+            "author": "ruromero",
+            "engaged_at": "2026-11-04T09:47:58Z"
+          },
+          {
+            "title": "fix(purl): resolve vulnerability statuses for advisory-synthesized recommend winners",
+            "url": "https://github.com/guacsec/trustify/pull/2764",
+            "repo": "guacsec/trustify",
+            "number": 2764,
+            "author": "ruromero",
+            "engaged_at": "2026-10-29T08:25:24Z"
+          },
+          {
+            "title": "Improve plan-feature shared-artifact coverage",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/359",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 359,
+            "author": "ruromero",
+            "engaged_at": "2026-10-28T17:03:25Z"
+          },
+          {
+            "title": "feat(implement-task): align eval assertions with requirements and fixtures",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/357",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 357,
+            "author": "ruromero",
+            "engaged_at": "2026-10-27T12:02:41Z"
+          },
+          {
+            "title": "feat(setup): capture verified security image identity",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/351",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 351,
+            "author": "ruromero",
+            "engaged_at": "2026-10-26T16:14:00Z"
+          },
+          {
+            "title": "feat(triage-security): add release Jira orchestration and cross-CVE dedup",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/322",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 322,
+            "author": "ruromero",
+            "engaged_at": "2026-10-07T11:09:26Z"
+          },
+          {
+            "title": "docs(adr): add ADR 00022 for feature gates",
+            "url": "https://github.com/guacsec/trustify/pull/2663",
+            "repo": "guacsec/trustify",
+            "number": 2663,
+            "author": "ctron",
+            "engaged_at": "2026-10-01T11:04:09Z"
+          },
+          {
+            "title": "fix(implement-task): require module-level tests before committing for Rust repos",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/290",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 290,
+            "author": "ruromero",
+            "engaged_at": "2026-09-08T07:53:38Z"
+          }
+        ]
+      },
+      {
         "login": "desmax74",
         "reviews": 15,
         "prs": [
@@ -9006,7 +8803,7 @@
       },
       {
         "login": "helio-frota",
-        "reviews": 15,
+        "reviews": 14,
         "prs": [
           {
             "title": "fix(crypto): filter packages for crypto asset",
@@ -9119,14 +8916,6 @@
             "number": 2677,
             "author": "rh-jfuller",
             "engaged_at": "2026-09-21T11:22:54Z"
-          },
-          {
-            "title": "chore(deps): bump body-parser from 2.2.2 to 2.3.0",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1173",
-            "repo": "guacsec/trustify-ui",
-            "number": 1173,
-            "author": "dependabot",
-            "engaged_at": "2026-08-24T13:16:24Z"
           }
         ]
       },
@@ -9557,36 +9346,6 @@
         ]
       },
       {
-        "login": "matejnesuta",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "test: add @vendor-remediation E2E automation for LW/RHLW recommendations",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1315",
-            "repo": "guacsec/trustify-ui",
-            "number": 1315,
-            "author": "mrrajan",
-            "engaged_at": "2026-11-03T22:42:09Z"
-          },
-          {
-            "title": "test(e2e): add license export tests for CycloneDX SBOMs",
-            "url": "https://github.com/guacsec/trustify-ui/pull/942",
-            "repo": "guacsec/trustify-ui",
-            "number": 942,
-            "author": "a-oren",
-            "engaged_at": "2026-10-05T16:17:30Z"
-          },
-          {
-            "title": "test(e2e): add BDD tests for CVSS display and vulnerability detail tabs",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1215",
-            "repo": "guacsec/trustify-ui",
-            "number": 1215,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-24T14:04:53Z"
-          }
-        ]
-      },
-      {
         "login": "heatherzh01",
         "reviews": 2,
         "prs": [
@@ -9605,6 +9364,28 @@
             "number": 365,
             "author": "dependabot",
             "engaged_at": "2026-09-25T15:46:15Z"
+          }
+        ]
+      },
+      {
+        "login": "matejnesuta",
+        "reviews": 2,
+        "prs": [
+          {
+            "title": "test: add @vendor-remediation E2E automation for LW/RHLW recommendations",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1315",
+            "repo": "guacsec/trustify-ui",
+            "number": 1315,
+            "author": "mrrajan",
+            "engaged_at": "2026-11-03T22:42:09Z"
+          },
+          {
+            "title": "test(e2e): add license export tests for CycloneDX SBOMs",
+            "url": "https://github.com/guacsec/trustify-ui/pull/942",
+            "repo": "guacsec/trustify-ui",
+            "number": 942,
+            "author": "a-oren",
+            "engaged_at": "2026-10-05T16:17:30Z"
           }
         ]
       },
