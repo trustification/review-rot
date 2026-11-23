@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:48:36.468062077Z",
+  "generated_at": "2026-11-23T15:33:44.041352471Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -55,30 +55,6 @@
       },
       "unresolved_conversations": 10,
       "labels": []
-    },
-    {
-      "title": "feat(triage-security): assign to the runner identity and allow disabling transitions",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/379",
-      "number": 379,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "mrizzi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
-      },
-      "created_at": "2026-11-12T17:21:25Z",
-      "updated_at": "2026-11-20T17:05:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "ok-to-test"
-      ]
     },
     {
       "title": "feat(security): make CVE remediation convention-driven",
@@ -706,7 +682,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-03T15:56:58Z",
-      "updated_at": "2026-11-16T07:05:20Z",
+      "updated_at": "2026-11-23T07:09:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -731,7 +707,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-20T06:44:27Z",
+      "updated_at": "2026-11-23T07:05:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -766,6 +742,28 @@
         "outstanding_change_requests_on_head": true
       },
       "unresolved_conversations": 9,
+      "labels": []
+    },
+    {
+      "title": "feat(maven): add scope selection helpers",
+      "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/700",
+      "number": 700,
+      "repo": "guacsec/trustify-da-javascript-client",
+      "author": {
+        "login": "a-oren",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211229840?u=891886a739ebe20ff3e792f2771fe72102297598\u0026v=4"
+      },
+      "created_at": "2026-11-23T14:28:55Z",
+      "updated_at": "2026-11-23T15:01:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1032,6 +1030,30 @@
         "outstanding_change_requests_on_head": true
       },
       "unresolved_conversations": 2,
+      "labels": [
+        "backport release/0.7.z"
+      ]
+    },
+    {
+      "title": "chore(dev): keep only dev server vitejs",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1452",
+      "number": 1452,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-11-23T11:20:58Z",
+      "updated_at": "2026-11-23T13:31:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": [
         "backport release/0.7.z"
       ]
@@ -1314,7 +1336,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-19T13:23:13Z",
-      "updated_at": "2026-11-20T16:49:33Z",
+      "updated_at": "2026-11-23T13:24:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1336,7 +1358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-19T13:38:40Z",
-      "updated_at": "2026-11-19T16:27:06Z",
+      "updated_at": "2026-11-23T11:51:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1358,7 +1380,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/141611?u=707eefdfcf122ecd0489b6d3ef0991b52dbd4c15\u0026v=4"
       },
       "created_at": "2026-11-20T11:25:09Z",
-      "updated_at": "2026-11-20T12:58:58Z",
+      "updated_at": "2026-11-23T09:53:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1383,7 +1405,7 @@
       "updated_at": "2026-11-20T14:33:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1391,6 +1413,52 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: don't discard returned exit codes",
+      "url": "https://github.com/guacsec/trustify/pull/2905",
+      "number": 2905,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-11-23T07:59:16Z",
+      "updated_at": "2026-11-23T14:24:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 1,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(cyclonedx): reuse generated node ID for pedigree relationships",
+      "url": "https://github.com/guacsec/trustify/pull/2906",
+      "number": 2906,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "helio-frota",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6443576?u=4ac721def825b5ea53a02819a1723113e5669855\u0026v=4"
+      },
+      "created_at": "2026-11-23T14:05:41Z",
+      "updated_at": "2026-11-23T14:20:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "Appeng 5620",
@@ -1515,7 +1583,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:12Z",
-      "updated_at": "2026-11-22T13:59:05Z",
+      "updated_at": "2026-11-23T14:29:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2257,7 +2325,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-22T11:25:28Z",
-      "updated_at": "2026-11-22T11:25:29Z",
+      "updated_at": "2026-11-23T14:19:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2408,7 +2476,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to 15d6646",
+      "title": "chore(deps): update operator-3-2-0 to 97d14ac",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/347",
       "number": 347,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2417,7 +2485,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-07T04:08:53Z",
-      "updated_at": "2026-11-21T16:13:21Z",
+      "updated_at": "2026-11-23T12:52:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2573,7 +2641,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:13Z",
-      "updated_at": "2026-11-22T13:47:49Z",
+      "updated_at": "2026-11-23T14:29:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3247,12 +3315,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T04:47:41Z",
+    "since": "2026-08-25T15:32:36Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 154,
+        "reviews": 155,
         "prs": [
+          {
+            "title": "feat(maven): add scope selection helpers",
+            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/700",
+            "repo": "guacsec/trustify-da-javascript-client",
+            "number": 700,
+            "author": "a-oren",
+            "engaged_at": "2026-11-23T14:33:19Z"
+          },
           {
             "title": "chore(deps): bump @trustify-da/trustify-da-javascript-client to 0.4.0…",
             "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/955",
@@ -5279,7 +5355,7 @@
       },
       {
         "login": "ruromero",
-        "reviews": 78,
+        "reviews": 77,
         "prs": [
           {
             "title": "chore(openapi): [main] update client/openapi/trustd.yaml [Backport release/0.7.z]",
@@ -5896,14 +5972,6 @@
             "number": 649,
             "author": "dependabot",
             "engaged_at": "2026-08-26T06:52:35Z"
-          },
-          {
-            "title": "feat(providers): add SHA-256 hash computation for Maven dependencies",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/612",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 612,
-            "author": "a-oren",
-            "engaged_at": "2026-08-25T08:10:13Z"
           }
         ]
       },
@@ -6526,6 +6594,14 @@
         "reviews": 74,
         "prs": [
           {
+            "title": "fix(purl): list upstream CVEs of vendor OSV records in the remediation report",
+            "url": "https://github.com/guacsec/trustify/pull/2902",
+            "repo": "guacsec/trustify",
+            "number": 2902,
+            "author": "dejanb",
+            "engaged_at": "2026-11-23T08:41:18Z"
+          },
+          {
             "title": "fix(vulnerability): order advisories deterministically",
             "url": "https://github.com/guacsec/trustify/pull/2900",
             "repo": "guacsec/trustify",
@@ -7108,14 +7184,6 @@
             "number": 2599,
             "author": "mrrajan",
             "engaged_at": "2026-08-26T06:49:41Z"
-          },
-          {
-            "title": "fix(purl): filter purl_statuses by SBOM describing CPEs",
-            "url": "https://github.com/guacsec/trustify/pull/2597",
-            "repo": "guacsec/trustify",
-            "number": 2597,
-            "author": "mrrajan",
-            "engaged_at": "2026-08-25T14:31:24Z"
           }
         ]
       },
@@ -8803,8 +8871,16 @@
       },
       {
         "login": "helio-frota",
-        "reviews": 14,
+        "reviews": 15,
         "prs": [
+          {
+            "title": "fix: don't discard returned exit codes",
+            "url": "https://github.com/guacsec/trustify/pull/2905",
+            "repo": "guacsec/trustify",
+            "number": 2905,
+            "author": "ctron",
+            "engaged_at": "2026-11-23T14:24:04Z"
+          },
           {
             "title": "fix(crypto): filter packages for crypto asset",
             "url": "https://github.com/guacsec/trustify/pull/2895",
@@ -9031,8 +9107,16 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 8,
+        "reviews": 9,
         "prs": [
+          {
+            "title": "fix(purl): list upstream CVEs of vendor OSV records in the remediation report",
+            "url": "https://github.com/guacsec/trustify/pull/2902",
+            "repo": "guacsec/trustify",
+            "number": 2902,
+            "author": "dejanb",
+            "engaged_at": "2026-11-23T08:14:27Z"
+          },
           {
             "title": "chore: enable tcp_nodelay",
             "url": "https://github.com/guacsec/trustify/pull/2877",
@@ -9101,7 +9185,7 @@
       },
       {
         "login": "vbelouso",
-        "reviews": 8,
+        "reviews": 7,
         "prs": [
           {
             "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
@@ -9158,21 +9242,21 @@
             "number": 339,
             "author": "TamarW0",
             "engaged_at": "2026-08-26T11:31:16Z"
-          },
-          {
-            "title": "feat: add support for Keycloak/Cognito to OCP deployment profile",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/96",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 96,
-            "author": "Strum355",
-            "engaged_at": "2026-08-25T14:44:54Z"
           }
         ]
       },
       {
         "login": "carlosthe19916",
-        "reviews": 5,
+        "reviews": 6,
         "prs": [
+          {
+            "title": "chore(dev): keep only dev server vitejs",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1452",
+            "repo": "guacsec/trustify-ui",
+            "number": 1452,
+            "author": "gildub",
+            "engaged_at": "2026-11-23T13:31:55Z"
+          },
           {
             "title": "fix(crypto): restore table state persistence and SBOM key size",
             "url": "https://github.com/guacsec/trustify-ui/pull/1407",
