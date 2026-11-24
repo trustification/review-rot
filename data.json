@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:06:33.622630559Z",
+  "generated_at": "2026-11-24T23:10:36.957441043Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1013,78 +1013,6 @@
       ]
     },
     {
-      "title": "fix(crypto): react key deduplication",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1456",
-      "number": 1456,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
-      },
-      "created_at": "2026-11-23T22:33:04Z",
-      "updated_at": "2026-11-24T10:43:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
-      "title": "fix(crypto): filter collide",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1458",
-      "number": 1458,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
-      },
-      "created_at": "2026-11-24T10:52:07Z",
-      "updated_at": "2026-11-24T12:16:28Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
-      "title": "fix(CI): vitest timeouts",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1459",
-      "number": 1459,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
-      },
-      "created_at": "2026-11-24T11:16:49Z",
-      "updated_at": "2026-11-24T12:20:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "feat(validation): add document validation module",
       "url": "https://github.com/guacsec/trustify/pull/2551",
       "number": 2551,
@@ -1338,7 +1266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
       "created_at": "2026-11-18T14:27:53Z",
-      "updated_at": "2026-11-18T18:26:32Z",
+      "updated_at": "2026-11-24T16:51:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1362,7 +1290,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-19T13:38:40Z",
-      "updated_at": "2026-11-23T11:51:26Z",
+      "updated_at": "2026-11-24T17:05:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1371,7 +1299,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1419,28 +1347,6 @@
       "labels": [
         "backport release/0.7.z"
       ]
-    },
-    {
-      "title": "fix(deps): unblock latest-release audit (TC-7730)",
-      "url": "https://github.com/guacsec/trustify/pull/2909",
-      "number": 2909,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-24T13:02:18Z",
-      "updated_at": "2026-11-24T13:02:18Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Appeng 5620",
@@ -1565,10 +1471,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:12Z",
-      "updated_at": "2026-11-24T12:08:22Z",
+      "updated_at": "2026-11-24T16:38:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -2482,7 +2388,7 @@
       "labels": []
     },
     {
-      "title": "chore(deps): update operator-3-2-0 to 97d14ac",
+      "title": "chore(deps): update operator-3-2-0 to 374a340",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/347",
       "number": 347,
       "repo": "RHEcosystemAppEng/exploit-iq-operator",
@@ -2491,7 +2397,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
       "created_at": "2026-11-07T04:08:53Z",
-      "updated_at": "2026-11-23T12:52:57Z",
+      "updated_at": "2026-11-24T13:10:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2647,7 +2553,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-19T11:34:13Z",
-      "updated_at": "2026-11-24T12:08:26Z",
+      "updated_at": "2026-11-24T16:38:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3321,11 +3227,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-26T13:05:23Z",
+    "since": "2026-08-26T23:09:34Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
-        "reviews": 147,
+        "reviews": 144,
         "prs": [
           {
             "title": "feat(maven): add scope selection helpers",
@@ -4478,37 +4384,21 @@
             "number": 622,
             "author": "a-oren",
             "engaged_at": "2026-08-27T12:41:00Z"
-          },
-          {
-            "title": "feat(cli): rename binary to trustify-da",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/621",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 621,
-            "author": "a-oren",
-            "engaged_at": "2026-08-26T17:04:53Z"
-          },
-          {
-            "title": "chore: bump CI node to 24 LTS",
-            "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/930",
-            "repo": "fabric8-analytics/fabric8-analytics-vscode-extension",
-            "number": 930,
-            "author": "Strum355",
-            "engaged_at": "2026-08-26T13:38:08Z"
-          },
-          {
-            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 619,
-            "author": "Strum355",
-            "engaged_at": "2026-08-26T13:17:56Z"
           }
         ]
       },
       {
         "login": "rh-jfuller",
-        "reviews": 100,
+        "reviews": 101,
         "prs": [
+          {
+            "title": "fix(deps): unblock latest-release audit (TC-7730)",
+            "url": "https://github.com/guacsec/trustify/pull/2909",
+            "repo": "guacsec/trustify",
+            "number": 2909,
+            "author": "ctron",
+            "engaged_at": "2026-11-24T14:03:31Z"
+          },
           {
             "title": "docs: correct environment variable and worker configuration reference",
             "url": "https://github.com/guacsec/trustify/pull/2907",
@@ -7067,7 +6957,7 @@
       },
       {
         "login": "Strum355",
-        "reviews": 44,
+        "reviews": 43,
         "prs": [
           {
             "title": "feat(sbom): add feature-gated SBOM generation eg. generate sbom from group, query or analyze/latest/components",
@@ -7412,20 +7302,12 @@
             "number": 618,
             "author": "a-oren",
             "engaged_at": "2026-08-27T10:57:53Z"
-          },
-          {
-            "title": "feat(providers): extract SHA hashes from JS lock files for SBOM",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/615",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 615,
-            "author": "a-oren",
-            "engaged_at": "2026-08-26T16:41:27Z"
           }
         ]
       },
       {
         "login": "tmihalac",
-        "reviews": 43,
+        "reviews": 42,
         "prs": [
           {
             "title": "fix: bump graphql-core to 3.2.14 for 3.1.2 CVEs (TC-7294)",
@@ -7762,20 +7644,12 @@
             "number": 349,
             "author": "heatherzh01",
             "engaged_at": "2026-09-02T09:19:29Z"
-          },
-          {
-            "title": "chore: forward-port 0.0.3 fixes to main",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/98",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 98,
-            "author": "xinredhat",
-            "engaged_at": "2026-08-26T13:21:09Z"
           }
         ]
       },
       {
         "login": "a-oren",
-        "reviews": 30,
+        "reviews": 29,
         "prs": [
           {
             "title": "fix(remediate): cover subproject dependencies when remediating a Gradle catalog",
@@ -8008,14 +7882,6 @@
             "number": 930,
             "author": "Strum355",
             "engaged_at": "2026-08-27T10:48:22Z"
-          },
-          {
-            "title": "chore: remove unused @cyclonedx/cyclonedx-library",
-            "url": "https://github.com/guacsec/trustify-da-javascript-client/pull/619",
-            "repo": "guacsec/trustify-da-javascript-client",
-            "number": 619,
-            "author": "Strum355",
-            "engaged_at": "2026-08-26T13:18:19Z"
           }
         ]
       },
@@ -8945,8 +8811,16 @@
       },
       {
         "login": "PhilipCattanach",
-        "reviews": 8,
+        "reviews": 9,
         "prs": [
+          {
+            "title": " fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs",
+            "url": "https://github.com/guacsec/trustify/pull/2897",
+            "repo": "guacsec/trustify",
+            "number": 2897,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-24T16:51:44Z"
+          },
           {
             "title": "fix(purl): list upstream CVEs of vendor OSV records in the remediation report",
             "url": "https://github.com/guacsec/trustify/pull/2902",
@@ -9152,44 +9026,6 @@
         ]
       },
       {
-        "login": "vbelouso",
-        "reviews": 4,
-        "prs": [
-          {
-            "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/357",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 357,
-            "author": "i386x",
-            "engaged_at": "2026-10-13T07:21:13Z"
-          },
-          {
-            "title": "fix TC-5834",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/305",
-            "repo": "RHEcosystemAppEng/exploit-iq-client",
-            "number": 305,
-            "author": "tmihalac",
-            "engaged_at": "2026-09-02T09:34:21Z"
-          },
-          {
-            "title": "Add NetworkPolicy RBAC to CSV",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/110",
-            "repo": "RHEcosystemAppEng/exploit-iq-operator",
-            "number": 110,
-            "author": "tmihalac",
-            "engaged_at": "2026-08-31T11:57:00Z"
-          },
-          {
-            "title": "Tc 5655 main base",
-            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/342",
-            "repo": "RHEcosystemAppEng/exploit-iq-agent",
-            "number": 342,
-            "author": "TamarW0",
-            "engaged_at": "2026-08-26T13:10:58Z"
-          }
-        ]
-      },
-      {
         "login": "vobratil",
         "reviews": 4,
         "prs": [
@@ -9224,6 +9060,36 @@
             "number": 1204,
             "author": "matejnesuta",
             "engaged_at": "2026-09-08T14:20:33Z"
+          }
+        ]
+      },
+      {
+        "login": "vbelouso",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "fix(deps): Pin mongodb-driver-core to 5.11.1",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/357",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 357,
+            "author": "i386x",
+            "engaged_at": "2026-10-13T07:21:13Z"
+          },
+          {
+            "title": "fix TC-5834",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-client/pull/305",
+            "repo": "RHEcosystemAppEng/exploit-iq-client",
+            "number": 305,
+            "author": "tmihalac",
+            "engaged_at": "2026-09-02T09:34:21Z"
+          },
+          {
+            "title": "Add NetworkPolicy RBAC to CSV",
+            "url": "https://github.com/RHEcosystemAppEng/exploit-iq-operator/pull/110",
+            "repo": "RHEcosystemAppEng/exploit-iq-operator",
+            "number": 110,
+            "author": "tmihalac",
+            "engaged_at": "2026-08-31T11:57:00Z"
           }
         ]
       },
