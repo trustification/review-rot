@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:36:30.980289673Z",
+  "generated_at": "2026-11-26T09:02:58.857424798Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -79,31 +79,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): Bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.56.1",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/382",
-      "number": 382,
-      "repo": "RHEcosystemAppEng/sdlc-plugins",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-19T00:44:19Z",
-      "updated_at": "2026-11-19T00:44:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
       "title": "feat(workflow): route fixes to the root-cause layer",
       "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/384",
       "number": 384,
@@ -174,6 +149,31 @@
       ]
     },
     {
+      "title": "chore(deps): Bump fullsend-ai/fullsend/.github/workflows/reusable-dispatch.yml from 0.52.0 to 0.57.1",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/389",
+      "number": 389,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-26T00:44:12Z",
+      "updated_at": "2026-11-26T00:44:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
       "title": "feat: add 'ignore for this file' in notifications",
       "url": "https://github.com/fabric8-analytics/fabric8-analytics-vscode-extension/pull/805",
       "number": 805,
@@ -186,7 +186,7 @@
       "updated_at": "2026-11-21T13:48:58Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -755,7 +755,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-25T06:50:27Z",
+      "updated_at": "2026-11-26T06:44:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1443,6 +1443,28 @@
       ]
     },
     {
+      "title": "chore: prepare next release",
+      "url": "https://github.com/guacsec/trustify/pull/2920",
+      "number": 2920,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "ctron",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
+      },
+      "created_at": "2026-11-26T08:52:26Z",
+      "updated_at": "2026-11-26T08:55:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "Appeng 5620",
       "url": "https://github.com/RHEcosystemAppEng/exploit-iq-agent/pull/316",
       "number": 316,
@@ -1614,7 +1636,7 @@
       "updated_at": "2026-11-25T22:09:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1633,7 +1655,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-25T10:25:27Z",
-      "updated_at": "2026-11-25T22:18:05Z",
+      "updated_at": "2026-11-26T07:31:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2801,7 +2823,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/84387487?v=4"
       },
       "created_at": "2026-11-25T10:25:34Z",
-      "updated_at": "2026-11-25T22:19:24Z",
+      "updated_at": "2026-11-26T07:30:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3448,16 +3470,16 @@
       ]
     },
     {
-      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.3",
-      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/51",
-      "number": 51,
+      "title": "Update pydantic requirement from \u003e=2.0.0 to \u003e=2.14.4",
+      "url": "https://github.com/RHEcosystemAppEng/exploitiq-tests-automation/pull/52",
+      "number": 52,
       "repo": "RHEcosystemAppEng/exploitiq-tests-automation",
       "author": {
         "login": "dependabot",
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-11-12T05:12:32Z",
-      "updated_at": "2026-11-12T05:12:36Z",
+      "created_at": "2026-11-26T05:12:11Z",
+      "updated_at": "2026-11-26T05:12:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3475,7 +3497,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T00:35:32Z",
+    "since": "2026-08-28T09:01:55Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
