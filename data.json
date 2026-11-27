@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:06:18.039966369Z",
+  "generated_at": "2026-11-27T20:07:06.630867605Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -66,7 +66,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-18T08:28:06Z",
-      "updated_at": "2026-11-19T13:57:56Z",
+      "updated_at": "2026-11-27T17:42:20Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -88,10 +88,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
       "created_at": "2026-11-19T12:46:28Z",
-      "updated_at": "2026-11-20T13:34:01Z",
+      "updated_at": "2026-11-27T18:49:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -126,16 +126,16 @@
       ]
     },
     {
-      "title": "refactor(implement-task): restructure the skill and fix its self-verification checks",
-      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/390",
-      "number": 390,
+      "title": "fix(triage-security): surface remediation tasks linked from sibling Vulnerabilities",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/391",
+      "number": 391,
       "repo": "RHEcosystemAppEng/sdlc-plugins",
       "author": {
         "login": "mrizzi",
         "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
       },
-      "created_at": "2026-11-27T07:44:35Z",
-      "updated_at": "2026-11-27T09:35:25Z",
+      "created_at": "2026-11-27T13:47:13Z",
+      "updated_at": "2026-11-27T18:33:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1042,13 +1042,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
       "created_at": "2026-11-27T09:42:42Z",
-      "updated_at": "2026-11-27T09:47:06Z",
+      "updated_at": "2026-11-27T14:20:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -1067,7 +1067,7 @@
       "updated_at": "2026-11-27T10:50:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1077,18 +1077,40 @@
       "labels": []
     },
     {
-      "title": "test(advisories): clarify ordering fixtures and coverage [release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1472",
-      "number": 1472,
+      "title": "chore(openapi): [release/0.7.z] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1473",
+      "number": 1473,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "ruromero",
-        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-11-27T10:30:42Z",
-      "updated_at": "2026-11-27T10:50:13Z",
+      "created_at": "2026-11-27T16:50:17Z",
+      "updated_at": "2026-11-27T16:54:00Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "chore(openapi): [release/0.5.z] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1474",
+      "number": 1474,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "trustify-ci-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+      },
+      "created_at": "2026-11-27T18:55:33Z",
+      "updated_at": "2026-11-27T18:58:45Z",
+      "is_draft": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
@@ -1411,28 +1433,6 @@
       "labels": []
     },
     {
-      "title": "feat(db): provision databases and importers without psql",
-      "url": "https://github.com/guacsec/trustify/pull/2923",
-      "number": 2923,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "ctron",
-        "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
-      },
-      "created_at": "2026-11-26T15:35:32Z",
-      "updated_at": "2026-11-27T10:44:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 11,
-      "labels": []
-    },
-    {
       "title": "build(deps): bump embedded PostgreSQL to 17.11.1",
       "url": "https://github.com/guacsec/trustify/pull/2924",
       "number": 2924,
@@ -1442,7 +1442,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-26T16:01:33Z",
-      "updated_at": "2026-11-27T09:11:09Z",
+      "updated_at": "2026-11-27T13:26:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1451,7 +1451,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1464,39 +1464,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-26T16:42:44Z",
-      "updated_at": "2026-11-27T09:19:20Z",
+      "updated_at": "2026-11-27T15:12:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
-      "title": "fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs (backport #2897 to release 0.7.z)",
-      "url": "https://github.com/guacsec/trustify/pull/2928",
-      "number": 2928,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-11-27T10:52:03Z",
-      "updated_at": "2026-11-27T11:00:33Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "backport release/0.6.z",
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "Appeng 5620",
@@ -3399,7 +3380,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-29T11:05:15Z",
+    "since": "2026-08-29T20:06:07Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4548,20 +4529,20 @@
         "reviews": 105,
         "prs": [
           {
+            "title": "fix(analysis): tolerate NULL sbom.published when loading graphs",
+            "url": "https://github.com/guacsec/trustify/pull/2925",
+            "repo": "guacsec/trustify",
+            "number": 2925,
+            "author": "Strum355",
+            "engaged_at": "2026-11-27T13:36:16Z"
+          },
+          {
             "title": "feat(db): provision databases and importers without psql",
             "url": "https://github.com/guacsec/trustify/pull/2923",
             "repo": "guacsec/trustify",
             "number": 2923,
             "author": "ctron",
             "engaged_at": "2026-11-27T10:29:23Z"
-          },
-          {
-            "title": "fix(analysis): tolerate NULL sbom.published when loading graphs",
-            "url": "https://github.com/guacsec/trustify/pull/2925",
-            "repo": "guacsec/trustify",
-            "number": 2925,
-            "author": "Strum355",
-            "engaged_at": "2026-11-27T09:19:20Z"
           },
           {
             "title": "fix(vulnerability): order advisories deterministically (0.7.z backport)",
@@ -5391,8 +5372,16 @@
       },
       {
         "login": "gildub",
-        "reviews": 81,
+        "reviews": 82,
         "prs": [
+          {
+            "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1470",
+            "repo": "guacsec/trustify-ui",
+            "number": 1470,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-27T14:20:51Z"
+          },
           {
             "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify-ui/pull/1464",
@@ -6045,8 +6034,24 @@
       },
       {
         "login": "ctron",
-        "reviews": 72,
+        "reviews": 74,
         "prs": [
+          {
+            "title": "chore: prepare next release [0.5.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2931",
+            "repo": "guacsec/trustify",
+            "number": 2931,
+            "author": "helio-frota",
+            "engaged_at": "2026-11-27T14:22:58Z"
+          },
+          {
+            "title": "fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs (backport #2897 to release 0.7.z)",
+            "url": "https://github.com/guacsec/trustify/pull/2930",
+            "repo": "guacsec/trustify",
+            "number": 2930,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-27T14:07:29Z"
+          },
           {
             "title": "fix(crypto): remove import remediation mappings",
             "url": "https://github.com/guacsec/trustify-ui/pull/1467",
@@ -6627,8 +6632,24 @@
       },
       {
         "login": "ruromero",
-        "reviews": 70,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "refactor(implement-task): restructure the skill and fix its self-verification checks",
+            "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/390",
+            "repo": "RHEcosystemAppEng/sdlc-plugins",
+            "number": 390,
+            "author": "mrizzi",
+            "engaged_at": "2026-11-27T15:37:47Z"
+          },
+          {
+            "title": "fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs (backport #2897 to release 0.7.z)",
+            "url": "https://github.com/guacsec/trustify/pull/2930",
+            "repo": "guacsec/trustify",
+            "number": 2930,
+            "author": "rh-jfuller",
+            "engaged_at": "2026-11-27T15:08:15Z"
+          },
           {
             "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify-ui/pull/1464",
