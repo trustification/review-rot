@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:20:09.679564596Z",
+  "generated_at": "2026-11-27T11:06:18.039966369Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -124,6 +124,28 @@
         "dependencies",
         "github_actions"
       ]
+    },
+    {
+      "title": "refactor(implement-task): restructure the skill and fix its self-verification checks",
+      "url": "https://github.com/RHEcosystemAppEng/sdlc-plugins/pull/390",
+      "number": 390,
+      "repo": "RHEcosystemAppEng/sdlc-plugins",
+      "author": {
+        "login": "mrizzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7288588?v=4"
+      },
+      "created_at": "2026-11-27T07:44:35Z",
+      "updated_at": "2026-11-27T09:35:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "feat: add 'ignore for this file' in notifications",
@@ -707,7 +729,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T06:44:26Z",
-      "updated_at": "2026-11-26T06:44:38Z",
+      "updated_at": "2026-11-27T06:44:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1011,19 +1033,19 @@
       "labels": []
     },
     {
-      "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1464",
-      "number": 1464,
+      "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1470",
+      "number": 1470,
       "repo": "guacsec/trustify-ui",
       "author": {
         "login": "trustify-ci-bot",
         "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
       },
-      "created_at": "2026-11-26T10:31:09Z",
-      "updated_at": "2026-11-26T13:33:59Z",
+      "created_at": "2026-11-27T09:42:42Z",
+      "updated_at": "2026-11-27T09:47:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1033,16 +1055,38 @@
       "labels": []
     },
     {
-      "title": "fix(crypto): remove import remediation mappings",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1467",
-      "number": 1467,
+      "title": "test(advisories): clarify ordering fixtures and coverage",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1471",
+      "number": 1471,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
       },
-      "created_at": "2026-11-26T22:36:17Z",
-      "updated_at": "2026-11-26T23:09:04Z",
+      "created_at": "2026-11-27T10:25:56Z",
+      "updated_at": "2026-11-27T10:50:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "test(advisories): clarify ordering fixtures and coverage [release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1472",
+      "number": 1472,
+      "repo": "guacsec/trustify-ui",
+      "author": {
+        "login": "ruromero",
+        "avatar_url": "https://avatars.githubusercontent.com/u/637557?v=4"
+      },
+      "created_at": "2026-11-27T10:30:42Z",
+      "updated_at": "2026-11-27T10:50:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1052,9 +1096,7 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
+      "labels": []
     },
     {
       "title": "feat(validation): add document validation module",
@@ -1301,30 +1343,6 @@
       "labels": []
     },
     {
-      "title": " fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs",
-      "url": "https://github.com/guacsec/trustify/pull/2897",
-      "number": 2897,
-      "repo": "guacsec/trustify",
-      "author": {
-        "login": "rh-jfuller",
-        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
-      },
-      "created_at": "2026-11-18T14:27:53Z",
-      "updated_at": "2026-11-26T14:30:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "backport release/0.7.z"
-      ]
-    },
-    {
       "title": "fix(purl): list upstream CVEs of vendor OSV records in the remediation report",
       "url": "https://github.com/guacsec/trustify/pull/2904",
       "number": 2904,
@@ -1393,7 +1411,7 @@
       "labels": []
     },
     {
-      "title": "feat(db): provision databases and importers without psql (PoC)",
+      "title": "feat(db): provision databases and importers without psql",
       "url": "https://github.com/guacsec/trustify/pull/2923",
       "number": 2923,
       "repo": "guacsec/trustify",
@@ -1402,16 +1420,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-26T15:35:32Z",
-      "updated_at": "2026-11-26T15:36:36Z",
-      "is_draft": true,
+      "updated_at": "2026-11-27T10:44:34Z",
+      "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 11,
       "labels": []
     },
     {
@@ -1424,7 +1442,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/202474?u=6cca9aa4090b78fae619b4ccae113f21c3f86d37\u0026v=4"
       },
       "created_at": "2026-11-26T16:01:33Z",
-      "updated_at": "2026-11-26T16:04:16Z",
+      "updated_at": "2026-11-27T09:11:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1446,7 +1464,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/18282288?u=d64ef11dc627c73e6a8c0df4318c6c16bf487f73\u0026v=4"
       },
       "created_at": "2026-11-26T16:42:44Z",
-      "updated_at": "2026-11-26T16:45:52Z",
+      "updated_at": "2026-11-27T09:19:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1459,25 +1477,25 @@
       "labels": []
     },
     {
-      "title": "fix(crypto): hydrate crypto-remediation table instead of upload [⁠Backport pr2919 - release/0.7.z]",
-      "url": "https://github.com/guacsec/trustify/pull/2926",
-      "number": 2926,
+      "title": "fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs (backport #2897 to release 0.7.z)",
+      "url": "https://github.com/guacsec/trustify/pull/2928",
+      "number": 2928,
       "repo": "guacsec/trustify",
       "author": {
-        "login": "gildub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+        "login": "rh-jfuller",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294127260?u=0bfbd2a23dff03fbcf62637db2ed91509e348ad0\u0026v=4"
       },
-      "created_at": "2026-11-26T21:09:14Z",
-      "updated_at": "2026-11-26T22:26:28Z",
+      "created_at": "2026-11-27T10:52:03Z",
+      "updated_at": "2026-11-27T11:00:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3381,7 +3399,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-29T02:19:11Z",
+    "since": "2026-08-29T11:05:15Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -4527,8 +4545,24 @@
       },
       {
         "login": "rh-jfuller",
-        "reviews": 103,
+        "reviews": 105,
         "prs": [
+          {
+            "title": "feat(db): provision databases and importers without psql",
+            "url": "https://github.com/guacsec/trustify/pull/2923",
+            "repo": "guacsec/trustify",
+            "number": 2923,
+            "author": "ctron",
+            "engaged_at": "2026-11-27T10:29:23Z"
+          },
+          {
+            "title": "fix(analysis): tolerate NULL sbom.published when loading graphs",
+            "url": "https://github.com/guacsec/trustify/pull/2925",
+            "repo": "guacsec/trustify",
+            "number": 2925,
+            "author": "Strum355",
+            "engaged_at": "2026-11-27T09:19:20Z"
+          },
           {
             "title": "fix(vulnerability): order advisories deterministically (0.7.z backport)",
             "url": "https://github.com/guacsec/trustify/pull/2901",
@@ -5357,8 +5391,24 @@
       },
       {
         "login": "gildub",
-        "reviews": 80,
+        "reviews": 81,
         "prs": [
+          {
+            "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1464",
+            "repo": "guacsec/trustify-ui",
+            "number": 1464,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-27T10:02:50Z"
+          },
+          {
+            "title": "chore(openapi): [release/0.7.z] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1468",
+            "repo": "guacsec/trustify-ui",
+            "number": 1468,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-27T09:20:20Z"
+          },
           {
             "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
             "url": "https://github.com/guacsec/trustify-ui/pull/1466",
@@ -5366,14 +5416,6 @@
             "number": 1466,
             "author": "trustify-ci-bot",
             "engaged_at": "2026-11-26T21:12:21Z"
-          },
-          {
-            "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
-            "url": "https://github.com/guacsec/trustify-ui/pull/1464",
-            "repo": "guacsec/trustify-ui",
-            "number": 1464,
-            "author": "trustify-ci-bot",
-            "engaged_at": "2026-11-26T13:34:04Z"
           },
           {
             "title": "test(advisories): lock deterministic document_id ordering from the backend",
@@ -6003,8 +6045,24 @@
       },
       {
         "login": "ctron",
-        "reviews": 70,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "fix(crypto): remove import remediation mappings",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1467",
+            "repo": "guacsec/trustify-ui",
+            "number": 1467,
+            "author": "gildub",
+            "engaged_at": "2026-11-27T09:04:12Z"
+          },
+          {
+            "title": "fix(crypto): hydrate crypto-remediation table instead of upload [⁠Backport pr2919 - release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify/pull/2926",
+            "repo": "guacsec/trustify",
+            "number": 2926,
+            "author": "gildub",
+            "engaged_at": "2026-11-27T08:18:23Z"
+          },
           {
             "title": "fix(crypto): hydrate crypto-remediation table instead of upload",
             "url": "https://github.com/guacsec/trustify/pull/2919",
@@ -6569,8 +6627,16 @@
       },
       {
         "login": "ruromero",
-        "reviews": 69,
+        "reviews": 70,
         "prs": [
+          {
+            "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1464",
+            "repo": "guacsec/trustify-ui",
+            "number": 1464,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-27T10:23:31Z"
+          },
           {
             "title": " fix(corr): Fix legacy RHEL vulnerability applicability for container SBOMs",
             "url": "https://github.com/guacsec/trustify/pull/2897",
