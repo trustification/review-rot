@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:12:38.957456584Z",
+  "generated_at": "2026-11-27T02:20:09.679564596Z",
   "ui_settings": {
     "title": "RHTPA Review Rot",
     "logo": "images/logo.png",
@@ -1033,18 +1033,18 @@
       "labels": []
     },
     {
-      "title": "chore(openapi): [release/0.7.z] update client/openapi/trustd.yaml",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1465",
-      "number": 1465,
+      "title": "fix(crypto): remove import remediation mappings",
+      "url": "https://github.com/guacsec/trustify-ui/pull/1467",
+      "number": 1467,
       "repo": "guacsec/trustify-ui",
       "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
       },
-      "created_at": "2026-11-26T14:39:39Z",
-      "updated_at": "2026-11-26T14:44:03Z",
+      "created_at": "2026-11-26T22:36:17Z",
+      "updated_at": "2026-11-26T23:09:04Z",
       "is_draft": false,
-      "is_automated": true,
+      "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
@@ -1052,29 +1052,9 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
-      "url": "https://github.com/guacsec/trustify-ui/pull/1466",
-      "number": 1466,
-      "repo": "guacsec/trustify-ui",
-      "author": {
-        "login": "trustify-ci-bot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1883402?v=4"
-      },
-      "created_at": "2026-11-26T17:34:04Z",
-      "updated_at": "2026-11-26T17:38:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "backport release/0.7.z"
+      ]
     },
     {
       "title": "feat(validation): add document validation module",
@@ -1476,6 +1456,28 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "fix(crypto): hydrate crypto-remediation table instead of upload [⁠Backport pr2919 - release/0.7.z]",
+      "url": "https://github.com/guacsec/trustify/pull/2926",
+      "number": 2926,
+      "repo": "guacsec/trustify",
+      "author": {
+        "login": "gildub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1901741?u=8c6ef77e56e4cb80d42c3a8a73128e3e150fa61a\u0026v=4"
+      },
+      "created_at": "2026-11-26T21:09:14Z",
+      "updated_at": "2026-11-26T22:26:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -3379,7 +3381,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T19:11:36Z",
+    "since": "2026-08-29T02:19:11Z",
     "reviewers": [
       {
         "login": "codecov-commenter",
@@ -5355,8 +5357,16 @@
       },
       {
         "login": "gildub",
-        "reviews": 79,
+        "reviews": 80,
         "prs": [
+          {
+            "title": "chore(openapi): [main] update client/openapi/trustd.yaml",
+            "url": "https://github.com/guacsec/trustify-ui/pull/1466",
+            "repo": "guacsec/trustify-ui",
+            "number": 1466,
+            "author": "trustify-ci-bot",
+            "engaged_at": "2026-11-26T21:12:21Z"
+          },
           {
             "title": "test(advisories): lock deterministic document_id ordering from the backend [Backport release/0.7.z]",
             "url": "https://github.com/guacsec/trustify-ui/pull/1464",
